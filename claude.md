@@ -98,7 +98,7 @@ When adding recipes, automatically detect and add relevant tags:
 10. Show user the final JSON
 
 ### Important Notes
-- Never commit without user explicitly asking
+- **Auto-commit recipes:** Always commit and push to GitHub after adding recipes (unless you have questions for the user)
 - Keep ingredient names searchable and concise
 - Steps should be direct and actionable
 - Always use today's date: 2025-11-18 (update as needed)
