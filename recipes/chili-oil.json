@@ -1,0 +1,81 @@
+{
+  "id": "chili-oil",
+  "title": "Chili Oil",
+  "source_url": null,
+  "yield_servings": null,
+  "total_time_min": 45,
+  "tags": [
+    "aroma oil",
+    "oil",
+    "fat",
+    "ramen",
+    "japanese",
+    "chinese",
+    "lard",
+    "pork fat",
+    "pork",
+    "chili",
+    "spicy",
+    "garlic",
+    "ginger",
+    "onion",
+    "stovetop"
+  ],
+  "ingredients": [
+    {
+      "name": "fat of choice (pork lard or vegetable oil)",
+      "amount_g": 225,
+      "amount_oz": 7.94
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "ginger (1 piece 5-cm/2-inch, sliced into 0.5 cm/0.25 inch coins)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "small onion (half)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "coarsely ground togarashi",
+      "amount_g": 27,
+      "amount_oz": 0.95
+    },
+    {
+      "name": "dried Chinese chilis",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Sichuan peppercorns",
+      "amount_g": 5,
+      "amount_oz": 0.18
+    }
+  ],
+  "steps": [
+    "In a small saucepan, add the fat, garlic, ginger, and onion.",
+    "Heat over medium to medium-low heat, stirring occasionally, until the ingredients take on a light golden hue and smell fragrant, around 15 minutes.",
+    "Add in your togarashi, Chinese chilis, and Sichuan peppercorns.",
+    "Remove the saucepan from the heat, and let the ingredients steep in this oil for 30 minutes.",
+    "Strain and transfer to a container.",
+    "If not using immediately, keep in the fridge for up to 6 months."
+  ],
+  "notes": [
+    "Chili oil is a relative newcomer to the ramen world, usually used in Chinese-flavor inspired ramen dishes like tantanmen.",
+    "Classically used in tantanmen, but is also good for adding chili flavor and heat to other kinds of ramen.",
+    "Can use pork lard (traditional) or vegetable oil.",
+    "250 mL is approximately 1 cup, converted to approximately 225 grams.",
+    "Recipe calls for 8 garlic cloves, 4 dried Chinese chilis.",
+    "3 tbsp togarashi equals approximately 27 grams.",
+    "1-2 tsp Sichuan peppercorns equals approximately 5 grams.",
+    "Store in the fridge for up to 6 months."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

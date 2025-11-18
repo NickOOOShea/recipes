@@ -1,0 +1,52 @@
+{
+  "id": "chicken-and-scallion-oil",
+  "title": "Chicken and Scallion Oil",
+  "source_url": null,
+  "yield_servings": null,
+  "total_time_min": 15,
+  "tags": [
+    "aroma oil",
+    "oil",
+    "fat",
+    "ramen",
+    "japanese",
+    "chicken fat",
+    "scallion",
+    "negi",
+    "garlic",
+    "stovetop",
+    "chicken"
+  ],
+  "ingredients": [
+    {
+      "name": "rendered chicken fat",
+      "amount_g": 113,
+      "amount_oz": 3.99
+    },
+    {
+      "name": "scallion whites (one bunch, trimmed and cut into 2-inch pieces)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "In a small saucepan, add the chicken fat, scallions, and garlic cloves.",
+    "Heat over medium to medium-low heat, stirring occasionally, until the scallions take on a light golden hue and smell fragrant, around 15 minutes.",
+    "Remove from the heat, reserve in the pot, and allow it to cool.",
+    "Strain and transfer to a container.",
+    "If not used immediately, store in the fridge for up to 6 months."
+  ],
+  "notes": [
+    "This aroma oil is really nice for ramen bowls that are light in their richness.",
+    "125 mL is approximately 0.5 cup, converted to approximately 113 grams (chicken fat is less dense than water).",
+    "Store in the fridge for up to 6 months.",
+    "Recipe calls for 4 garlic cloves."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
