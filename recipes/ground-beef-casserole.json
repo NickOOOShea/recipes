@@ -1,0 +1,80 @@
+{
+  "id": "ground-beef-casserole",
+  "title": "Cheesy Ground Beef Casserole",
+  "source_url": "https://healthyrecipesblogs.com/ground-beef-casserole/",
+  "yield_servings": 8,
+  "total_time_min": 30,
+  "tags": [
+    "main course",
+    "casserole",
+    "oven",
+    "beef",
+    "keto",
+    "low-carb",
+    "weeknight"
+  ],
+  "ingredients": [
+    {
+      "name": "ground beef (85% lean)",
+      "amount_g": 907,
+      "amount_oz": 32
+    },
+    {
+      "name": "sea salt",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "black pepper",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic powder",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "onion powder",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "cayenne pepper",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "cream cheese, cubed",
+      "amount_g": 113,
+      "amount_oz": 4
+    },
+    {
+      "name": "cheddar cheese, shredded",
+      "amount_g": 113,
+      "amount_oz": 4
+    },
+    {
+      "name": "fresh parsley, chopped",
+      "amount_g": 8,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 400°F (205°C). Lightly spray a 2-quart casserole dish with olive oil.",
+    "Heat a large 12-inch nonstick skillet over medium-high heat. Lightly spray with olive oil.",
+    "Add ground beef and cook, breaking into small pieces, until no longer raw (about 5 minutes). Drain and return to skillet.",
+    "Reduce heat to medium. Mix in salt, pepper, garlic powder, onion powder, and cayenne pepper.",
+    "Slowly mix in cream cheese until fully melted and incorporated.",
+    "Turn off heat and stir in half of the shredded cheddar (57g).",
+    "Transfer mixture to prepared casserole dish. Sprinkle remaining cheddar on top.",
+    "Bake until cheese melts (about 10 minutes).",
+    "Garnish with parsley and serve."
+  ],
+  "notes": [
+    "Volume conversions: 2 lbs = 907g, 4 oz cream cheese = 113g, 1 cup shredded cheese = 113g, 2 tbsp parsley ≈ 8g",
+    "Recipe is keto-friendly and low-carb at 2g carbs per serving"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

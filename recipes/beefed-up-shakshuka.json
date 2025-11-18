@@ -1,0 +1,103 @@
+{
+  "id": "beefed-up-shakshuka",
+  "title": "Beefed-Up Shakshuka",
+  "source_url": "https://www.carolinescooking.com/beefed-up-shakshuka/",
+  "yield_servings": 4,
+  "total_time_min": 40,
+  "tags": [
+    "main course",
+    "breakfast",
+    "stovetop",
+    "beef",
+    "middle eastern"
+  ],
+  "ingredients": [
+    {
+      "name": "onions",
+      "amount_g": 200,
+      "amount_oz": null
+    },
+    {
+      "name": "red bell peppers",
+      "amount_g": 300,
+      "amount_oz": null
+    },
+    {
+      "name": "olive oil",
+      "amount_g": 42,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic, crushed",
+      "amount_g": 10,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cumin",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "ground paprika",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh parsley, chopped",
+      "amount_g": 8,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh cilantro, chopped",
+      "amount_g": 16,
+      "amount_oz": null
+    },
+    {
+      "name": "dried thyme",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "ground beef (90% lean)",
+      "amount_g": 340,
+      "amount_oz": 12
+    },
+    {
+      "name": "chopped tomatoes",
+      "amount_g": 794,
+      "amount_oz": 28
+    },
+    {
+      "name": "eggs",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "feta cheese",
+      "amount_g": 57,
+      "amount_oz": 2
+    },
+    {
+      "name": "salt and pepper",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Peel and slice onions into half or quarter rings. Core peppers and cut into slices.",
+    "Heat olive oil in large shallow pan over medium heat. Add onions and cook 2-3 minutes until softened.",
+    "Add peppers and cook another 5 minutes, stirring occasionally.",
+    "Add garlic, cumin, paprika, parsley, half of the cilantro (8g), and thyme. Stir and cook a couple minutes until starting to brown.",
+    "Add ground beef and brown, breaking into pieces.",
+    "Add tomatoes and cook 15-20 minutes to allow flavors to blend. Season with salt and pepper.",
+    "Push four indentations in sauce with back of spoon. Crack one egg into each indentation.",
+    "Sprinkle feta chunks over top. Cover and cook eggs 5 minutes, basting whites with sauce halfway through. Whites should be just cooked, yolks still soft.",
+    "Sprinkle remaining cilantro over top and serve with bread."
+  ],
+  "notes": [
+    "Volume conversions: 1 large onion ≈ 200g, 2 red peppers ≈ 300g, 3 tbsp olive oil ≈ 42g, 2 cloves garlic ≈ 10g, 2 tbsp parsley ≈ 8g, 4 tbsp cilantro ≈ 16g, 1 tsp thyme ≈ 3g",
+    "Can be made ahead up to step 5 and chilled or frozen"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

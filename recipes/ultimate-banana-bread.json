@@ -1,0 +1,93 @@
+{
+  "id": "ultimate-banana-bread",
+  "title": "Ultimate Banana Bread",
+  "source_url": "https://fortheloveofcooking.net/2017/01/ultimate-banana-bread.html",
+  "yield_servings": 10,
+  "total_time_min": 80,
+  "tags": [
+    "dessert",
+    "breakfast",
+    "baking",
+    "oven",
+    "vegetarian"
+  ],
+  "ingredients": [
+    {
+      "name": "very ripe bananas, peeled",
+      "amount_g": 625,
+      "amount_oz": null
+    },
+    {
+      "name": "unsalted butter, melted and cooled",
+      "amount_g": 113,
+      "amount_oz": 4
+    },
+    {
+      "name": "eggs, beaten",
+      "amount_g": 100,
+      "amount_oz": null
+    },
+    {
+      "name": "packed brown sugar",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "vanilla extract",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "all-purpose flour",
+      "amount_g": 210,
+      "amount_oz": null
+    },
+    {
+      "name": "baking soda",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cinnamon",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "pecans, toasted and coarsely chopped",
+      "amount_g": 60,
+      "amount_oz": null
+    },
+    {
+      "name": "turbinado sugar for topping",
+      "amount_g": 12,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 350°F (175°C). Coat an 8×4 inch loaf pan with cooking spray or butter.",
+    "Place peeled bananas in a microwave-safe bowl. Cover with plastic wrap and cut a few slits for air vents.",
+    "Microwave on high for 4-5 minutes.",
+    "Pour bananas into a strainer over a bowl. Let liquid drain for 15 minutes, stirring occasionally (should yield about ½ cup liquid).",
+    "Transfer banana liquid to a small saucepan over medium-high heat. Boil, stirring often, until reduced by half (about ¼ cup).",
+    "Transfer mashed bananas to a large mixing bowl. Pour reduced liquid over bananas and stir until fairly smooth.",
+    "Whisk in brown sugar, eggs, cooled melted butter, and vanilla extract.",
+    "In a separate bowl, whisk together flour, baking soda, salt, and cinnamon.",
+    "Gradually add flour mixture to banana mixture until just combined.",
+    "Fold in pecans if desired.",
+    "Pour into prepared loaf pan. Sprinkle turbinado sugar evenly over batter.",
+    "Bake 50-60 minutes until a tester inserted in the center comes out clean.",
+    "Cool in pan for 15 minutes on a wire rack. Remove from pan and cool completely."
+  ],
+  "notes": [
+    "Volume conversions: 5 large bananas ≈ 625g, 8 tbsp butter ≈ 113g, 2 eggs ≈ 100g, ¾ cup brown sugar ≈ 150g, 1 tsp vanilla ≈ 5g, 1¾ cups flour ≈ 210g, 1 tsp baking soda ≈ 5g, ½ tsp salt ≈ 3g, ½ tsp cinnamon ≈ 3g, ½ cup pecans ≈ 60g, 1 tbsp turbinado sugar ≈ 12g",
+    "Recipe adapted from America's Test Kitchen",
+    "Microwaving and reducing banana liquid intensifies banana flavor"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

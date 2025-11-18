@@ -1,0 +1,100 @@
+{
+  "id": "imam-bayildi",
+  "title": "Imam Bayildi (Stuffed Eggplants)",
+  "source_url": "https://www.mygreekdish.com/recipe/imam-bayildi-recipe/",
+  "yield_servings": 4,
+  "total_time_min": 135,
+  "tags": [
+    "main course",
+    "side dish",
+    "oven",
+    "vegetarian",
+    "vegan",
+    "greek",
+    "middle eastern"
+  ],
+  "ingredients": [
+    {
+      "name": "large eggplants",
+      "amount_g": 1000,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "olive oil",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "onion, thinly sliced",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves, finely sliced",
+      "amount_g": 20,
+      "amount_oz": null
+    },
+    {
+      "name": "plum tomatoes, roughly diced",
+      "amount_g": 500,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cumin",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "sweet smoked paprika",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "dried oregano",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "tomato puree",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh parsley or mint",
+      "amount_g": 10,
+      "amount_oz": null
+    },
+    {
+      "name": "black pepper",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 150°C (300°F).",
+    "Halve the eggplants lengthwise. Score flesh in a crosshatch pattern without breaking the skin.",
+    "Rub salt generously into flesh and set aside.",
+    "Heat olive oil in a large non-stick pan over high heat. Fry eggplant halves in batches until golden.",
+    "Place eggplants cut-side up in a baking dish.",
+    "Reduce heat to medium. Add onion to the pan with remaining oil and salt. Cook 5-6 minutes until soft and lightly colored.",
+    "Add garlic and cook 2 minutes until aromatic.",
+    "Add tomatoes and cook 5 minutes until breaking down.",
+    "Stir in cumin, paprika, oregano, tomato puree, and fresh herbs. Season with salt and pepper.",
+    "Remove from heat and stir in 4 tablespoons (60ml) water.",
+    "Spoon tomato mixture over eggplant halves. Drizzle remaining oil over dish.",
+    "Cover with foil and bake 1.5 hours until eggplants are very soft.",
+    "Serve warm or at room temperature."
+  ],
+  "notes": [
+    "Volume conversions: 2 large eggplants ≈ 1000g, 150ml olive oil ≈ 150g, 1 onion ≈ 150g, 4 garlic cloves ≈ 20g, 4 large tomatoes ≈ 500g, 1 tsp spices ≈ 3g each, 1 tbsp tomato puree ≈ 15g, handful herbs ≈ 10g",
+    "Traditional Greek dish meaning 'the imam fainted'",
+    "Vegan and vegetarian friendly"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

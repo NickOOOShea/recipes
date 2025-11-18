@@ -1,0 +1,142 @@
+{
+  "id": "mohinga",
+  "title": "Mohinga (Burmese Fish Noodle Soup)",
+  "source_url": "https://www.foodrepublic.com/recipes/make-classic-mohinga/",
+  "yield_servings": 6,
+  "total_time_min": 140,
+  "tags": [
+    "main course",
+    "soup",
+    "stovetop",
+    "fish",
+    "burmese"
+  ],
+  "ingredients": [
+    {
+      "name": "uncooked jasmine rice",
+      "amount_g": 95,
+      "amount_oz": null
+    },
+    {
+      "name": "water",
+      "amount_g": 2840,
+      "amount_oz": null
+    },
+    {
+      "name": "lemongrass stalks",
+      "amount_g": 45,
+      "amount_oz": null
+    },
+    {
+      "name": "ginger, unpeeled",
+      "amount_g": 57,
+      "amount_oz": 2
+    },
+    {
+      "name": "bay leaves",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "ground black pepper",
+      "amount_g": 4,
+      "amount_oz": null
+    },
+    {
+      "name": "ground white pepper",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": 10,
+      "amount_oz": null
+    },
+    {
+      "name": "whole catfish, scaled and gutted",
+      "amount_g": 1361,
+      "amount_oz": 48
+    },
+    {
+      "name": "vegetable oil",
+      "amount_g": 79,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic, minced",
+      "amount_g": 40,
+      "amount_oz": null
+    },
+    {
+      "name": "ginger, minced",
+      "amount_g": 45,
+      "amount_oz": null
+    },
+    {
+      "name": "paprika",
+      "amount_g": 8,
+      "amount_oz": null
+    },
+    {
+      "name": "turmeric",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "red onions",
+      "amount_g": 200,
+      "amount_oz": null
+    },
+    {
+      "name": "fish sauce",
+      "amount_g": 60,
+      "amount_oz": null
+    },
+    {
+      "name": "fine round rice noodles",
+      "amount_g": 283,
+      "amount_oz": 10
+    },
+    {
+      "name": "hard-boiled eggs",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "yellow split pea crackers",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh cilantro, chopped",
+      "amount_g": 32,
+      "amount_oz": null
+    },
+    {
+      "name": "limes",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Toast rice at 350°F (175°C) for 20 minutes until golden. Grind to powder.",
+    "Boil water with lemongrass, ginger piece, bay leaves, black pepper, white pepper, and salt for 15 minutes.",
+    "Add catfish and simmer 15 minutes. Turn fish and simmer 5 more minutes until flesh separates from bone.",
+    "Remove fish, cool, discard skin, separate meat from bones. Return skeleton to pot.",
+    "Simmer skeleton 15 minutes. Strain broth (should yield about 10 cups).",
+    "Whisk rice powder with a bit of broth, then stir into pot. Simmer 5 minutes until slightly thickened.",
+    "Heat oil in pan. Stir-fry lemongrass stalk (minced), minced garlic, and minced ginger for 1 minute.",
+    "Add fish meat with paprika and turmeric. Mash into paste and cook 1 minute.",
+    "Pour fish mixture into broth. Add onions and fish sauce. Simmer 5 minutes. Adjust seasoning.",
+    "Cook noodles 5-6 minutes. Drain and rinse.",
+    "Divide noodles among bowls. Ladle soup over top.",
+    "Serve with halved hard-boiled eggs, crackers, cilantro, and lime."
+  ],
+  "notes": [
+    "Volume conversions: ½ cup rice ≈ 95g, 3 quarts water ≈ 2840g, 3 stalks lemongrass ≈ 45g, 2 oz ginger ≈ 57g, 1½ tsp black pepper ≈ 4g, ½ tsp white pepper ≈ 2g, 2 tsp salt ≈ 10g, ⅓ cup oil ≈ 79g, ¼ cup garlic ≈ 40g, 3 tbsp ginger ≈ 45g",
+    "The trick is achieving the right balance of ingredients - fresh fish and lemongrass counteract fishy aroma",
+    "Traditional Burmese breakfast dish"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

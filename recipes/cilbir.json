@@ -1,0 +1,72 @@
+{
+  "id": "cilbir",
+  "title": "Cilbir (Turkish Poached Eggs)",
+  "source_url": "https://www.themediterraneandish.com/cilbir-turkish-poached-eggs/",
+  "yield_servings": 2,
+  "total_time_min": 20,
+  "tags": [
+    "breakfast",
+    "main course",
+    "stovetop",
+    "vegetarian",
+    "turkish"
+  ],
+  "ingredients": [
+    {
+      "name": "plain Greek yogurt (whole milk)",
+      "amount_g": 245,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves, finely minced",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "eggs",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "extra virgin olive oil",
+      "amount_g": 42,
+      "amount_oz": null
+    },
+    {
+      "name": "vinegar",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "Aleppo pepper or red pepper flakes",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Combine room-temperature yogurt, minced garlic, and kosher salt in a bowl. Whisk well.",
+    "Divide yogurt mixture between two serving bowls and set aside.",
+    "Bring a medium saucepan of water to a boil and stir in vinegar.",
+    "Crack an egg into a fine mesh sieve over a bowl. Gently swirl to drain excess egg white. Transfer to a ramekin.",
+    "Create a vortex in boiling water using a wooden spoon. Add egg to center and cook 2-3 minutes.",
+    "Remove egg with slotted spoon to parchment-lined plate.",
+    "Repeat with second egg.",
+    "While second egg cooks, warm olive oil and Aleppo pepper in a small skillet over medium heat.",
+    "Place poached eggs on yogurt mixture.",
+    "Drizzle with heated spiced oil.",
+    "Serve immediately with rustic bread."
+  ],
+  "notes": [
+    "Volume conversions: 1 cup yogurt ≈ 245g, 1-2 garlic cloves ≈ 6g, 3 tbsp olive oil ≈ 42g, 1-2 tbsp vinegar ≈ 15g, 2 tsp Aleppo pepper ≈ 6g",
+    "Yogurt should be at room temperature for best results",
+    "Traditional Turkish breakfast dish",
+    "Serve with crusty bread for dipping"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

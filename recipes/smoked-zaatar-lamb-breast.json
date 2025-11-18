@@ -1,0 +1,89 @@
+{
+  "id": "smoked-zaatar-lamb-breast",
+  "title": "Smoked Za'atar Lamb Breast",
+  "source_url": "https://www.themeateater.com/wild-and-whole/wild-recipes/smoked-zaatar-lamb-breast",
+  "yield_servings": 5,
+  "total_time_min": 185,
+  "tags": [
+    "main course",
+    "smoker",
+    "lamb",
+    "middle eastern"
+  ],
+  "ingredients": [
+    {
+      "name": "lamb breast",
+      "amount_g": 907,
+      "amount_oz": 32
+    },
+    {
+      "name": "olive oil",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "sumac",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "dried oregano",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "ground coriander",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cumin",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "ground allspice",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": 7,
+      "amount_oz": null
+    },
+    {
+      "name": "apple cider (for spritzing)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "toasted sesame seeds",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "lemon wedges",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Trim most fat from the lamb breast. Flip to the bone side and make shallow cuts through silver skin between bones to prevent curling.",
+    "Combine sumac, oregano, coriander, cumin, allspice, and salt in a bowl.",
+    "Coat lamb with olive oil and apply seasoning mix evenly on all sides.",
+    "Preheat smoker to 250°F (121°C).",
+    "Place lamb meat-side up and smoke for 1 hour.",
+    "Flip lamb and smoke for 45 minutes. Spritz with apple cider.",
+    "Return lamb meat-side up and smoke for 45 minutes. Spritz with apple cider every 30 minutes.",
+    "Wrap lamb in heavy-duty foil and smoke for 30 more minutes.",
+    "Rest at least 10 minutes before slicing.",
+    "Top with sesame seeds and lemon juice before serving."
+  ],
+  "notes": [
+    "Volume conversions: 2 tsp sumac ≈ 6g, 1 tsp oregano ≈ 3g, ½ tsp spices ≈ 2g each, 1½ tsp salt ≈ 7g, ¼ tsp sesame seeds ≈ 2g",
+    "Serve with couscous or tabbouleh for complementary sides",
+    "This cut is very fatty and forgiving - difficult to overcook"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

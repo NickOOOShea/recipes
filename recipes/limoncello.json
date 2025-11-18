@@ -1,0 +1,55 @@
+{
+  "id": "limoncello",
+  "title": "Sous Vide Limoncello",
+  "source_url": "https://recipes.anovaculinary.com/recipe/limoncello-3h",
+  "yield_servings": 30,
+  "total_time_min": 210,
+  "tags": [
+    "beverage",
+    "sous vide",
+    "italian"
+  ],
+  "ingredients": [
+    {
+      "name": "large organic lemons",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "high proof grain alcohol (96% vol / 192 US proof)",
+      "amount_g": 1000,
+      "amount_oz": null
+    },
+    {
+      "name": "water",
+      "amount_g": 2000,
+      "amount_oz": null
+    },
+    {
+      "name": "sugar",
+      "amount_g": 1400,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Set sous vide cooker to 134.6°F (57.0°C).",
+    "Using a tomato peeler or lemon zester, remove only the yellow peel from 10 lemons, avoiding the bitter white pith.",
+    "Add lemon peel to high-proof grain alcohol. Divide 5 lemon peels into each 500ml jar of alcohol for optimal flavor extraction.",
+    "Seal jars and immerse in the water bath for 3 hours while the lemon zest macerates.",
+    "While macerating, prepare simple syrup by dissolving 1400g sugar in 2000g water. Boil for 2 minutes, then cool completely.",
+    "After maceration, shake jars and cool to room temperature.",
+    "Strain through coffee filters or cheesecloth, discarding peel.",
+    "Divide the strained alcohol (approximately 333ml per bottle) into three clean 1-liter bottles.",
+    "Fill each bottle to 1 liter capacity with simple syrup (about 666ml per bottle), resulting in 32% alcohol by volume.",
+    "Keep in a cool, dark, dry place for several weeks before serving to allow flavors to develop."
+  ],
+  "notes": [
+    "Volume conversions: 1 liter alcohol ≈ 1000g, 2 liters water ≈ 2000g",
+    "Use organic lemons to avoid pesticides in the peel",
+    "Do not use vodka - high-proof grain alcohol is essential",
+    "Final product yields approximately 3 liters at 32% ABV",
+    "Improves with age - wait at least a few weeks before drinking"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

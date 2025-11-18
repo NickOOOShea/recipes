@@ -1,0 +1,47 @@
+{
+  "id": "qamar-al-deen",
+  "title": "Qamar al-Deen (Apricot Drink)",
+  "source_url": "https://amiraspantry.com/qamar-al-deen-apricot-drink/",
+  "yield_servings": 6,
+  "total_time_min": 480,
+  "tags": [
+    "beverage",
+    "middle eastern",
+    "no-cook",
+    "ramadan"
+  ],
+  "ingredients": [
+    {
+      "name": "apricot leather (qamar al-deen)",
+      "amount_g": 400,
+      "amount_oz": 14
+    },
+    {
+      "name": "water",
+      "amount_g": 710,
+      "amount_oz": null
+    },
+    {
+      "name": "sugar",
+      "amount_g": 67,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Cut the apricot leather into small pieces (approximately 2-inch squares).",
+    "Place in a deep bowl and cover with water.",
+    "Refrigerate overnight (at least 8 hours).",
+    "Blend the apricot with water and sugar until no lumps remain.",
+    "Strain if desired for smoother texture.",
+    "Pour into a pitcher and refrigerate until serving.",
+    "Serve cold."
+  ],
+  "notes": [
+    "Volume conversions: 1 package (400g) apricot leather, 3 cups water ≈ 710g, ⅓ cup sugar ≈ 67g",
+    "Famous Ramadan beverage from the Middle East",
+    "Water and sugar amounts can be adjusted to taste",
+    "Homemade apricot leather can be substituted"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

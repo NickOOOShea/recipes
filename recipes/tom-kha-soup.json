@@ -1,0 +1,115 @@
+{
+  "id": "tom-kha-soup",
+  "title": "Tom Kha Gai (Thai Coconut Chicken Soup)",
+  "source_url": "https://40aprons.com/tom-kha-soup-whole30/",
+  "yield_servings": 6,
+  "total_time_min": 60,
+  "tags": [
+    "main course",
+    "soup",
+    "stovetop",
+    "chicken",
+    "thai",
+    "asian"
+  ],
+  "ingredients": [
+    {
+      "name": "coconut oil",
+      "amount_g": 14,
+      "amount_oz": null
+    },
+    {
+      "name": "onion, thinly sliced",
+      "amount_g": 100,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic, chopped",
+      "amount_g": 10,
+      "amount_oz": null
+    },
+    {
+      "name": "red jalapeño pepper, sliced",
+      "amount_g": 25,
+      "amount_oz": null
+    },
+    {
+      "name": "galangal (or ginger), sliced",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "lemongrass stalk, pounded and cut into 2-inch pieces",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "red Thai curry paste",
+      "amount_g": 10,
+      "amount_oz": null
+    },
+    {
+      "name": "chicken broth",
+      "amount_g": 960,
+      "amount_oz": null
+    },
+    {
+      "name": "unsweetened full-fat coconut cream",
+      "amount_g": 960,
+      "amount_oz": null
+    },
+    {
+      "name": "chicken breasts, cubed",
+      "amount_g": 454,
+      "amount_oz": 16
+    },
+    {
+      "name": "white mushroom caps, sliced",
+      "amount_g": 227,
+      "amount_oz": 8
+    },
+    {
+      "name": "coconut sugar",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "fish sauce",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh lime juice",
+      "amount_g": 45,
+      "amount_oz": null
+    },
+    {
+      "name": "green onions, sliced thin",
+      "amount_g": 20,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh cilantro for garnish",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Heat coconut oil in a medium pot over medium heat.",
+    "Add onion, garlic, jalapeño, galangal, lemongrass, and curry paste. Cook 5 minutes, stirring frequently, until onions soften.",
+    "Add chicken broth and bring to boil. Reduce heat and simmer 30 minutes uncovered.",
+    "Strain out aromatics and discard.",
+    "Add coconut cream, chicken, and mushrooms. Simmer until chicken cooks through.",
+    "Season with fish sauce, coconut sugar, and lime juice to taste.",
+    "Cook 2 minutes longer.",
+    "Ladle into bowls and top with green onions and cilantro."
+  ],
+  "notes": [
+    "Volume conversions: 1 tbsp coconut oil ≈ 14g, ½ onion ≈ 100g, 2 cloves garlic ≈ 10g, ½ jalapeño ≈ 25g, 3 slices galangal ≈ 15g, 1 lemongrass stalk ≈ 15g, 2 tsp curry paste ≈ 10g, 4 cups broth ≈ 960g, 4 cups coconut cream ≈ 960g",
+    "Can substitute 1-3 Thai chiles for jalapeño",
+    "Can use coconut milk instead of coconut cream",
+    "Whole30, paleo, and vegan adaptations available"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

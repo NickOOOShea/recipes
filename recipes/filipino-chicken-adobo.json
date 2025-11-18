@@ -1,0 +1,82 @@
+{
+  "id": "filipino-chicken-adobo",
+  "title": "Filipino Chicken Adobo",
+  "source_url": "https://panlasangpinoy.com/filipino-chicken-adobo-recipe/",
+  "yield_servings": 4,
+  "total_time_min": 100,
+  "tags": [
+    "main course",
+    "stovetop",
+    "chicken",
+    "filipino"
+  ],
+  "ingredients": [
+    {
+      "name": "chicken",
+      "amount_g": 907,
+      "amount_oz": 32
+    },
+    {
+      "name": "dried bay leaves",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "soy sauce",
+      "amount_g": 60,
+      "amount_oz": null
+    },
+    {
+      "name": "white vinegar",
+      "amount_g": 90,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": 25,
+      "amount_oz": null
+    },
+    {
+      "name": "water",
+      "amount_g": 355,
+      "amount_oz": null
+    },
+    {
+      "name": "cooking oil",
+      "amount_g": 42,
+      "amount_oz": null
+    },
+    {
+      "name": "sugar",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "whole peppercorns",
+      "amount_g": 3,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Combine chicken, soy sauce, and garlic in a bowl. Marinate for at least 1 hour (longer is better).",
+    "Heat a pot and add cooking oil.",
+    "Pan-fry the marinated chicken 2 minutes per side.",
+    "Pour in remaining marinade with garlic and add water. Bring to boil.",
+    "Add bay leaves and peppercorns. Simmer 30 minutes until chicken is tender.",
+    "Add vinegar, stir, and cook 10 minutes.",
+    "Add sugar and salt. Stir and remove from heat.",
+    "Serve hot with rice."
+  ],
+  "notes": [
+    "Volume conversions: 2 lbs chicken ≈ 907g, 4 tbsp soy sauce ≈ 60g, 6 tbsp vinegar ≈ 90g, 5 cloves garlic ≈ 25g, 1½ cups water ≈ 355g, 3 tbsp oil ≈ 42g, 1 tsp sugar ≈ 5g, ¼ tsp salt ≈ 2g, 1 tsp peppercorns ≈ 3g",
+    "Marinating longer enhances flavor significantly",
+    "Best served with warm white rice"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "jalapeno-cheddar-cornbread",
+  "title": "Jalapeño Cheddar Cornbread",
+  "source_url": "https://www.seasonsandsuppers.ca/jalapeno-cheddar-corn-cornbread/",
+  "yield_servings": 12,
+  "total_time_min": 75,
+  "tags": [
+    "side dish",
+    "baking",
+    "oven",
+    "vegetarian",
+    "american"
+  ],
+  "ingredients": [
+    {
+      "name": "all-purpose flour",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "fine cornmeal",
+      "amount_g": 140,
+      "amount_oz": null
+    },
+    {
+      "name": "baking powder",
+      "amount_g": 12,
+      "amount_oz": null
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": 7,
+      "amount_oz": null
+    },
+    {
+      "name": "eggs",
+      "amount_g": 200,
+      "amount_oz": null
+    },
+    {
+      "name": "jalapeño peppers, seeded and diced",
+      "amount_g": 120,
+      "amount_oz": null
+    },
+    {
+      "name": "cooked corn, cooled",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "heavy cream or whole milk",
+      "amount_g": 120,
+      "amount_oz": null
+    },
+    {
+      "name": "cheddar cheese, grated",
+      "amount_g": 113,
+      "amount_oz": 4
+    },
+    {
+      "name": "butter at room temperature",
+      "amount_g": 170,
+      "amount_oz": null
+    },
+    {
+      "name": "granulated white sugar",
+      "amount_g": 100,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 400°F (205°C) on regular bake setting with rack centered. Lightly grease a 10-inch cast-iron skillet.",
+    "Place diced jalapeños in the hot skillet for 5 minutes. Remove and cool in a bowl. Return skillet to oven to preheat.",
+    "Whisk together flour, cornmeal, baking powder, and salt in a small bowl. Set aside.",
+    "In a 2-cup measuring cup, combine cooked corn with cream or milk until reaching the 1½ cup mark (355ml total).",
+    "In a medium bowl, lightly beat eggs. Add the corn-cream mixture and cheddar cheese. Stir together.",
+    "In a large bowl, mix butter and sugar until butter absorbs the sugar.",
+    "Add egg mixture and combine. Stir in cooled jalapeños.",
+    "Fold in flour mixture gently until barely incorporated.",
+    "Remove skillet from oven and coat with nonstick spray. Spoon batter into hot pan.",
+    "Top with additional grated cheddar.",
+    "Bake 25-28 minutes until golden brown and springy to touch.",
+    "Cool in pan at least 30 minutes before serving."
+  ],
+  "notes": [
+    "Volume conversions: 1¼ cups flour ≈ 150g, 1 cup cornmeal ≈ 140g, 1 tbsp baking powder ≈ 12g, 1½ tsp salt ≈ 7g, 4 eggs ≈ 200g, ¾-1 cup jalapeños ≈ 120g, 1 cup corn ≈ 150g, ½ cup cream ≈ 120g, 1 cup cheese ≈ 113g, ¾ cup butter ≈ 170g, ⅓-⅔ cup sugar ≈ 100g",
+    "Reduce salt if using salted butter",
+    "Can reheat covered with foil at 350°F for 8-10 minutes",
+    "Cast iron skillet creates best crust"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

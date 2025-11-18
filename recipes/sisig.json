@@ -1,0 +1,105 @@
+{
+  "id": "sisig",
+  "title": "Sizzling Sisig",
+  "source_url": "https://www.kawalingpinoy.com/sisig/",
+  "yield_servings": 6,
+  "total_time_min": 105,
+  "tags": [
+    "main course",
+    "appetizer",
+    "stovetop",
+    "grill",
+    "pork",
+    "filipino"
+  ],
+  "ingredients": [
+    {
+      "name": "pig face (snouts, ears, and jowls)",
+      "amount_g": 907,
+      "amount_oz": 32
+    },
+    {
+      "name": "vinegar",
+      "amount_g": 240,
+      "amount_oz": null
+    },
+    {
+      "name": "soy sauce",
+      "amount_g": 60,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic, peeled and crushed",
+      "amount_g": 45,
+      "amount_oz": null
+    },
+    {
+      "name": "whole black peppercorns",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "bay leaves",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "water",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "onion, peeled and diced",
+      "amount_g": 200,
+      "amount_oz": null
+    },
+    {
+      "name": "Thai chili peppers, minced",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "calamansi juice",
+      "amount_g": 120,
+      "amount_oz": null
+    },
+    {
+      "name": "liquid seasoning (Maggi Savor)",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "liver spread",
+      "amount_g": 120,
+      "amount_oz": null
+    },
+    {
+      "name": "pepper",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Combine pig face, vinegar, soy sauce, garlic, peppercorns, bay leaves, salt, and enough water to cover the pork in a large pot.",
+    "Bring to a boil, skimming scum from surface. Lower heat, cover, and simmer 50 minutes to 1 hour until tender.",
+    "Drain well and discard liquid.",
+    "Over hot grill, cook pork 7-10 minutes per side until crispy and charred. Alternatively, broil at 450°F (230°C) for 4-5 minutes until charred.",
+    "Cool slightly and chop meat into small pieces.",
+    "Mix chopped meat with onions, chili peppers, calamansi juice, and liquid seasoning.",
+    "Add liver spread and stir gently. Season with salt and pepper to taste.",
+    "Transfer to sizzling hot plates and serve."
+  ],
+  "notes": [
+    "Volume conversions: 2 lbs pig face ≈ 907g, 1 cup vinegar ≈ 240g, ¼ cup soy sauce ≈ 60g, 1 head garlic ≈ 45g, 1 tsp peppercorns ≈ 3g, 1 tbsp salt ≈ 15g, 1 large onion ≈ 200g, 6 Thai chilies ≈ 15g, ½ cup calamansi juice ≈ 120g, 1 tbsp liquid seasoning ≈ 15g, ½ cup liver spread ≈ 120g",
+    "Originates from Pampanga, Philippines",
+    "Works as either an appetizer or main entrée",
+    "Can be served on regular plates if sizzling plates unavailable"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

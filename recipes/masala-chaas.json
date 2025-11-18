@@ -1,0 +1,81 @@
+{
+  "id": "masala-chaas",
+  "title": "Masala Chaas (Spiced Buttermilk)",
+  "source_url": "https://www.cookwithmanali.com/masala-chaas/",
+  "yield_servings": 2,
+  "total_time_min": 10,
+  "tags": [
+    "beverage",
+    "no-cook",
+    "vegetarian",
+    "indian",
+    "summer"
+  ],
+  "ingredients": [
+    {
+      "name": "plain yogurt",
+      "amount_g": 245,
+      "amount_oz": null
+    },
+    {
+      "name": "cold water",
+      "amount_g": 480,
+      "amount_oz": null
+    },
+    {
+      "name": "green chili",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh ginger",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh cilantro, chopped",
+      "amount_g": 4,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cumin",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "black salt (kala namak)",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "chat masala",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh cilantro or mint for garnish",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Add all ingredients to a blender: yogurt, water, green chili, ginger, cilantro, cumin, black salt, salt, and chat masala.",
+    "Blend until combined and smooth.",
+    "Pour into serving glasses.",
+    "Garnish with fresh cilantro or mint.",
+    "Serve immediately, chilled."
+  ],
+  "notes": [
+    "Volume conversions: 1 cup yogurt ≈ 245g, 2 cups water ≈ 480g, 1 green chili ≈ 5g, ½ inch ginger ≈ 5g, 1 tbsp cilantro ≈ 4g, ½ tsp cumin ≈ 2g, ½ tsp black salt ≈ 3g, ¼ tsp salt ≈ 2g, ¼ tsp chat masala ≈ 2g",
+    "Perfect for cooling off during summers",
+    "Can be prepared in advance and refrigerated",
+    "Tastes best when chilled"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "shirazi-salad",
+  "title": "Shirazi Salad (Persian Cucumber Tomato Salad)",
+  "source_url": "https://www.alphafoodie.com/shirazi-salad-persian-cucumber-onion-tomato-salad/",
+  "yield_servings": 4,
+  "total_time_min": 5,
+  "tags": [
+    "salad",
+    "side dish",
+    "no-cook",
+    "vegan",
+    "vegetarian",
+    "persian"
+  ],
+  "ingredients": [
+    {
+      "name": "cucumber, diced",
+      "amount_g": 300,
+      "amount_oz": null
+    },
+    {
+      "name": "tomatoes, diced",
+      "amount_g": 400,
+      "amount_oz": null
+    },
+    {
+      "name": "onion, finely diced",
+      "amount_g": 75,
+      "amount_oz": null
+    },
+    {
+      "name": "extra virgin olive oil",
+      "amount_g": 42,
+      "amount_oz": null
+    },
+    {
+      "name": "lime juice",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "white wine vinegar or sour grape juice",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "dried mint",
+      "amount_g": 4,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "black pepper",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Combine cucumber, tomato, and onion in a large bowl.",
+    "Sprinkle dried mint, salt, and pepper over vegetables.",
+    "Drizzle with olive oil, vinegar, and lime juice.",
+    "Toss everything together until evenly mixed.",
+    "Let the salad rest for 10-15 minutes if you have time to allow flavors to develop.",
+    "Serve and enjoy."
+  ],
+  "notes": [
+    "Volume conversions: 2 cups cucumber ≈ 300g, 2 cups tomatoes ≈ 400g, ½ cup onion ≈ 75g, 3 tbsp olive oil ≈ 42g, 2 tbsp lime juice ≈ 30g, 2 tbsp vinegar ≈ 30g, 1 tbsp dried mint ≈ 4g",
+    "Fresh mint can be substituted for dried",
+    "No need to peel or deseed cucumbers - Persian, English, or regular varieties work",
+    "Vegetables can be chopped 3-4 days ahead; store undressed and add dressing before serving"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
