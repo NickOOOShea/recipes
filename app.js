@@ -224,7 +224,7 @@ function showRecipeModal(recipe) {
             }
             const text = `${amount ? `<strong>${amount}</strong> ` : ''}${ing.name}`;
             return `<li onclick="toggleIngredient(this)">
-              <input type="checkbox" onclick="event.stopPropagation(); toggleIngredient(this.parentElement)">
+              <input type="checkbox" onclick="event.preventDefault()">
               <span>${text}</span>
             </li>`;
           }).join('')}
