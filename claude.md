@@ -72,7 +72,7 @@ When adding recipes, automatically detect and add relevant tags:
 
 **Proteins:** chicken, beef, pork, fish, seafood, lamb, turkey
 
-**Other:** mac and cheese, pasta, casserole, baking, fermented, pickled, etc.
+**Other:** mac and cheese, pasta, casserole, baking, fermented, pickled, wife's favorite, etc.
 
 ### Measurement Conversion Rules
 - **Always convert to grams** (primary) with optional ounces

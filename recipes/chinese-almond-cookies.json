@@ -1,0 +1,85 @@
+{
+  "id": "chinese-almond-cookies",
+  "title": "Chinese Almond Cookies",
+  "source_url": null,
+  "yield_servings": 60,
+  "total_time_min": 155,
+  "tags": [
+    "dessert",
+    "baking",
+    "oven",
+    "chinese",
+    "asian",
+    "vegetarian",
+    "wife's favorite"
+  ],
+  "ingredients": [
+    {
+      "name": "almond flour, lightly packed",
+      "amount_g": 130,
+      "amount_oz": null
+    },
+    {
+      "name": "unsalted butter, chilled and cubed",
+      "amount_g": 227,
+      "amount_oz": 8
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "large eggs",
+      "amount_g": 100,
+      "amount_oz": null
+    },
+    {
+      "name": "almond extract",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "all-purpose flour",
+      "amount_g": 210,
+      "amount_oz": null
+    },
+    {
+      "name": "sugar",
+      "amount_g": 225,
+      "amount_oz": null
+    },
+    {
+      "name": "baking soda",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "sliced almonds for decoration",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Place almond flour, salt, and chilled butter cubes into an electric mixer with paddle attachment. Beat on medium speed for 3 minutes until coarse and chunky.",
+    "Add 1 egg (50g) and almond extract. Mix on low speed until just incorporated.",
+    "Sift together all-purpose flour, sugar, and baking soda. Add to mixture and mix on low speed until just combined.",
+    "Flatten dough into a disc, wrap in plastic wrap, and refrigerate for 2 hours.",
+    "Preheat oven to 325°F (165°C). Line a baking sheet with parchment paper.",
+    "Beat the remaining egg (50g) in a small bowl.",
+    "Roll dough into balls about ¾ inch wide. Place on baking sheet about 1 inch apart.",
+    "Press down slightly with your palm to make a coin shape.",
+    "Press one sliced almond into the center of each cookie.",
+    "Using a pastry brush or finger, paint each cookie with beaten egg for a lacquered appearance.",
+    "Bake at 325°F for 13-15 minutes until edges just begin to tan.",
+    "Cool on the sheet on a wire rack."
+  ],
+  "notes": [
+    "Volume conversions: 1⅓ cups almond flour ≈ 130g, 1 cup butter (2 sticks) = 227g, 2 large eggs ≈ 100g, 1 tsp almond extract ≈ 5g, 1¾ cups flour ≈ 210g, 1 cup + 2 tbsp sugar ≈ 225g, ½ tsp baking soda ≈ 3g",
+    "Cook time is per batch - baking all 60 cookies will take about 1 hour if doing one sheet at a time",
+    "Dough must chill for 2 hours before baking",
+    "Egg wash gives cookies a shiny, lacquered finish"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
