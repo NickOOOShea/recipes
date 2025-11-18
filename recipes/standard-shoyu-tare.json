@@ -1,0 +1,62 @@
+{
+  "id": "standard-shoyu-tare",
+  "title": "Standard Shoyu Tare",
+  "source_url": null,
+  "yield_servings": 16,
+  "total_time_min": 390,
+  "tags": ["tare", "sauce", "seasoning", "ramen", "japanese", "shoyu", "soy sauce"],
+  "ingredients": [
+    {
+      "name": "soy sauce",
+      "amount_g": 450,
+      "amount_oz": 15.9
+    },
+    {
+      "name": "kombu",
+      "amount_g": 15,
+      "amount_oz": 0.53
+    },
+    {
+      "name": "mirin",
+      "amount_g": 50,
+      "amount_oz": 1.76
+    },
+    {
+      "name": "sake",
+      "amount_g": 40,
+      "amount_oz": 1.41
+    },
+    {
+      "name": "niboshi",
+      "amount_g": 15,
+      "amount_oz": 0.53
+    },
+    {
+      "name": "katsuobushi",
+      "amount_g": 15,
+      "amount_oz": 0.53
+    },
+    {
+      "name": "brown sugar",
+      "amount_g": 30,
+      "amount_oz": 1.06
+    }
+  ],
+  "steps": [
+    "Combine the soy sauce, mirin, kombu, niboshi, and sake in a sealed container.",
+    "Place in the fridge and rest at least 6 hours or up to 2 days.",
+    "When ready, heat the contents to 71°C/160°F and hold for 10 minutes.",
+    "Remove the kombu and discard.",
+    "Bring to 82°C/180°F (or just below a boil) and hold for 15 minutes.",
+    "Add the katsuobushi, hold at 82°C/180°F for 5 more minutes.",
+    "Add the sugar, whisking to dissolve.",
+    "Strain the tare, and reserve the tare as needed and keep refrigerated."
+  ],
+  "notes": [
+    "This is an all-purpose shoyu tare. Great for light chicken broths, it also works well to make shoyu tonkotsu or other shoyu-forward recipes.",
+    "Stores in the fridge for up to 6 months.",
+    "Add 30 mL of tare per 350 mL soup."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

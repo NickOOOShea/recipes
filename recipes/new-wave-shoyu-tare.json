@@ -1,0 +1,32 @@
+{
+  "id": "new-wave-shoyu-tare",
+  "title": "New Wave Shoyu Tare",
+  "source_url": null,
+  "yield_servings": 16,
+  "total_time_min": 1440,
+  "tags": ["tare", "sauce", "seasoning", "ramen", "japanese", "shoyu", "soy sauce", "minimalist"],
+  "ingredients": [
+    {
+      "name": "soy sauce (high quality, traditionally made)",
+      "amount_g": 450,
+      "amount_oz": 15.9
+    },
+    {
+      "name": "mirin",
+      "amount_g": 50,
+      "amount_oz": 1.76
+    }
+  ],
+  "steps": [
+    "Combine in a container and let sit in the fridge for 24 hours before using."
+  ],
+  "notes": [
+    "New wave shoyu tare style primarily focuses on soy sauce as the flavoring of the dish, and should therefore include exceptionally high-quality soy sauce.",
+    "Look for soy sauces that are traditionally made. Producers of cheaper soy sauces often incorporate additional processes (thermal, chemical, or mechanical) to assist in breaking down the beans and wheat, which speeds up production.",
+    "Some soy sauces are fermented in wooden barrels, adding complexity not found in more inert fermentation vessels like glass or stainless steel.",
+    "Look for Japanese soy sauces, or soy sauces made with 'marudaizu' (i.e. whole beans). These soy sauces undergo longer fermentation times and therefore have additional complexity.",
+    "Add around 35 mL of tare per 300 mL soup."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

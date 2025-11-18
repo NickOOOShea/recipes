@@ -1,0 +1,37 @@
+{
+  "id": "tantanmen-tare",
+  "title": "Tantanmen Tare",
+  "source_url": null,
+  "yield_servings": 1,
+  "total_time_min": 5,
+  "tags": ["tare", "sauce", "seasoning", "ramen", "japanese", "chinese", "tantanmen", "sesame", "dan dan"],
+  "ingredients": [
+    {
+      "name": "soy sauce",
+      "amount_g": 35,
+      "amount_oz": 1.23
+    },
+    {
+      "name": "rice wine vinegar",
+      "amount_g": 3,
+      "amount_oz": 0.11
+    },
+    {
+      "name": "ground sesame (tahini or nerigoma)",
+      "amount_g": 25,
+      "amount_oz": 0.88
+    }
+  ],
+  "steps": [
+    "Combine the above ingredients, whisking until fully incorporated, at the bottom of a serving bowl.",
+    "Alternatively, up the amount by scaling the amounts as needed to make a larger batch."
+  ],
+  "notes": [
+    "Tantanmen, derived from dan dan noodles from China, is a sesame and spice based dish.",
+    "This method is extremely simple, but feel free to incorporate other common ingredients, such as Sichuan pickles.",
+    "Ironically, this tare rarely contains large quantities of umami-building ingredients, but it's still delicious.",
+    "The recipe provided is for one bowl, but can be scaled up for multiple servings."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

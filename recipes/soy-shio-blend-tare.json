@@ -1,0 +1,89 @@
+{
+  "id": "soy-shio-blend-tare",
+  "title": "Soy/Shio Blend Tare",
+  "source_url": null,
+  "yield_servings": 16,
+  "total_time_min": 400,
+  "tags": ["tare", "sauce", "seasoning", "ramen", "japanese", "shio", "salt", "shoyu", "soy sauce", "hybrid"],
+  "ingredients": [
+    {
+      "name": "kombu",
+      "amount_g": 7,
+      "amount_oz": 0.25
+    },
+    {
+      "name": "mirin",
+      "amount_g": 75,
+      "amount_oz": 2.65
+    },
+    {
+      "name": "sake",
+      "amount_g": 50,
+      "amount_oz": 1.76
+    },
+    {
+      "name": "white wine",
+      "amount_g": 25,
+      "amount_oz": 0.88
+    },
+    {
+      "name": "white soy sauce",
+      "amount_g": 75,
+      "amount_oz": 2.65
+    },
+    {
+      "name": "usukuchi soy sauce",
+      "amount_g": 25,
+      "amount_oz": 0.88
+    },
+    {
+      "name": "salt",
+      "amount_g": 10,
+      "amount_oz": 0.35
+    },
+    {
+      "name": "MSG (optional)",
+      "amount_g": 5,
+      "amount_oz": 0.18
+    },
+    {
+      "name": "niboshi",
+      "amount_g": 25,
+      "amount_oz": 0.88
+    },
+    {
+      "name": "sesame oil",
+      "amount_g": 5,
+      "amount_oz": 0.18
+    },
+    {
+      "name": "water",
+      "amount_g": 150,
+      "amount_oz": 5.29
+    },
+    {
+      "name": "katsuobushi",
+      "amount_g": 10,
+      "amount_oz": 0.35
+    }
+  ],
+  "steps": [
+    "Soak the kombu in the mirin, sake, and white wine, for at least 6 hours and up to 24, in the fridge.",
+    "When ready to make, add the kombu and steeping liquid to a saucepot. Cook on medium heat until the cooking liquid registers at 160°F. Hold here for 5 minutes.",
+    "Remove the kombu, boil slightly to remove some residual alcohol, around 5 minutes.",
+    "Add the soy sauces and salts. Reserve this liquid on the side.",
+    "In the now-empty pot, add the niboshi and sesame oil to a pot. Cook until fragrant on medium-high heat, around 40 seconds.",
+    "Add the water, bring to 82°C/180°F.",
+    "Add the katsuobushi and steep for 10 minutes.",
+    "Strain this liquid, adding it to the one in step 4.",
+    "Combine the two strained liquids."
+  ],
+  "notes": [
+    "As mentioned earlier, some shio tare recipes contain soy sauce. This is one of them.",
+    "It's effectively a blend of many tares, making it a great all-purpose tare for creamy soups and light soups alike.",
+    "Store in the fridge until ready to use. Keeps for around 6 months.",
+    "Add 30 mL of tare per 300 mL soup."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "kara-miso-spicy-miso",
+  "title": "Kara Miso (Spicy Miso)",
+  "source_url": null,
+  "yield_servings": 12,
+  "total_time_min": 50,
+  "tags": ["tare", "sauce", "seasoning", "ramen", "japanese", "miso", "spicy", "kara miso"],
+  "ingredients": [
+    {
+      "name": "red bell pepper, deseeded",
+      "amount_g": 150,
+      "amount_oz": 5.29
+    },
+    {
+      "name": "habanero chilies, deseeded",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "onion, pureed",
+      "amount_g": 140,
+      "amount_oz": 4.94
+    },
+    {
+      "name": "garlic, grated/minced",
+      "amount_g": 7,
+      "amount_oz": 0.25
+    },
+    {
+      "name": "ginger, grated/minced",
+      "amount_g": 6,
+      "amount_oz": 0.21
+    },
+    {
+      "name": "white miso",
+      "amount_g": 300,
+      "amount_oz": 10.6
+    },
+    {
+      "name": "tezukuri or mugi miso",
+      "amount_g": 180,
+      "amount_oz": 6.35
+    },
+    {
+      "name": "red miso",
+      "amount_g": 80,
+      "amount_oz": 2.82
+    },
+    {
+      "name": "mirin",
+      "amount_g": 10,
+      "amount_oz": 0.35
+    },
+    {
+      "name": "soy sauce",
+      "amount_g": 30,
+      "amount_oz": 1.06
+    },
+    {
+      "name": "sesame oil",
+      "amount_g": 5,
+      "amount_oz": 0.18
+    },
+    {
+      "name": "tahini",
+      "amount_g": 14,
+      "amount_oz": 0.49
+    },
+    {
+      "name": "tobanjan",
+      "amount_g": 8,
+      "amount_oz": 0.28
+    },
+    {
+      "name": "gochujang",
+      "amount_g": 60,
+      "amount_oz": 2.12
+    },
+    {
+      "name": "smoked paprika",
+      "amount_g": 0.5,
+      "amount_oz": 0.02
+    },
+    {
+      "name": "togarashi",
+      "amount_g": 5,
+      "amount_oz": 0.18
+    }
+  ],
+  "steps": [
+    "Blend the red bell pepper and deseeded habaneros in a food processor until fully pureed and liquidy.",
+    "Combine with half of the large onion pulp (about 1/4 of an onion).",
+    "Add this liquidy paste to a small saucepan or skillet, and cook over medium heat, until the majority of the water has evaporated and begins to caramelize, around 10-15 minutes.",
+    "Add the contents from step 2 to a bowl. Combine with the remaining ingredients. Whisk fully to incorporate."
+  ],
+  "notes": [
+    "This recipe is a variant of the standard miso approach but uses additional ingredients to highlight the actual pepper flavor, rather than merely adding spice.",
+    "This tare will keep for up to 12 months.",
+    "Add 70 g of tare per 350 mL soup."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

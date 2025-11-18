@@ -1,0 +1,48 @@
+{
+  "id": "kitakata-shoyu-tare",
+  "title": "Kitakata Shoyu Tare",
+  "source_url": null,
+  "yield_servings": 16,
+  "total_time_min": 20,
+  "tags": ["tare", "sauce", "seasoning", "ramen", "japanese", "shoyu", "soy sauce", "kitakata"],
+  "ingredients": [
+    {
+      "name": "dashi",
+      "amount_g": 200,
+      "amount_oz": 7.05
+    },
+    {
+      "name": "soy sauce",
+      "amount_g": 300,
+      "amount_oz": 10.6
+    },
+    {
+      "name": "small niboshi (such as iriko)",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "sugar",
+      "amount_g": 40,
+      "amount_oz": 1.41
+    },
+    {
+      "name": "salt",
+      "amount_g": 40,
+      "amount_oz": 1.41
+    }
+  ],
+  "steps": [
+    "Combine the above in a small saucepan, and bring to a boil to dissolve the salt and sugar.",
+    "Once fully dissolved, allow tare to cool, then strain.",
+    "If not used immediately, store in the refrigerator."
+  ],
+  "notes": [
+    "This recipe comes from Shichisai, who uses extremely high-quality soy sauce that you or I probably don't have. Just use the best soy sauce you can buy, and blend accordingly.",
+    "The steps itself are incredibly simple, but this tare is less flavor-forward than other shoyu tares due to the boil and additional salt content.",
+    "Store in the refrigerator for up to 6 months.",
+    "Add 30 mL of tare per 300 mL soup."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "toasted-shoyu-tare",
+  "title": "Toasted Shoyu Tare",
+  "source_url": null,
+  "yield_servings": 16,
+  "total_time_min": 400,
+  "tags": ["tare", "sauce", "seasoning", "ramen", "japanese", "shoyu", "soy sauce", "toasted"],
+  "ingredients": [
+    {
+      "name": "soy sauce",
+      "amount_g": 450,
+      "amount_oz": 15.9
+    },
+    {
+      "name": "kombu",
+      "amount_g": 15,
+      "amount_oz": 0.53
+    },
+    {
+      "name": "vegetable oil",
+      "amount_g": 15,
+      "amount_oz": 0.53
+    },
+    {
+      "name": "niboshi",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "katsuobushi",
+      "amount_g": 15,
+      "amount_oz": 0.53
+    },
+    {
+      "name": "mirin",
+      "amount_g": 50,
+      "amount_oz": 1.76
+    },
+    {
+      "name": "sake",
+      "amount_g": 40,
+      "amount_oz": 1.41
+    }
+  ],
+  "steps": [
+    "Combine the soy sauce and kombu into a sealed container.",
+    "Place in the fridge and rest at least 6 hours or up to 2 days.",
+    "When ready, heat a saucepan over medium heat.",
+    "Add your niboshi and vegetable oil, toast for 30-45 seconds, or until fragrant and starting to brown.",
+    "Add your soy sauce and kombu to the pot with the niboshi.",
+    "Heat the contents to 71°C/160°F, hold for 10 minutes.",
+    "Remove the kombu and discard.",
+    "Bring 82°C/180°F (or just below a boil) and hold for 15 minutes.",
+    "Add the katsuobushi, hold at 82°C/180°F for 5 more minutes.",
+    "Strain and reserve liquid on the side.",
+    "In a new clean pot, add your mirin and sake. Bring to a boil, and simmer for 5 minutes.",
+    "Add this mixture to your mixture from step 9."
+  ],
+  "notes": [
+    "This is a variant on the Standard Shoyu Tare. For those who like those caramelized, fish forward flavors, this is a good option, as the rapid heating of the niboshi here amplifies their flavor in the final tare.",
+    "Stores in the fridge for up to 6 months.",
+    "Add 35 mL of tare per 350 mL soup."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "smoked-shoyu-tare",
+  "title": "Smoked Shoyu Tare",
+  "source_url": null,
+  "yield_servings": 16,
+  "total_time_min": 180,
+  "tags": ["tare", "sauce", "seasoning", "ramen", "japanese", "shoyu", "soy sauce", "smoked", "smoker"],
+  "ingredients": [
+    {
+      "name": "smoked soy sauce (soy sauce smoked at 110°C/225°F until reduced by half)",
+      "amount_g": 300,
+      "amount_oz": 10.6
+    },
+    {
+      "name": "smoked mushroom liquid (mushrooms smoked at 110°C/225°F until withered)",
+      "amount_g": 250,
+      "amount_oz": 8.82
+    },
+    {
+      "name": "mirin",
+      "amount_g": 50,
+      "amount_oz": 1.76
+    },
+    {
+      "name": "brown sugar",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "salt",
+      "amount_g": 15,
+      "amount_oz": 0.53
+    },
+    {
+      "name": "MSG",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    }
+  ],
+  "steps": [
+    "To make smoked soy sauce: add soy sauce to a pan, place in a smoker at 110°C/225°F, and smoke until reduced by half.",
+    "To make smoked mushroom liquid: smoke mushrooms in a deep pan at 110°C/225°F, until withered.",
+    "Combine the above ingredients in a small saucepan, and bring to a boil to dissolve the salt and sugar.",
+    "Once fully dissolved, allow the tare to cool, then use it as needed."
+  ],
+  "notes": [
+    "Developed as part of a popup with Flat and Point.",
+    "Requires a smoker to make properly.",
+    "Add 30 mL of tare per 300 mL soup."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
