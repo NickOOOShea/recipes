@@ -1,0 +1,78 @@
+{
+  "id": "ramen-master-recipe",
+  "title": "Ramen Bowl - Master Recipe",
+  "source_url": "https://github.com/ramen-lord/ramen-book",
+  "yield_servings": 1,
+  "total_time_min": 30,
+  "tags": ["ramen", "japanese", "noodle soup", "customizable", "modular"],
+  "ingredients": [
+    {
+      "name": "BROTH - Choose one: Tonkotsu (pork bone, 18hr boil), Chicken Chintan (clear, 6hr simmer), Chicken Paitan (creamy, 8hr boil), or Vegetable broth",
+      "amount_g": 350,
+      "amount_oz": 12.3
+    },
+    {
+      "name": "TARE (seasoning) - Choose one: Shoyu (soy sauce based, 30-40ml), Shio (salt based, 30-40ml), or Miso (paste, 40-50g)",
+      "amount_g": 35,
+      "amount_oz": 1.2
+    },
+    {
+      "name": "NOODLES - Fresh ramen noodles (wheat + kansui alkaline salts), thickness varies by style",
+      "amount_g": 140,
+      "amount_oz": 4.9
+    },
+    {
+      "name": "AROMA OIL - Choose one: Chicken fat, pork lard, scallion oil, or mayu (black garlic oil)",
+      "amount_g": 15,
+      "amount_oz": 0.5
+    },
+    {
+      "name": "TOPPINGS - Chashu (braised pork belly), 2-3 slices",
+      "amount_g": 60,
+      "amount_oz": 2.1
+    },
+    {
+      "name": "TOPPINGS - Soft boiled egg (6-7 min), marinated in soy/mirin brine, halved",
+      "amount_g": 50,
+      "amount_oz": 1.8
+    },
+    {
+      "name": "TOPPINGS - Green onions, sliced thin",
+      "amount_g": 10,
+      "amount_oz": 0.4
+    },
+    {
+      "name": "TOPPINGS - Optional: menma (bamboo shoots), nori (seaweed), corn, bean sprouts, spinach, wood ear mushroom",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "PREPARE COMPONENTS IN ADVANCE: Make your chosen broth (6-18 hours depending on type), tare (30-90 min), aroma oil (30-60 min), chashu (4-12 hours), and marinated eggs (overnight). Fresh noodles need 24-48 hours rest after making. Store components separately in fridge until assembly.",
+    "HEAT BROTH: In a pot, heat your chosen broth to 95-100°C (203-212°F) until steaming hot. You need 350-400ml per bowl.",
+    "PREHEAT BOWL: Fill your serving bowl with boiling water to preheat it. This is critical - cold bowls cool the soup too quickly. Let sit while you prepare noodles.",
+    "BOIL NOODLES: Bring a large pot of water to a rolling boil (no salt needed). Add 130-150g fresh noodles and cook for 1-3 minutes depending on thickness. Stir gently to separate. Thin noodles (Hakata): 1-2 min. Medium noodles (Tokyo): 2-3 min. Thick noodles (Jiro, Tsukemen): 3-4 min.",
+    "ASSEMBLE BOWL BASE: Dump water from serving bowl. Add tare to empty bowl: 30-40ml for shoyu/shio, or 40-50g for miso. Add aroma oil (about 1 tablespoon/15ml). Pour hot broth over tare and oil, stir gently to combine.",
+    "DRAIN AND ADD NOODLES: Drain noodles thoroughly and shake off excess water. Add to bowl and arrange neatly in the center, using chopsticks to separate and fold if desired.",
+    "TOP AND SERVE: Arrange toppings artfully: chashu slices, halved soft-boiled egg, sliced green onions, and any optional toppings. Serve immediately while hot."
+  ],
+  "notes": [
+    "POPULAR COMBINATIONS:",
+    "• Shoyu Ramen: Chicken chintan + shoyu tare + scallion-niboshi oil + medium noodles + standard toppings",
+    "• Miso Ramen: Chicken-pork chintan + miso tare + ginger-onion lard + thick wavy noodles + corn, butter",
+    "• Tonkotsu: Pork bone paitan + shio or light shoyu tare + scallion oil + thin straight noodles + pickled ginger, sesame",
+    "• Tsukemen (dipping): Ultra-thick concentrated soup served separate from noodles for dipping",
+    "",
+    "BROTH OPTIONS: Chintan (clear, delicate) vs Paitan (cloudy, rich from emulsified collagen). Tonkotsu is pork bone paitan boiled 18+ hours.",
+    "",
+    "TARE is the soul of ramen - it provides ALL the salt. Without it, broth is bland. Typical ratio: 10% tare to broth volume.",
+    "",
+    "NOODLES must contain wheat flour + kansui (alkaline salts). This gives them yellow color and springy texture. Store-bought Sun Noodle brand works great. Fresh noodles improve after 1-2 days rest in fridge.",
+    "",
+    "TIMING: All components except noodles and assembly can be made days in advance. Final assembly takes only 5 minutes. Broths freeze well for 6 months.",
+    "",
+    "Source: The Ramen_Lord Book of Ramen by Mike Satinover (Ramen_Lord) - comprehensive guide to ramen components and techniques"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
