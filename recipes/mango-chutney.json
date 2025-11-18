@@ -1,0 +1,115 @@
+{
+  "id": "mango-chutney",
+  "title": "Mango Chutney",
+  "source_url": null,
+  "yield_servings": 80,
+  "total_time_min": 75,
+  "tags": [
+    "sauce",
+    "condiment",
+    "stovetop",
+    "indian",
+    "vegan",
+    "vegetarian",
+    "canning"
+  ],
+  "ingredients": [
+    {
+      "name": "neutral cooking oil",
+      "amount_g": 14,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh ginger, finely minced",
+      "amount_g": 8,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves, finely minced",
+      "amount_g": 10,
+      "amount_oz": null
+    },
+    {
+      "name": "red chili, sliced (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "whole nigella seeds",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "ground coriander",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cumin",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "ground turmeric",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cardamom",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cloves",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cinnamon",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "large mangoes, peeled and diced",
+      "amount_g": 1500,
+      "amount_oz": null
+    },
+    {
+      "name": "white granulated sugar",
+      "amount_g": 400,
+      "amount_oz": null
+    },
+    {
+      "name": "white vinegar",
+      "amount_g": 240,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Heat oil over medium-high in a medium stock pot.",
+    "Sauté ginger, garlic, and red chilies for 1 minute.",
+    "Add nigella seeds, coriander, cumin, turmeric, cardamom, cloves, and cinnamon. Sauté for another minute.",
+    "Add diced mangoes, sugar, salt, and vinegar. Stir to combine.",
+    "Bring to a rapid boil, then reduce heat to medium-low.",
+    "Simmer steadily for 1 hour, stirring occasionally.",
+    "Remove from heat and allow to cool.",
+    "If you prefer smaller chunks, use a potato masher to mash the mixture to desired consistency.",
+    "Store in sealed jars in refrigerator for up to 2 months, or freeze for several months.",
+    "For best results, let chutney sit for a few days before using to allow flavors to develop and mellow."
+  ],
+  "notes": [
+    "Volume conversions: 1 tbsp oil ≈ 14g, 2 tsp ginger ≈ 8g, 2 cloves garlic ≈ 10g, 2 tsp nigella seeds ≈ 6g, 1 tsp coriander ≈ 3g, ½ tsp cumin ≈ 2g, spices ≈ 2g each, 5 large mangoes ≈ 1500g total, 2 cups sugar ≈ 400g, 1 cup vinegar ≈ 240g",
+    "Nigella seeds are optional but highly recommended for incredible flavor",
+    "Remove chili seeds and membrane for less heat",
+    "Can substitute frozen mango (1500g total)",
+    "Makes roughly 2½ pints of chutney",
+    "Canning instructions: Pour hot mixture into sterilized jars and process in water bath for 10 minutes. Store in dark, cool place for at least 1 year"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

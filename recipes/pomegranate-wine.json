@@ -1,0 +1,115 @@
+{
+  "id": "pomegranate-wine",
+  "title": "Pomegranate Wine",
+  "source_url": null,
+  "yield_servings": 25,
+  "total_time_min": 129600,
+  "tags": [
+    "beverage",
+    "fermented",
+    "wine"
+  ],
+  "ingredients": [
+    {
+      "name": "large pomegranates",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "water",
+      "amount_g": 3785,
+      "amount_oz": null
+    },
+    {
+      "name": "white grapes",
+      "amount_g": 300,
+      "amount_oz": null
+    },
+    {
+      "name": "granulated sugar",
+      "amount_g": 907,
+      "amount_oz": 32
+    },
+    {
+      "name": "pomegranate molasses",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "acid blend",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "pectic enzyme",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "tannin",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "campden tablets",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "wine yeast (premiere blanc)",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "yeast nutrient",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "wine stabilizer (optional, for sweetening)",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "simple syrup or pomegranate juice (optional, for sweetening)",
+      "amount_g": 60,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Day 1: Sanitize all equipment, work area, and hands.",
+    "Wash and peel 6-8 large pomegranates, removing peel and membranes. Keep only the arils (seeds).",
+    "Mash the pomegranate arils using a potato masher or ricer over a fermenting bucket to catch all juice.",
+    "Blend white grapes in a food processor to extract juice. Add to bucket.",
+    "Add sugar to a stock pot with 1 gallon (3785g) water. Whisk and simmer over low heat until sugar dissolves and syrup is hot but not boiling.",
+    "Pour hot sugar water over mashed fruit.",
+    "Once cool, add pomegranate molasses, acid blend, tannin, and pectic enzyme.",
+    "Crush 1 campden tablet between two spoons and stir into the must. Take an SG reading with hydrometer (optional).",
+    "Cover bucket with breathable fabric secured with rubber band. Set aside for 24 hours.",
+    "Day 2: Using a sterilized spoon, stir yeast nutrient and half of the yeast packet into the must. Cover and set aside.",
+    "Day 3+: Stir daily and take SG readings.",
+    "When SG reaches 1.030 (day 4-7), remove mesh bag from bucket, squeeze juice back in, discard seeds.",
+    "Rack (transfer) juice into a 1-gallon carboy, leaving space for expansion.",
+    "Fill airlock halfway with sanitizer solution or water. Fit airlock into bung or screw cap.",
+    "Store carboy away from heat and direct sunlight between 70-85°F.",
+    "After 3 weeks, when SG is around 1.000, transfer wine into clean carboy, leaving sediment behind.",
+    "Allow wine to clear 1-3 months, re-racking into clean carboy each time.",
+    "Once clear, taste wine. If sweetening is desired, add ¼-⅓ cup simple syrup or pomegranate juice and ½ tsp wine stabilizer.",
+    "Take final SG reading and calculate ABV using formula: (Original SG - Final SG) × 131.25 = ABV%.",
+    "Add 1 crushed campden tablet to wine and stir until dissolved.",
+    "Bottle the wine and label with type, date, and alcohol percentage.",
+    "Age for at least 6 months before enjoying."
+  ],
+  "notes": [
+    "Volume conversions: 6-8 pomegranates yield about 5 cups arils, 1 gallon water ≈ 3785g, 2 cups grapes ≈ 300g, 4 cups sugar ≈ 907g, 2 tbsp molasses ≈ 30g, 2 tsp acid blend ≈ 6g, 1 tsp pectic enzyme ≈ 3g, ¼ tsp tannin ≈ 2g, ½ packet yeast ≈ 3g, 1½ tsp nutrient ≈ 5g",
+    "Total time is approximately 90 days minimum (3 months fermenting/clearing + 6 months aging)",
+    "Taking SG readings on day 1 and before bottling allows ABV calculation (optional but recommended)",
+    "Pour extra must in smaller bottle with airlock to top off larger jar during re-racking",
+    "Add sediment to compost bin or dilute with water for garden use",
+    "Serve chilled rather than at room temperature",
+    "Makes approximately 1 gallon (25 wine glasses)",
+    "Flip-top bottles are a cheaper alternative to wine bottles, corks, and corker"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

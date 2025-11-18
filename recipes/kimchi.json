@@ -1,0 +1,121 @@
+{
+  "id": "kimchi",
+  "title": "Homemade Kimchi",
+  "source_url": null,
+  "yield_servings": null,
+  "total_time_min": 480,
+  "tags": [
+    "side dish",
+    "fermented",
+    "korean",
+    "asian",
+    "vegan",
+    "vegetarian"
+  ],
+  "ingredients": [
+    {
+      "name": "napa cabbage",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "coarse sea salt (for brining)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "korean pear, peeled",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "onion (1 large per 2 heads of cabbage)",
+      "amount_g": 200,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh ginger",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "glutinous rice flour",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "beef stock powder",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "water",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "gochugaru (Korean red pepper flakes)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "fish sauce",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "soy sauce",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "spring onions, chopped",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "sugar",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "MSG (optional)",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "radish, cut into sticks (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Brine the cabbage: Quarter napa cabbage lengthwise. Dissolve a generous amount of coarse sea salt in water. Submerge cabbage in salt water and place a weight on top to keep it submerged.",
+    "Let brine for 6 hours, turning the cabbage a couple times during brining. The cabbage should be very salty when you taste it - don't worry, it will be rinsed.",
+    "After 6 hours, rinse the cabbage thoroughly under cold water to remove salt. The cabbage should bend without breaking when properly brined. Let drain completely.",
+    "Make the paste base: Blend Korean pear, onion (1 large onion per 2 heads of cabbage), garlic, and ginger until smooth.",
+    "Make glutinous rice flour mixture: Mix glutinous rice flour with water and beef stock powder. Cook until thickened, then cool completely.",
+    "Mix the paste: Combine the blended pear mixture, cooled rice flour mixture, gochugaru (use high quality Korean gochugaru like Nongshim brand), fish sauce, soy sauce, sugar, and a tiny bit of MSG.",
+    "Add chopped spring onions to the paste.",
+    "If making radish kimchi, divide the paste and add radish sticks to one portion.",
+    "Wearing gloves, coat each cabbage leaf thoroughly with the paste, working from the outer leaves inward.",
+    "Pack the kimchi tightly into clean jars or containers. Press down to remove air pockets.",
+    "Let ferment at room temperature for 1-3 days depending on desired sourness, then refrigerate.",
+    "Kimchi will continue to ferment slowly in the refrigerator and develop flavor over time."
+  ],
+  "notes": [
+    "Recipe adapted from Maangchi and Baek Jongwon's methods",
+    "The key to good kimchi is generous salting - the cabbage should taste too salty before rinsing",
+    "Use high-quality Korean gochugaru (not Chinese substitutes) for best flavor and color - Nongshim brand recommended",
+    "Korean pear adds natural sweetness and is healthier than adding extra sugar",
+    "Measurements are intentionally flexible - adjust to taste as you go",
+    "1 large onion ≈ 200g"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
