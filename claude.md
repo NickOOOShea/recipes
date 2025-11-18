@@ -6,41 +6,14 @@
 
 **Completed:**
 - ✅ Full site structure created (`index.html`, `app.js`, `styles.css`)
-- ✅ `/recipes/` directory with empty `index.json`
-- ✅ Git repository initialized
-- ✅ Initial commit made
-- ✅ `.gitignore` created
-- ✅ User installed and authenticated GitHub CLI (`gh`)
+- ✅ Git repository initialized and pushed to GitHub
+- ✅ GitHub Pages enabled and live
+- ✅ Recipe library with 35+ recipes
+- ✅ Modular recipe system implemented (see ramen-modular.json)
+- ✅ Intelligent auto-tagging system
+- ✅ Search and filter functionality
 
-**In Progress:**
-- ⏳ Create GitHub repository
-- ⏳ Push code to GitHub
-- ⏳ Enable GitHub Pages
-
-**Blocked:** GitHub CLI not available in current session PATH. User needs to restart Claude Code.
-
-## Next Steps (After Restart)
-
-1. **Verify GitHub CLI is available:**
-   ```bash
-   gh auth status
-   ```
-
-2. **Create GitHub repository and push:**
-   ```bash
-   gh repo create recipes --public --source=. --remote=origin --push
-   ```
-
-3. **Enable GitHub Pages:**
-   ```bash
-   gh api repos/{owner}/{repo}/pages -X POST -f source[branch]=master -f source[path]=/
-   ```
-   (Replace `{owner}` and `{repo}` with actual values from step 2)
-
-4. **Provide live URL to user:**
-   - Format: `https://<username>.github.io/recipes/`
-
-5. **Ask user for their first recipe** to add to the library
+**Live Site:** https://github.com/NickOOOShea/recipes (GitHub Pages auto-deploys from master branch)
 
 ## Project Context
 
@@ -56,6 +29,86 @@ All recipes in `/recipes/*.json` follow this structure:
 - `steps`: Array of instruction strings
 - `notes`: Array of additional comments
 - `created_at` / `last_updated_at`: YYYY-MM-DD format
+
+### Modular Recipe System
+
+**When the user says "modular" they mean an interactive recipe where users can select components and the recipe dynamically updates.**
+
+**When to use modular recipes:**
+- Recipes with interchangeable components (ramen with different broths/tares, pizza with different toppings)
+- Recipes where users build their own version (build-your-own-bowl concepts)
+- Recipes with many optional variations that would otherwise require dozens of separate recipe cards
+
+**DO NOT create modular recipes for:**
+- Simple recipes with one or two optional ingredients
+- Recipes that are just a single preparation method
+- When a regular recipe with optional ingredients in notes would suffice
+
+**Modular Recipe Schema:**
+```json
+{
+  "id": "recipe-modular",
+  "title": "Recipe Name - Build Your Own",
+  "modular": true,
+  "source_url": "optional",
+  "yield_servings": 1,
+  "total_time_min": null,
+  "tags": ["tag1", "tag2", "customizable", "modular"],
+  "components": {
+    "category_name": {
+      "label": "Choose Your Category",
+      "required": true,
+      "multiple": false,
+      "options": [
+        {
+          "id": "option-id",
+          "name": "Option Display Name",
+          "time_min": 60,
+          "ingredients": [
+            {"name": "ingredient", "amount_g": 100, "amount_oz": 3.5}
+          ],
+          "steps": ["Step 1", "Step 2"]
+        }
+      ]
+    },
+    "toppings_category": {
+      "label": "Select Toppings",
+      "required": false,
+      "multiple": true,
+      "options": [...]
+    }
+  },
+  "assembly": {
+    "ingredients": [...],
+    "steps": ["Final assembly step 1", "Step 2"]
+  },
+  "notes": ["Popular combinations and tips"],
+  "created_at": "YYYY-MM-DD",
+  "last_updated_at": "YYYY-MM-DD"
+}
+```
+
+**How it works:**
+- `modular: true` flag tells app.js to render interactive selectors
+- `multiple: false` = dropdown (single select)
+- `multiple: true` = checkboxes (multi-select, like toppings)
+- Each option contains its own ingredients and steps
+- Assembly section contains final construction steps
+- app.js dynamically builds ingredient list and steps based on user selections
+- Real-time updates as user changes selections
+
+**Example use cases:**
+- Ramen: Choose broth + tare + oil + toppings
+- Pizza: Choose sauce + cheese + toppings + crust style
+- Tacos: Choose protein + toppings + salsa + tortilla type
+- Salad: Choose base + protein + dressing + toppings
+- Burrito bowl: Choose base + protein + beans + toppings
+
+**Implementation:**
+- Frontend handles all interactivity (no backend needed)
+- Selections stored in URL hash for sharing custom combinations
+- CSS styling in styles.css for `.modular-selectors` and related classes
+- See `ramen-modular.json` for complete working example
 
 ### Intelligent Auto-Tagging System
 When adding recipes, automatically detect and add relevant tags:
