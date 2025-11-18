@@ -1,0 +1,96 @@
+{
+  "id": "blue-cheese-foam",
+  "title": "Blue Cheese Foam Sequence",
+  "source_url": null,
+  "yield_servings": 4,
+  "total_time_min": 45,
+  "tags": [
+    "appetizer",
+    "molecular gastronomy",
+    "no-cook",
+    "vegetarian"
+  ],
+  "ingredients": [
+    {
+      "name": "blue cheese",
+      "amount_g": 100,
+      "amount_oz": 3.5
+    },
+    {
+      "name": "heavy cream",
+      "amount_g": 125,
+      "amount_oz": null
+    },
+    {
+      "name": "whole milk",
+      "amount_g": 70,
+      "amount_oz": null
+    },
+    {
+      "name": "olive oil",
+      "amount_g": 40,
+      "amount_oz": null
+    },
+    {
+      "name": "salt and pepper",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Port wine",
+      "amount_g": 140,
+      "amount_oz": null
+    },
+    {
+      "name": "Agar Agar",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "walnut halves",
+      "amount_g": 20,
+      "amount_oz": null
+    },
+    {
+      "name": "celery slices",
+      "amount_g": 20,
+      "amount_oz": null
+    },
+    {
+      "name": "dried pear slices",
+      "amount_g": 20,
+      "amount_oz": null
+    },
+    {
+      "name": "grape halves (or fizzy carbonated grapes)",
+      "amount_g": 20,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "For Blue Cheese Foam: Mix blue cheese, milk, and olive oil (reserving heavy cream) in a blender. Blend until smooth.",
+    "Pass mixture through a fine sieve.",
+    "Add heavy cream, season to taste with salt and pepper and stir. Keep in mind that the foam is going to expand 2 or 3 times in the ISI Whip so you need to season 2 or 3 times more than what you would normally do.",
+    "Pour mixture into ISI Whip, screw 1 cream charger (2 if using 1L ISI Whip) and shake vigorously after each one.",
+    "Refrigerate for at least 30 minutes.",
+    "For Port Jelly: In a saucepan heat the port with Agar Agar over medium heat while you continuously whisk.",
+    "Let it simmer while whisking for 5 minutes to reduce the port a little and intensify the flavor.",
+    "Remove the saucepan from the heat and pass the mixture through a fine sieve to remove any bubbles.",
+    "Pour the Port and Agar mixture into a flat container to form a layer of 7mm (0.28 in) thick. Let it cool at room temperature on a flat surface.",
+    "Once the Port is jellified, cut it in 1 cm (0.4 in) squares using a knife. Use a small spatula to handle the squares. If you are not going to use them right away, store them in a sealed container in the fridge.",
+    "To Assemble: Get your Anti-Griddle ready (freeze a metal baking sheet or use dry ice).",
+    "For each serving, pump 5 dollops of blue cheese foam onto the Anti-Griddle. The dollop should be about 1.9 to 2.5 cm (3/4 to 1 inch) in diameter and 1.3 cm (1/2 inch) high.",
+    "Place the pairing ingredients on top of each dollop: walnut, celery, grape, pear and port jelly square.",
+    "If using a home-made Anti-Griddle, the total time the dollop should be on the cold surface is between 1½-2 minutes. The bottom should be frozen hard but the center and top of the dollop should be soft and at room temperature.",
+    "Transfer dollop to serving plate using a spatula. Serving plate should be cold so it gives you time to prepare all plates before serving."
+  ],
+  "notes": [
+    "Volume conversions: 100g blue cheese ≈ 3.5 oz, 125ml heavy cream ≈ 125g, 70ml milk ≈ 70g, 40ml olive oil ≈ 40g, 140g port, 1g agar agar ≈ 0.7%, 4 walnuts ≈ 20g, 4 celery slices ≈ 20g, 4 pear slices ≈ 20g, 4 grape halves ≈ 20g",
+    "Requires special equipment: ISI Whip with cream chargers, Anti-Griddle or freezer-safe metal sheet",
+    "An Anti-Griddle is a molecular gastronomy equipment made by PolyScience - you can make a DIY version at home using a frozen metal baking sheet",
+    "Blue cheese foam pairs with walnuts, celery, port, pears and grapes - stimulates the senses with a variety of flavor pairings, temperatures and textures",
+    "For an extra twist, carbonate the grapes to make them fizzy and resemble champagne"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

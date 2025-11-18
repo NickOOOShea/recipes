@@ -1,0 +1,124 @@
+{
+  "id": "jambalaya",
+  "title": "Jambalaya",
+  "source_url": "https://www.thekitchn.com",
+  "yield_servings": 4,
+  "total_time_min": 60,
+  "tags": [
+    "main course",
+    "cajun",
+    "american",
+    "southern",
+    "chicken",
+    "sausage",
+    "stovetop"
+  ],
+  "ingredients": [
+    {
+      "name": "garlic powder",
+      "amount_g": 10,
+      "amount_oz": null
+    },
+    {
+      "name": "onion powder",
+      "amount_g": 8,
+      "amount_oz": null
+    },
+    {
+      "name": "paprika",
+      "amount_g": 7,
+      "amount_oz": null
+    },
+    {
+      "name": "ground white pepper",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cayenne",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "small yellow onion, diced",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "medium celery stalks, diced",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "medium green bell pepper, diced",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic, minced",
+      "amount_g": 9,
+      "amount_oz": null
+    },
+    {
+      "name": "boneless, skinless chicken thighs, cut into bite-size pieces",
+      "amount_g": 340,
+      "amount_oz": 12
+    },
+    {
+      "name": "andouille or smoked sausage, cut into 1/2-inch thick rounds",
+      "amount_g": 340,
+      "amount_oz": 12
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": 9,
+      "amount_oz": null
+    },
+    {
+      "name": "neutral oil (canola)",
+      "amount_g": 28,
+      "amount_oz": null
+    },
+    {
+      "name": "medium or long-grain white rice",
+      "amount_g": 400,
+      "amount_oz": null
+    },
+    {
+      "name": "water or low-sodium chicken broth",
+      "amount_g": 600,
+      "amount_oz": null
+    },
+    {
+      "name": "medium scallions, thinly sliced",
+      "amount_g": 20,
+      "amount_oz": null
+    },
+    {
+      "name": "vinegar-based hot sauce (Crystal brand recommended)",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Make Creole seasoning: Place garlic powder, onion powder, paprika, white pepper, and cayenne in a small bowl and stir to combine.",
+    "Place diced onion, celery, bell pepper, and minced garlic in a medium bowl.",
+    "Cut chicken thighs into bite-size pieces. Season the chicken with 4.5g of the kosher salt and 1 tablespoon of the Creole seasoning. Cut sausage into 1/2-inch thick rounds.",
+    "Heat 14g of the oil in a large, heavy-bottomed pot or Dutch oven over medium-high heat until shimmering. You'll know the oil is hot enough when a sprinkle of water pops and crackles.",
+    "Add the sausage in a single layer and cook until browned on the cut sides, 3 to 4 minutes per side. Using tongs, transfer the sausage to a plate.",
+    "Add the remaining 14g oil to the drippings in the pot. Add the chicken and cook until browned, 2 to 3 minutes per side. Using tongs, transfer the chicken to the plate with the sausage.",
+    "Add the vegetable mixture, remaining Creole seasoning, and remaining 4.5g kosher salt. Cook, scraping up the browned bits from the bottom of the pot and stirring occasionally, until the onions are translucent, about 2 minutes.",
+    "Add rice and cook, stirring frequently, until the rice is opaque and toasty smelling, about 3 minutes.",
+    "Pour in water or chicken broth and bring to a boil. Return the chicken and sausage and any accumulated juices to the pot and give everything one good stir to mix together.",
+    "Cover, reduce the heat to low, and simmer undisturbed until the rice is cooked through, 20 to 30 minutes.",
+    "Give the mixture a gentle stir on top. Cover again, remove from the heat, and let sit for 10 minutes. If the rice is still too wet, take the lid off so the extra liquid evaporates. If the rice is a little dry, keep the lid on a little longer to give the rice more time to absorb the liquid.",
+    "Once rice is at desired consistency, fluff and serve. Garnish with scallions and a few dashes of vinegar-based hot sauce."
+  ],
+  "notes": [
+    "Volume conversions: 1 tbsp garlic powder ≈ 10g, 1 tbsp onion powder ≈ 8g, 1 tbsp paprika ≈ 7g, 1 tsp white pepper ≈ 2g, 1/2 tsp cayenne ≈ 1g, 1 small onion ≈ 150g, 3 celery stalks ≈ 150g, 1 bell pepper ≈ 150g, 3 cloves garlic ≈ 9g, 12 oz chicken ≈ 340g, 12 oz sausage ≈ 340g, 1½ tsp salt ≈ 9g, 2 tbsp oil ≈ 28g, 2 cups rice ≈ 400g, 2½ cups broth ≈ 600g, 2 scallions ≈ 20g",
+    "The Creole seasoning can be made up to 1 month ahead and stored in an airtight container",
+    "Leftovers can be refrigerated in an airtight container up to 4 days"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

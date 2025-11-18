@@ -1,0 +1,108 @@
+{
+  "id": "octopus-taco",
+  "title": "Octopus Taco with Pineapple and Salsa de Semilla",
+  "source_url": null,
+  "yield_servings": 4,
+  "total_time_min": 330,
+  "tags": [
+    "mexican",
+    "main course",
+    "seafood",
+    "sous vide",
+    "grill",
+    "tacos"
+  ],
+  "ingredients": [
+    {
+      "name": "Spanish octopus",
+      "amount_g": 1200,
+      "amount_oz": null
+    },
+    {
+      "name": "olive oil for cooking",
+      "amount_g": 42,
+      "amount_oz": null
+    },
+    {
+      "name": "Masa Mole Mexican Blend or taco seasoning",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "sunflower seeds",
+      "amount_g": 35,
+      "amount_oz": null
+    },
+    {
+      "name": "pine nuts",
+      "amount_g": 35,
+      "amount_oz": null
+    },
+    {
+      "name": "sesame seeds",
+      "amount_g": 35,
+      "amount_oz": null
+    },
+    {
+      "name": "cumin seeds",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "pineapple, diced small",
+      "amount_g": 300,
+      "amount_oz": null
+    },
+    {
+      "name": "cilantro, chopped",
+      "amount_g": 25,
+      "amount_oz": null
+    },
+    {
+      "name": "lime juice",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "tortillas for serving",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "beans for serving",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Blanch octopus in boiling water by dipping the entire octopus in the water for 3 seconds and then pulling it out. Repeat this process for a total of 3 dips.",
+    "Sous vide octopus tentacles with a splash of oil and a pinch of salt at 175°F for 5 hours. Alternatively you can continue to boil octopus until tender, about an hour or so.",
+    "When the octopus is cooked, you can either dip them into an ice bath to stop cooking and set the skin, or let it cool completely in the cooking liquid if time permits.",
+    "While the octopus cools, make your salsas and heat your grill.",
+    "For Salsa de Semilla: Heat olive oil in a sauce pan over medium heat and add garlic to toast.",
+    "When garlic is light brown, add sunflower seeds, pine nuts, sesame seeds, and cumin seeds. Continue to toast until fragrant, 30 seconds or so. Remove from the heat.",
+    "For Pineapple Salsa: Toss diced pineapple with chopped cilantro and lime juice. Season to taste with salt.",
+    "Remove the tentacles from the body of the octopus if you boiled (they should already be removed if you used sous vide).",
+    "Toss tentacles with just enough olive oil to coat and season them generously with Masa Mole and salt.",
+    "Gently and carefully place them on the well oiled and clean grill so they do not stick. They are already cooked so we just want a quick hot sear to char them a bit.",
+    "Assemble your taco: Tortilla, then beans, then octopus, and finish with both of your salsas."
+  ],
+  "notes": [
+    "Volume conversions: 2-3 lbs octopus ≈ 1200g, 3 tbsp olive oil ≈ 42g, 2 tbsp Masa Mole ≈ 30g, 1/4 cup sunflower seeds ≈ 35g, 1/4 cup pine nuts ≈ 35g, 1/4 cup sesame seeds ≈ 35g, 1 tsp cumin ≈ 2g, 2 cloves garlic ≈ 6g, 1/2 pineapple ≈ 300g, 1 bunch cilantro ≈ 25g, 1 lime juice ≈ 30g",
+    "The triple dip blanch technique is a classic Galician technique used throughout Spain - it slowly tempers the tentacles and prevents them from tensing up and getting tough",
+    "Sous vide is a modern cooking technique where you vacuum seal your ingredients and dip them into water heated to an exact temperature",
+    "Inspired by the octopus tacos of Sayulita, Mexico - reminiscent of tacos al pastor but with octopus instead of pork"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

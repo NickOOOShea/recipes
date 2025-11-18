@@ -1,0 +1,82 @@
+{
+  "id": "panzanella-salad",
+  "title": "Panzanella Salad",
+  "source_url": "https://www.seriouseats.com",
+  "yield_servings": 6,
+  "total_time_min": 80,
+  "tags": [
+    "salad",
+    "side dish",
+    "italian",
+    "vegetarian",
+    "oven",
+    "summer"
+  ],
+  "ingredients": [
+    {
+      "name": "mixed ripe tomatoes, cut into bite-size pieces",
+      "amount_g": 1100,
+      "amount_oz": null
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": 8,
+      "amount_oz": null
+    },
+    {
+      "name": "ciabatta or rustic sourdough bread, cut into 1½-inch cubes",
+      "amount_g": 340,
+      "amount_oz": null
+    },
+    {
+      "name": "extra-virgin olive oil, divided",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "shallot, minced",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic, minced",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "Dijon mustard",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "white wine vinegar or red wine vinegar",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "packed basil leaves, roughly chopped",
+      "amount_g": 20,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Place chopped tomatoes in a colander set over a bowl and season with 8g kosher salt. Toss to coat. Set aside at room temperature to drain, tossing occasionally, for a minimum of 15 minutes.",
+    "Meanwhile, preheat oven to 350°F (180°C) and adjust rack to center position. In a large bowl, toss bread cubes with 30g olive oil. Transfer to a rimmed baking sheet.",
+    "Bake about 15 minutes, until crisp and firm but not browned. Remove from oven and let cool.",
+    "Remove colander with tomatoes from bowl with tomato juice. Place colander with tomatoes in sink.",
+    "Add shallot, garlic, mustard, and vinegar to bowl with tomato juice. Whisking constantly, drizzle in remaining 120g olive oil. Season dressing to taste with salt and pepper.",
+    "Combine toasted bread, tomatoes, and dressing in a large bowl. Add basil leaves. Toss everything to coat and season with salt and pepper.",
+    "Let rest 30 minutes before serving, tossing occasionally until the dressing is absorbed by the bread."
+  ],
+  "notes": [
+    "Use a hearty, open-structured bread, like ciabatta or sourdough",
+    "Volume conversions: 2½ lbs tomatoes ≈ 1100g, 2 tsp salt ≈ 8g, ¾ lb bread ≈ 340g, 10 tbsp olive oil ≈ 150g, 1 small shallot ≈ 30g, 2 cloves garlic ≈ 6g, ½ tsp mustard ≈ 3g, 2 tbsp vinegar ≈ 30g, ½ cup basil ≈ 20g"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
