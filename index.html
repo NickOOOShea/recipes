@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Recipe Library</h1>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Search recipes...">
+        <div id="tag-filters" class="tag-filters"></div>
+        <button id="clear-filters">Clear Filters</button>
+      </div>
+    </header>
+
+    <main id="recipe-grid" class="recipe-grid">
+      <!-- Recipe cards will be inserted here by JavaScript -->
+    </main>
+
+    <div id="no-results" class="no-results" style="display: none;">
+      <p>No recipes found. Try different search terms or filters.</p>
+    </div>
+  </div>
+
+  <!-- Modal for recipe details -->
+  <div id="recipe-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
