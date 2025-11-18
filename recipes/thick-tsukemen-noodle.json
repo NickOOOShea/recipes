@@ -1,0 +1,56 @@
+{
+  "id": "thick-tsukemen-noodle",
+  "title": "Thick Tsukemen Noodle",
+  "source_url": null,
+  "yield_servings": 1,
+  "total_time_min": 150,
+  "tags": ["noodles", "ramen", "japanese", "tsukemen", "thick", "whole-wheat"],
+  "ingredients": [
+    {
+      "name": "all-purpose flour (10.5% protein)",
+      "amount_g": 94,
+      "amount_oz": 3.32
+    },
+    {
+      "name": "whole wheat all-purpose flour",
+      "amount_g": 6,
+      "amount_oz": 0.21
+    },
+    {
+      "name": "water",
+      "amount_g": 40,
+      "amount_oz": 1.41
+    },
+    {
+      "name": "baked soda or powdered kansui (60% potassium, 40% sodium)",
+      "amount_g": 1,
+      "amount_oz": 0.04
+    },
+    {
+      "name": "salt",
+      "amount_g": 1,
+      "amount_oz": 0.04
+    }
+  ],
+  "steps": [
+    "Add kansui powder and salt to the water, dissolve completely. If using both sodium carbonate and potassium carbonate, add them one at a time. Go slowly, stir constantly until clear. This will take a while, but eventually, the contents will dissolve. You can make the solution several days before to get a jumpstart, just hold the liquid in an airtight container.",
+    "In a standing mixer with a paddle attachment, add your flour. Turn the mixer to \"stir\" and run for 30 seconds to aerate the mix.",
+    "While running the mixer on stir, add two thirds of your water mixture slowly, in an even stream. Let the mixer stir the flour and water mixture for 3 minutes.",
+    "Add in the remaining water mixture with the mixer running, run for another minute, until small clumps begin to form.",
+    "Turn off the mixer, and add the mixture to a sealable bag. Close, and let this rest for 1 hour at room temperature. Don't skip this.",
+    "Knead it, by using an electric pasta machine to sheet the dough, going through the largest setting, then the 2nd, then the 3rd. Take the dough and fold it, sheeting under the 2nd widest setting, then fold it again and sheet it under the widest setting. Repeat this until the sheet is quite smooth and not ragged.",
+    "After kneading, put the dough back in the plastic bag, and rest at room temp for another 30 minutes.",
+    "Pull out your dough. Portion into workable sizes, and roll out to desired thickness using the pasta machine, using potato or cornstarch as you go to prevent sticking. For this noodle, rolling to around 3mm thick is ideal.",
+    "Cut your noodles to your desired thickness. 3.0 mm by 3.0 mm is ideal for an extra thick noodle.",
+    "Bundle the noodles into 180-200 g portions and place them in a sealable bag. Put the bag in the fridge and allow it to rest for at least a day."
+  ],
+  "notes": [
+    "Uses whole wheat flour to add more wheat flavor, change color/appearance, and reduce some gluten formation",
+    "The bran and germ contain the majority of the wheat flavor and mineral content",
+    "Higher ash content creates a browner hue with nice flecks",
+    "Because tsukemen noodles are so thick and so hydrated, you don't want a large amount of gluten. Developing the gluten too much will cause the noodles to be extremely, unpleasantly chewy, and require extensive cooking time",
+    "Rest in fridge for at least 1 day before use"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

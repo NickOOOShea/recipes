@@ -1,0 +1,67 @@
+{
+  "id": "sapporo-style-noodle",
+  "title": "Sapporo Style Noodle",
+  "source_url": null,
+  "yield_servings": 1,
+  "total_time_min": 2970,
+  "tags": ["noodles", "ramen", "japanese", "sapporo", "wavy", "crinkled"],
+  "ingredients": [
+    {
+      "name": "King Arthur bread flour",
+      "amount_g": 98.5,
+      "amount_oz": 3.47
+    },
+    {
+      "name": "vital wheat gluten",
+      "amount_g": 1.5,
+      "amount_oz": 0.05
+    },
+    {
+      "name": "egg white powder",
+      "amount_g": 1,
+      "amount_oz": 0.04
+    },
+    {
+      "name": "water",
+      "amount_g": 38,
+      "amount_oz": 1.34
+    },
+    {
+      "name": "salt",
+      "amount_g": 1,
+      "amount_oz": 0.04
+    },
+    {
+      "name": "baked soda or powdered kansui",
+      "amount_g": 1.6,
+      "amount_oz": 0.06
+    },
+    {
+      "name": "riboflavin (optional)",
+      "amount_g": 0.01,
+      "amount_oz": 0.0
+    }
+  ],
+  "steps": [
+    "Add kansui powder and salt to the water (and riboflavin if using), dissolve completely. If using both sodium carbonate and potassium carbonate, add them one at a time. Go slowly, stir constantly until clear. This will take a while, but eventually, the contents will dissolve. You can make the solution several days before to get a jumpstart, just hold the liquid in an airtight container.",
+    "In a standing mixer with a paddle attachment, add your flour, wheat gluten, and egg white powder, Turn the mixer to \"stir\" and run for 30 seconds to aerate the mix.",
+    "While running the mixer on stir, add two thirds of your water mixture slowly, in an even stream. Let the mixer stir the flour and water mixture for 3 minutes.",
+    "Add in the remaining water mixture with the mixer running, run for another minute, until small clumps begin to form.",
+    "Turn off the mixer, and add the mixture to a sealable bag. Close, and let this rest for 1-2 hours at room temperature. Don't skip this.",
+    "Knead it, by using an electric pasta machine to sheet the dough, going through the largest setting, then the 2nd, then the 3rd. Take the dough and fold it, sheeting under the 2nd widest setting, then fold it again and sheet it under the widest setting. Repeat this until the sheet is quite smooth and not ragged.",
+    "After kneading, put the dough back in the plastic bag, and rest at room temp for another 30 minutes.",
+    "Pull out your dough. Portion into workable sizes, and roll out to desired thickness with the pasta machine, using potato or cornstarch as you go to prevent sticking.",
+    "Cut your noodles to your desired thickness. 1.5 mm by 1.5mm is standard for these, but 2.0 mm by 2.0 mm is also nice.",
+    "Take the noodles and compress them together, sort of like making a snowball, then detangle them, to create a wavy, crinkled pattern.",
+    "Bundle the noodles into 140 g portions and place them in a sealable bag. Put the bag in the fridge and allow it to rest for at least two days."
+  ],
+  "notes": [
+    "The key is to make sure it rests aptly during mixing, and in the fridge",
+    "Best after at least two days in the fridge, but you can go much longer",
+    "If using powdered kansui, use 1.3 g sodium carbonate and 0.3 g potassium carbonate",
+    "You can conversely rest these noodles at room temperature for one to two days for additional density in the starch gel and a slightly translucent look",
+    "The wavy, crinkled pattern is created by compressing and detangling the noodles"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "taishoken-style-tsukemen-noodle",
+  "title": "Taishoken Style Tsukemen Noodle",
+  "source_url": null,
+  "yield_servings": 1,
+  "total_time_min": 150,
+  "tags": ["noodles", "ramen", "japanese", "tsukemen", "taishoken", "delicate", "soft", "egg"],
+  "ingredients": [
+    {
+      "name": "all purpose flour (11.7% protein)",
+      "amount_g": 60,
+      "amount_oz": 2.12
+    },
+    {
+      "name": "Swan's Down cake flour (9% protein)",
+      "amount_g": 40,
+      "amount_oz": 1.41
+    },
+    {
+      "name": "water",
+      "amount_g": 37,
+      "amount_oz": 1.31
+    },
+    {
+      "name": "whole egg",
+      "amount_g": 4,
+      "amount_oz": 0.14
+    },
+    {
+      "name": "baked soda",
+      "amount_g": 1,
+      "amount_oz": 0.04
+    },
+    {
+      "name": "salt",
+      "amount_g": 1,
+      "amount_oz": 0.04
+    }
+  ],
+  "steps": [
+    "Add the kansui powder and salt to the water, dissolve completely. Go slowly, stir constantly until clear. This will take a while, but eventually, the contents will dissolve.",
+    "Add in the egg, whisking to combine thoroughly.",
+    "In a standing mixer with a paddle attachment, add your flours. Turn the mixer to \"stir\" and run for 30 seconds to aerate the mix.",
+    "While running the mixer on stir, add two thirds of your water mixture slowly, in an even stream. Let the mixer stir the flour and water mixture for 3 minutes.",
+    "Add in the remaining water mixture with the mixer running, run for another minute, until small clumps begin to form.",
+    "Turn off the mixer, and add the mixture to a sealable bag. Close, and let this rest for 1 hour at room temperature. Don't skip this.",
+    "Knead it, by using an electric pasta machine to sheet the dough, going through the largest setting, then the 2nd, then the 3rd. Take the dough and fold it, sheeting under the 2nd widest setting, then fold it again and sheet it under the widest setting. Repeat this until the sheet is quite smooth and not ragged.",
+    "After kneading, put the dough back in the plastic bag, and rest at room temp for another 30 minutes.",
+    "Pull out your dough. Portion into workable sizes, and roll out to desired thickness using the pasta machine, using potato or cornstarch as you go to prevent sticking.",
+    "Cut your noodles to your desired thickness. 2.0 mm by 2.0 mm is as close to the Taishoken standard as most folks can get.",
+    "Bundle the noodles into 200 g portions, and place them in a sealable bag. You'll want to use these within a day, the texture changes dramatically as they age."
+  ],
+  "notes": [
+    "Based on the Higashi Ikebukuro Taishoken style of tsukemen, the originator of the tsukemen style of ramen",
+    "Has an almost soft, light noodle",
+    "Meant to be very delicate in contrast to a lighter, slightly vinegary broth",
+    "Whole egg in the noodle helps add some tenderness via the yolk (their original recipe claims to add one whole egg for every 300 portions)",
+    "A standard egg has 50 g, so adjust accordingly",
+    "Because these noodles are meant to be on the softer side, they do not age well. Aging the noodle results in a denser, firmer texture",
+    "These noodles will be good for only about 24 hours in the fridge",
+    "A 200 gram portion is not difficult to eat"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
