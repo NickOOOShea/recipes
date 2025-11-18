@@ -1,0 +1,111 @@
+{
+  "id": "keto-bacon-meatloaf",
+  "title": "Keto Bacon Meatloaf",
+  "source_url": null,
+  "yield_servings": 6,
+  "total_time_min": 75,
+  "tags": [
+    "main course",
+    "oven",
+    "beef",
+    "keto",
+    "low-carb"
+  ],
+  "ingredients": [
+    {
+      "name": "extra virgin olive oil",
+      "amount_g": 14,
+      "amount_oz": null
+    },
+    {
+      "name": "onion, chopped",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "celery stalk, chopped",
+      "amount_g": 40,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves, minced",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "dried oregano",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "chili powder",
+      "amount_g": 3,
+      "amount_oz": null
+    },
+    {
+      "name": "ground beef",
+      "amount_g": 907,
+      "amount_oz": 32
+    },
+    {
+      "name": "shredded cheddar cheese",
+      "amount_g": 113,
+      "amount_oz": 4
+    },
+    {
+      "name": "almond flour",
+      "amount_g": 60,
+      "amount_oz": null
+    },
+    {
+      "name": "grated Parmesan cheese",
+      "amount_g": 28,
+      "amount_oz": 1
+    },
+    {
+      "name": "eggs",
+      "amount_g": 100,
+      "amount_oz": null
+    },
+    {
+      "name": "low-sodium soy sauce",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "black pepper",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "thin bacon strips",
+      "amount_g": 180,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat oven to 400°F (205°C). Grease a medium baking dish with cooking spray.",
+    "Heat olive oil in a medium skillet over medium heat. Add onion and celery. Cook until soft, about 5 minutes.",
+    "Stir in garlic, oregano, and chili powder. Cook until fragrant, about 1 minute.",
+    "Let vegetable mixture cool slightly.",
+    "In a large bowl, combine ground beef, cooled vegetable mixture, cheddar cheese, almond flour, Parmesan, eggs, and soy sauce.",
+    "Season generously with salt and pepper. Mix until well combined.",
+    "Shape mixture into a large loaf in the prepared baking dish.",
+    "Lay bacon strips on top of the meatloaf.",
+    "Bake until bacon is crispy and beef is cooked through, about 1 hour. If bacon is cooking too quickly, cover dish with foil.",
+    "Let rest for 5-10 minutes before slicing and serving."
+  ],
+  "notes": [
+    "Volume conversions: 1 tbsp olive oil ≈ 14g, 1 medium onion ≈ 150g, 1 celery stalk ≈ 40g, 3 garlic cloves ≈ 15g, 1 tsp oregano ≈ 3g, 1 tsp chili powder ≈ 3g, 2 lb ground beef ≈ 907g, 1 cup cheddar ≈ 113g, ½ cup almond flour ≈ 60g, ¼ cup Parmesan ≈ 28g, 2 eggs ≈ 100g, 1 tbsp soy sauce ≈ 15g, 6 bacon strips ≈ 180g",
+    "Keto-friendly with almond flour instead of breadcrumbs",
+    "Cover with foil if bacon browns before meatloaf is cooked through",
+    "Per serving: 450 calories, 46g protein, 6g carbs, 2g fiber, 27g fat"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

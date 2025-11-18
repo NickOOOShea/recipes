@@ -1,0 +1,81 @@
+{
+  "id": "sanguette",
+  "title": "Sanguette (French Blood Pancake)",
+  "source_url": null,
+  "yield_servings": 4,
+  "total_time_min": 35,
+  "tags": [
+    "main course",
+    "stovetop",
+    "french",
+    "chicken"
+  ],
+  "ingredients": [
+    {
+      "name": "fresh chicken blood",
+      "amount_g": 240,
+      "amount_oz": null
+    },
+    {
+      "name": "country bread",
+      "amount_g": 50,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": 10,
+      "amount_oz": null
+    },
+    {
+      "name": "onion",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "shallot",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh flat-leaf parsley",
+      "amount_g": 8,
+      "amount_oz": null
+    },
+    {
+      "name": "duck fat",
+      "amount_g": 14,
+      "amount_oz": null
+    },
+    {
+      "name": "red wine vinegar",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "salt and pepper",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Peel 1 garlic clove. Rub the bread slice with it until the garlic is used up. Cut bread into small cubes and place in a shallow dish.",
+    "Peel and finely chop the onion, shallot, and remaining garlic clove. Chop the parsley.",
+    "Add the chopped vegetables and parsley to the bread cubes. Mix well.",
+    "Pour fresh chicken blood evenly over the bread mixture. Let soak and coagulate for a few minutes.",
+    "Heat duck fat in a heavy-bottomed skillet over medium-high heat.",
+    "Once fat is melted and very hot, slide the blood mixture into the pan.",
+    "Cook like a pancake for 6-7 minutes per side, seasoning each side generously with salt and pepper.",
+    "When cooked through, slide the sanguette onto a warm serving plate.",
+    "Deglaze the pan with red wine vinegar, scraping well with a spatula.",
+    "Pour the deglazed juices over the sanguette and serve immediately."
+  ],
+  "notes": [
+    "Volume conversions: Fresh blood ≈ 240g (1 cup), 1 slice bread ≈ 50g, 2 garlic cloves ≈ 10g, 1 onion ≈ 150g, 1 shallot ≈ 30g, 4 parsley sprigs ≈ 8g, 1 tbsp duck fat ≈ 14g, vinegar ≈ 15g (1 tbsp)",
+    "Traditional French country dish from poultry-raising regions",
+    "Fresh chicken blood must be from freshly slaughtered chicken",
+    "Blood will coagulate when mixed with bread",
+    "Served as a savory pancake or galette"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

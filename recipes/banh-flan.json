@@ -1,0 +1,86 @@
+{
+  "id": "banh-flan",
+  "title": "Banh Flan (Vietnamese Crème Caramel)",
+  "source_url": null,
+  "yield_servings": 6,
+  "total_time_min": 305,
+  "tags": [
+    "dessert",
+    "oven",
+    "vietnamese",
+    "asian",
+    "french",
+    "vegetarian"
+  ],
+  "ingredients": [
+    {
+      "name": "white sugar (for caramel)",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "water (for caramel)",
+      "amount_g": 45,
+      "amount_oz": null
+    },
+    {
+      "name": "lemon juice",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "eggs",
+      "amount_g": 250,
+      "amount_oz": null
+    },
+    {
+      "name": "full-cream milk",
+      "amount_g": 600,
+      "amount_oz": null
+    },
+    {
+      "name": "white sugar (for custard)",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "vanilla extract",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": 1,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Make caramel: Heat sugar, water, and lemon juice in a small saucepan over medium heat. Meanwhile, prepare a large bowl of iced water.",
+    "Once caramel turns amber (about 3-5 minutes), remove from heat and place saucepan into iced water for 10 seconds. Be careful not to splash water into caramel.",
+    "Pour or spoon caramel into 6 molds (about 150ml each). Leave to harden.",
+    "Make custard: Whisk eggs in a medium bowl and set aside.",
+    "Put milk, sugar, vanilla, and salt in medium saucepan over medium heat. Stir until sugar dissolves.",
+    "Continue heating until mixture reaches 70°C (158°F).",
+    "Preheat oven to 150°C (300°F).",
+    "Remove milk from heat. Slowly add eggs through a strainer while mixing.",
+    "Strain mixture again, then pour into molds over the hardened caramel.",
+    "Place a tea towel on workbench. Tap molds on towel a few times to remove air bubbles.",
+    "Cover each mold with aluminum foil. Poke a few holes through the foil.",
+    "Place a tea towel in bottom of baking tray. Put molds in tray.",
+    "Fill tray halfway up the molds with medium-hot tap water (not boiling).",
+    "Bake for 35 minutes.",
+    "Remove molds from tray and cool for 10 minutes at room temperature.",
+    "Carefully remove foil. Let cool until cool enough to handle.",
+    "Cover each mold with cling wrap. Refrigerate for at least 4 hours (preferably 1-2 days for best results).",
+    "To serve, run a knife around edges and turn upside down on a plate. Caramel will spill over custard."
+  ],
+  "notes": [
+    "Volume conversions: ¾ cup sugar ≈ 150g, 3 tbsp water ≈ 45g, 1 tsp lemon juice ≈ 5g, 5 eggs ≈ 250g, 600ml milk ≈ 600g, 1 tsp vanilla ≈ 5g, 1 pinch salt ≈ 1g",
+    "Requires 6 molds of roughly 150ml each",
+    "Chilled and set after 4 hours, but caramel may not be fully liquefied - 1-2 days gives best liquid caramel",
+    "Smooth, soft custard with slightly bitter dark amber caramel that balances sweetness",
+    "Vietnamese and French fusion dessert"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

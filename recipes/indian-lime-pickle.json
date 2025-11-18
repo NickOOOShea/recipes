@@ -1,0 +1,98 @@
+{
+  "id": "indian-lime-pickle",
+  "title": "Indian Lime Pickle",
+  "source_url": null,
+  "yield_servings": 8,
+  "total_time_min": 172840,
+  "tags": [
+    "condiment",
+    "side dish",
+    "indian",
+    "asian",
+    "fermented",
+    "vegan",
+    "vegetarian"
+  ],
+  "ingredients": [
+    {
+      "name": "limes",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "mustard seed oil (or vegetable oil)",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "mustard seeds",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic cloves, finely chopped",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh ginger, peeled and finely chopped",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cumin",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "ground coriander",
+      "amount_g": 6,
+      "amount_oz": null
+    },
+    {
+      "name": "chilli powder",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "water",
+      "amount_g": 125,
+      "amount_oz": null
+    },
+    {
+      "name": "brown sugar, lightly packed",
+      "amount_g": 125,
+      "amount_oz": null
+    },
+    {
+      "name": "white vinegar",
+      "amount_g": 30,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Cut each lime into 8 wedges. Place in a large bowl.",
+    "Sprinkle with salt. Cover and set aside in a cool dry place, stirring occasionally, for 2 days.",
+    "Heat oil in a medium saucepan over medium heat. Add mustard seeds and cook for 30 seconds or until seeds start to pop.",
+    "Add garlic, ginger, cumin, coriander, and chilli powder. Cook, stirring, for 30 seconds or until aromatic.",
+    "Stir in the lime mixture, water, sugar, and vinegar. Bring to boil.",
+    "Reduce heat to low and simmer, stirring occasionally, for 15 minutes or until mixture is thick.",
+    "Spoon into sterilized glass jars. Seal and invert jars for 2 minutes.",
+    "Set aside for 1 week to develop flavors before using."
+  ],
+  "notes": [
+    "Volume conversions: 1 tbsp salt ≈ 15g, 2 tbsp oil ≈ 30g, 2 tsp mustard seeds ≈ 6g, 3 garlic cloves ≈ 15g, 2cm ginger ≈ 15g, 2 tsp cumin ≈ 6g, 2 tsp coriander ≈ 6g, ½ tsp chilli ≈ 2g, ½ cup water ≈ 125g, ¾ cup brown sugar ≈ 125g, 2 tbsp vinegar ≈ 30g",
+    "Total time includes 2 days standing and 1 week infusing (about 9 days total)",
+    "Choose heavy limes for juiciest results",
+    "Store for up to 6 months sealed; once opened, refrigerate for up to 2 months",
+    "Serve with Indian curries",
+    "Limes are excellent source of vitamin C"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

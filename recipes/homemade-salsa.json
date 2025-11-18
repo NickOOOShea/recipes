@@ -1,0 +1,98 @@
+{
+  "id": "homemade-salsa",
+  "title": "Homemade Salsa",
+  "source_url": null,
+  "yield_servings": 14,
+  "total_time_min": 5,
+  "tags": [
+    "sauce",
+    "condiment",
+    "appetizer",
+    "no-cook",
+    "mexican",
+    "vegan",
+    "vegetarian"
+  ],
+  "ingredients": [
+    {
+      "name": "ripe Roma tomatoes",
+      "amount_g": 567,
+      "amount_oz": null
+    },
+    {
+      "name": "canned petite diced tomatoes",
+      "amount_g": 411,
+      "amount_oz": null
+    },
+    {
+      "name": "green onions, ends trimmed, chopped",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "red onion, chopped",
+      "amount_g": 50,
+      "amount_oz": null
+    },
+    {
+      "name": "jalapeño pepper, seeded and roughly chopped",
+      "amount_g": 15,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh cilantro",
+      "amount_g": 20,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic clove, roughly chopped",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh lime juice",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "chili powder",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "ground cumin",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "granulated sugar (optional)",
+      "amount_g": 2,
+      "amount_oz": null
+    },
+    {
+      "name": "salt and pepper",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Combine all ingredients in a food processor.",
+    "Pulse in 1-second bursts until all ingredients are finely chopped.",
+    "Taste and adjust salt and pepper as needed.",
+    "Serve with tortilla chips.",
+    "For best flavor, refrigerate for a few hours before serving to let flavors marinate together."
+  ],
+  "notes": [
+    "Volume conversions: 1¼ lbs Roma tomatoes ≈ 567g (about 5-6 tomatoes), 14.5 oz can ≈ 411g, 2 green onions ≈ 30g, ⅓ cup red onion ≈ 50g, 1 jalapeño ≈ 15g, ⅓ cup cilantro ≈ 20g, 1 large garlic clove ≈ 5g, 2 tbsp lime juice ≈ 30g, ½ tsp chili powder ≈ 2g, ¼ tsp cumin ≈ 2g, ½ tsp sugar ≈ 2g",
+    "Makes about 4.5 cups",
+    "Use best quality tomatoes for best flavor",
+    "Can substitute canned diced tomatoes with green chilis or fire-roasted tomatoes",
+    "Leave jalapeño seeds for spicier salsa, or use serrano pepper",
+    "Can add ½ bell pepper, poblano, or Anaheim pepper",
+    "Add tomato juice or sauce for thinner consistency",
+    "Store in refrigerator up to 1 week",
+    "Salsa always tastes best after refrigeration"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

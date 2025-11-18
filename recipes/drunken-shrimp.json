@@ -1,0 +1,57 @@
+{
+  "id": "drunken-shrimp",
+  "title": "Drunken Shrimp (醉蝦)",
+  "source_url": null,
+  "yield_servings": 4,
+  "total_time_min": 18,
+  "tags": [
+    "appetizer",
+    "main course",
+    "stovetop",
+    "seafood",
+    "chinese",
+    "asian"
+  ],
+  "ingredients": [
+    {
+      "name": "fresh shrimp (live if possible)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Chinese rice wine",
+      "amount_g": 250,
+      "amount_oz": null
+    },
+    {
+      "name": "fresh ginger, sliced",
+      "amount_g": 10,
+      "amount_oz": null
+    },
+    {
+      "name": "soy sauce for dipping (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Rinse the shrimp under running water.",
+    "Put shrimp in a deep bowl and pour in rice wine to cover.",
+    "Immediately cover the bowl (shrimp will be hopping around if live).",
+    "Allow shrimp to drink wine for 15 minutes (or until they stop moving).",
+    "Put a medium pot of water to boil. Add ginger slices.",
+    "Once boiling, add all shrimp at once and stir a couple times.",
+    "When water reboils, cook for 1½ minutes more.",
+    "Immediately use strainer to scoop shrimp out of water onto your plate.",
+    "Serve immediately with soy sauce for dipping if desired."
+  ],
+  "notes": [
+    "Volume conversions: 250ml rice wine ≈ 250g, 2 ginger slices ≈ 10g",
+    "Recipe calls for 20 fresh shrimp",
+    "Live shrimp preferred for traditional preparation",
+    "Shrimp is cooked very briefly to maintain tender texture",
+    "Traditional Chinese dish where shrimp are intoxicated with wine before cooking"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

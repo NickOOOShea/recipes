@@ -1,0 +1,111 @@
+{
+  "id": "khachapuri",
+  "title": "Khachapuri (Georgian Cheese Bread)",
+  "source_url": null,
+  "yield_servings": 8,
+  "total_time_min": 140,
+  "tags": [
+    "main course",
+    "appetizer",
+    "breakfast",
+    "bread",
+    "baking",
+    "oven",
+    "georgian",
+    "vegetarian"
+  ],
+  "ingredients": [
+    {
+      "name": "salt",
+      "amount_g": 5,
+      "amount_oz": null
+    },
+    {
+      "name": "dry active yeast",
+      "amount_g": 7,
+      "amount_oz": null
+    },
+    {
+      "name": "granulated sugar",
+      "amount_g": 12,
+      "amount_oz": null
+    },
+    {
+      "name": "all-purpose flour",
+      "amount_g": 420,
+      "amount_oz": null
+    },
+    {
+      "name": "water",
+      "amount_g": 240,
+      "amount_oz": null
+    },
+    {
+      "name": "milk",
+      "amount_g": 120,
+      "amount_oz": null
+    },
+    {
+      "name": "olive oil",
+      "amount_g": 14,
+      "amount_oz": null
+    },
+    {
+      "name": "farmers cheese",
+      "amount_g": 180,
+      "amount_oz": null
+    },
+    {
+      "name": "shredded mozzarella",
+      "amount_g": 170,
+      "amount_oz": null
+    },
+    {
+      "name": "feta cheese",
+      "amount_g": 180,
+      "amount_oz": null
+    },
+    {
+      "name": "eggs (for filling)",
+      "amount_g": 200,
+      "amount_oz": null
+    },
+    {
+      "name": "egg (for wash)",
+      "amount_g": 50,
+      "amount_oz": null
+    },
+    {
+      "name": "unsalted butter for topping",
+      "amount_g": 20,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "In bowl of stand mixer, combine salt, yeast, sugar, and flour.",
+    "Heat water and milk to about 115°F (46°C). Pour into bowl of dry ingredients.",
+    "Knead with hook attachment until close to smooth and elastic.",
+    "Add oil and knead for another minute.",
+    "Drizzle olive oil into a deep bowl. Place dough inside, cover with plastic wrap, and set in warm place until doubled in size (about 1 hour).",
+    "Press into dough a few times. Cover with plastic wrap again and let sit in warm place for another 30 minutes.",
+    "Meanwhile, combine farmers cheese, feta, and mozzarella in a bowl.",
+    "Remove dough and place on floured surface. Cut into 4 equal pieces.",
+    "Roll each piece into a 9-inch circle. Roll 2 opposite sides toward the center to create boat shape. Pinch corners together.",
+    "Transfer khachapuri onto baking sheet lined with greased parchment paper.",
+    "Stuff each khachapuri with cheese mixture.",
+    "Beat 1 egg with 1 tsp water. Brush dough with egg wash.",
+    "Bake in preheated 450°F (230°C) oven for about 15 minutes until crust is golden brown.",
+    "Make a 3-inch well in center of each khachapuri with back of spoon. Drop 1 egg into each well.",
+    "Stick small pieces of butter into the cheese.",
+    "Return to oven and bake for another 5-6 minutes. Egg white should be white but still runny.",
+    "When serving, mix cheese and egg with a fork. Serve immediately."
+  ],
+  "notes": [
+    "Volume conversions: 1 tsp salt ≈ 5g, 1 tsp yeast ≈ 7g, 1 tbsp sugar ≈ 12g, 3½ cups flour ≈ 420g, 1 cup water ≈ 240g, ½ cup milk ≈ 120g, 1 tbsp oil ≈ 14g, 1½ cups farmers cheese ≈ 180g, 1½ cups mozzarella ≈ 170g, 1½ cups feta ≈ 180g, 4 eggs ≈ 200g, 1 egg ≈ 50g",
+    "Traditional Georgian dish",
+    "Egg will continue to cook in hot cheese after removing from oven",
+    "Serve immediately while hot and cheese is melted"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

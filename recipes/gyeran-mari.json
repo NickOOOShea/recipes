@@ -1,0 +1,67 @@
+{
+  "id": "gyeran-mari",
+  "title": "Gyeran Mari (Korean Rolled Omelette)",
+  "source_url": null,
+  "yield_servings": 2,
+  "total_time_min": 15,
+  "tags": [
+    "side dish",
+    "breakfast",
+    "stovetop",
+    "korean",
+    "asian",
+    "vegetarian"
+  ],
+  "ingredients": [
+    {
+      "name": "eggs",
+      "amount_g": 150,
+      "amount_oz": null
+    },
+    {
+      "name": "scallions, finely chopped",
+      "amount_g": 20,
+      "amount_oz": null
+    },
+    {
+      "name": "carrot, finely chopped",
+      "amount_g": 30,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "vegetable oil for cooking",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Beat eggs in a bowl. Add scallions, carrot, and salt. Mix well.",
+    "Preheat a small skillet over medium-low heat until it feels hot when you place your hand 2-3 inches above the bottom.",
+    "Lightly oil the pan.",
+    "Pour a thin layer of egg mixture into the pan (about ⅓ to ½ of total mixture for 3 eggs).",
+    "When egg is set but still wet on top, use two spatulas or chopsticks to fold the egg from one side.",
+    "Continue rolling the egg toward the opposite side of the pan.",
+    "Pull the rolled egg to one side of the pan.",
+    "Add a little more oil to the empty space, then pour another portion of egg mixture.",
+    "Lift the rolled egg to let the new egg mixture flow underneath.",
+    "When the new layer is set but still wet, continue rolling from the existing roll.",
+    "Repeat until all egg mixture is used (2-4 pours total depending on egg quantity).",
+    "Remove from heat and let cool slightly.",
+    "Slice into rounds and serve warm or at room temperature."
+  ],
+  "notes": [
+    "Volume conversions: 3 eggs ≈ 150g, scallions ≈ 20g, carrot ≈ 30g",
+    "For 5 eggs, use 3-4 pours. For 3 eggs, use 2-3 pours",
+    "Cook over gentle heat - too high and eggs will be tough and break when folded",
+    "Use a small skillet for thicker rolls",
+    "Popular as lunch box item and street food in Korea",
+    "Can add mushrooms, zucchini, bell peppers, garlic chives, ham, bacon, cheese, or gim (seaweed)"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
