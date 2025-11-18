@@ -1,0 +1,446 @@
+{
+  "id": "ramen-modular",
+  "title": "Ramen Bowl - Build Your Own",
+  "source_url": "https://github.com/ramen-lord/ramen-book",
+  "yield_servings": 1,
+  "total_time_min": null,
+  "tags": ["ramen", "japanese", "noodle soup", "customizable", "modular", "interactive"],
+  "modular": true,
+  "components": {
+    "broth": {
+      "label": "Choose Your Broth",
+      "required": true,
+      "multiple": false,
+      "options": [
+        {
+          "id": "tonkotsu",
+          "name": "Tonkotsu (Creamy Pork Bone)",
+          "time_min": 1080,
+          "ingredients": [
+            {"name": "Pork neck bones", "amount_g": 2000, "amount_oz": 70.5},
+            {"name": "Pork femurs, split to expose marrow", "amount_g": 2000, "amount_oz": 70.5},
+            {"name": "Water", "amount_g": 6000, "amount_oz": 211.6},
+            {"name": "Optional: onion, halved", "amount_g": 150, "amount_oz": 5.3},
+            {"name": "Optional: garlic cloves, peeled", "amount_g": 30, "amount_oz": 1.1}
+          ],
+          "steps": [
+            "Soak bones in cold water for 6 hours or overnight to remove blood (optional but improves color).",
+            "Add bones to fresh water, bring to boil, then simmer 15-20 minutes while skimming scum continuously. This blanch is critical for white tonkotsu.",
+            "Strain and discard blanching liquid. Scrub bones clean under running water.",
+            "Add clean bones to pot with 6L fresh water. Boil at medium heat for 18 hours, stirring frequently and adding water to maintain coverage.",
+            "If using aromatics, add in last hour of cooking.",
+            "Strain soup. For final creamy emulsion, blend soup in blender on high for 30 seconds (or use immersion blender for 5 minutes).",
+            "Yields ~3L. Use 350ml per bowl. Freezes well for 6 months."
+          ]
+        },
+        {
+          "id": "chicken-chintan",
+          "name": "Chicken Chintan (Clear)",
+          "time_min": 360,
+          "ingredients": [
+            {"name": "Chicken backs (or 2 small whole chickens, broken down)", "amount_g": 4000, "amount_oz": 141},
+            {"name": "Water", "amount_g": 4000, "amount_oz": 141},
+            {"name": "Optional: onion, halved", "amount_g": 140, "amount_oz": 4.9},
+            {"name": "Optional: garlic cloves", "amount_g": 24, "amount_oz": 0.8}
+          ],
+          "steps": [
+            "Add chicken to stockpot, cover with water.",
+            "Bring to boil briefly and skim any scum for 5-10 minutes.",
+            "Reduce heat to below simmer (88°C/190°F) and hold for 6 hours.",
+            "If using aromatics, add for final hour.",
+            "Strain and reserve. Yields ~3L clear, delicate broth. Use 350ml per bowl."
+          ]
+        },
+        {
+          "id": "chicken-paitan",
+          "name": "Chicken Paitan (Creamy)",
+          "time_min": 420,
+          "ingredients": [
+            {"name": "Chicken backs", "amount_g": 3000, "amount_oz": 105.8},
+            {"name": "Chicken feet", "amount_g": 1000, "amount_oz": 35.3},
+            {"name": "Water", "amount_g": 6000, "amount_oz": 211.6},
+            {"name": "Onion, halved", "amount_g": 150, "amount_oz": 5.3},
+            {"name": "Garlic cloves", "amount_g": 30, "amount_oz": 1.1},
+            {"name": "Ginger, 2-inch piece", "amount_g": 50, "amount_oz": 1.8}
+          ],
+          "steps": [
+            "Add chicken parts and water to pot.",
+            "Bring to boil, then simmer and skim scum for 15-20 minutes.",
+            "Boil at medium heat for 6 hours, stirring frequently and adding water to maintain coverage.",
+            "Add aromatics and boil thoroughly for final hour.",
+            "Strain soup. Blend in blender on high for 30 seconds to finalize creamy emulsion (or immersion blend for 5 minutes).",
+            "Yields ~4L rich, creamy chicken broth. Use 350ml per bowl."
+          ]
+        },
+        {
+          "id": "vegetable-chintan",
+          "name": "Vegetable Chintan (Vegan)",
+          "time_min": 75,
+          "ingredients": [
+            {"name": "Water", "amount_g": 3000, "amount_oz": 105.8},
+            {"name": "Onion, split and peeled", "amount_g": 150, "amount_oz": 5.3},
+            {"name": "Carrot, peeled and chunked", "amount_g": 120, "amount_oz": 4.2},
+            {"name": "Garlic cloves", "amount_g": 30, "amount_oz": 1.1},
+            {"name": "Ginger, 2-inch piece", "amount_g": 50, "amount_oz": 1.8},
+            {"name": "Dried shiitake mushrooms", "amount_g": 10, "amount_oz": 0.4},
+            {"name": "Green onions, whole bunch", "amount_g": 100, "amount_oz": 3.5},
+            {"name": "Kombu (dried kelp)", "amount_g": 20, "amount_oz": 0.7}
+          ],
+          "steps": [
+            "Add water, onion, carrot, garlic, ginger, and shiitake to pot.",
+            "Bring to boil, then reduce to simmer.",
+            "Cook at simmer (95°C/203°F) for 1 hour.",
+            "Add green onion and kombu, turn off heat, steep 15 minutes.",
+            "Strain and reserve. Yields ~2.5L light, aromatic vegan broth. Pairs best with miso tare. Use 350ml per bowl."
+          ]
+        }
+      ]
+    },
+    "tare": {
+      "label": "Choose Your Tare (Seasoning)",
+      "required": true,
+      "multiple": false,
+      "options": [
+        {
+          "id": "shoyu",
+          "name": "Shoyu (Soy Sauce)",
+          "time_min": 30,
+          "ingredients": [
+            {"name": "Soy sauce", "amount_g": 450, "amount_oz": 15.9},
+            {"name": "Kombu (dried kelp)", "amount_g": 15, "amount_oz": 0.5},
+            {"name": "Mirin (sweet rice wine)", "amount_g": 50, "amount_oz": 1.8},
+            {"name": "Sake", "amount_g": 40, "amount_oz": 1.4},
+            {"name": "Niboshi (dried sardines)", "amount_g": 15, "amount_oz": 0.5},
+            {"name": "Katsuobushi (bonito flakes)", "amount_g": 15, "amount_oz": 0.5},
+            {"name": "Brown sugar", "amount_g": 30, "amount_oz": 1.1}
+          ],
+          "steps": [
+            "Combine soy sauce, mirin, kombu, niboshi, and sake in sealed container.",
+            "Refrigerate 6 hours to 2 days to cold-steep.",
+            "Heat to 71°C/160°F and hold 10 minutes.",
+            "Remove and discard kombu.",
+            "Bring to 82°C/180°F (just below boil) and hold 15 minutes.",
+            "Add katsuobushi, hold at 82°C/180°F for 5 more minutes.",
+            "Add sugar, whisk to dissolve.",
+            "Strain and refrigerate up to 6 months. Use 30ml tare per 350ml broth."
+          ]
+        },
+        {
+          "id": "shio",
+          "name": "Shio (Salt-Based)",
+          "time_min": 30,
+          "ingredients": [
+            {"name": "Water", "amount_g": 400, "amount_oz": 14.1},
+            {"name": "Kombu (dried kelp)", "amount_g": 15, "amount_oz": 0.5},
+            {"name": "Mirin", "amount_g": 50, "amount_oz": 1.8},
+            {"name": "Sake", "amount_g": 100, "amount_oz": 3.5},
+            {"name": "Salt", "amount_g": 50, "amount_oz": 1.8},
+            {"name": "MSG (optional but recommended)", "amount_g": 10, "amount_oz": 0.4}
+          ],
+          "steps": [
+            "Combine water, kombu, and mirin in sealed container.",
+            "Refrigerate 6 hours to 2 days.",
+            "Heat to 71°C/160°F and steep 10 minutes.",
+            "Remove and discard kombu.",
+            "Add sake, bring to boil, cook 10 minutes until alcohol smell subsides.",
+            "Add salt and MSG, whisk to dissolve.",
+            "Cool before use. Stores indefinitely refrigerated. Use 30ml tare per 350ml broth."
+          ]
+        },
+        {
+          "id": "miso",
+          "name": "Miso (Fermented Soybean Paste)",
+          "time_min": 45,
+          "ingredients": [
+            {"name": "Onion, pureed or finely grated (about 1/2 onion)", "amount_g": 140, "amount_oz": 4.9},
+            {"name": "Garlic, grated (about 2 cloves)", "amount_g": 7, "amount_oz": 0.2},
+            {"name": "Ginger, grated (1-inch piece)", "amount_g": 6, "amount_oz": 0.2},
+            {"name": "White miso", "amount_g": 300, "amount_oz": 10.6},
+            {"name": "Red or mugi miso", "amount_g": 180, "amount_oz": 6.3},
+            {"name": "Hatcho miso (dark miso)", "amount_g": 80, "amount_oz": 2.8},
+            {"name": "Mirin", "amount_g": 20, "amount_oz": 0.7},
+            {"name": "Soy sauce", "amount_g": 30, "amount_oz": 1.1},
+            {"name": "Sesame oil", "amount_g": 5, "amount_oz": 0.2},
+            {"name": "Tahini or sesame paste", "amount_g": 14, "amount_oz": 0.5},
+            {"name": "Black pepper", "amount_g": 1, "amount_oz": 0.04},
+            {"name": "Tobanjan or doubanjiang (chili bean paste)", "amount_g": 2, "amount_oz": 0.07}
+          ],
+          "steps": [
+            "Take 70g of pureed onion and add to small pan.",
+            "Cook over low heat, stirring frequently, until golden brown (20-30 minutes).",
+            "Remove from heat and place in mixing bowl to cool.",
+            "When cooled, add remaining raw onion (70g), garlic, ginger, all misos, mirin, soy sauce, sesame oil, tahini, black pepper, and tobanjan.",
+            "Whisk thoroughly to combine into smooth paste.",
+            "Refrigerate in covered container for at least 24 hours to develop flavor and mellow raw vegetables.",
+            "Keeps up to 12 months refrigerated. Use 60-70g tare per 350ml broth."
+          ]
+        }
+      ]
+    },
+    "oil": {
+      "label": "Choose Your Aroma Oil",
+      "required": true,
+      "multiple": false,
+      "options": [
+        {
+          "id": "chicken-fat",
+          "name": "Chicken Fat (Neutral)",
+          "time_min": 15,
+          "ingredients": [
+            {"name": "Chicken skin", "amount_g": 200, "amount_oz": 7.1}
+          ],
+          "steps": [
+            "MICROWAVE METHOD: Place chicken skin in microwave-safe bowl. Cook uncovered on high for 8 minutes. Strain fat from crispy skins.",
+            "STOVETOP METHOD: Add skin and 15-30g water to pan. Heat over medium, stirring occasionally for 45 minutes until fat renders and skin crisps. Strain.",
+            "Store refrigerated up to 6 months. Use ~15ml (1 tbsp) per bowl."
+          ]
+        },
+        {
+          "id": "pork-lard",
+          "name": "Pork Lard (Rich)",
+          "time_min": 30,
+          "ingredients": [
+            {"name": "Pork backfat or lard (store-bought works)", "amount_g": 200, "amount_oz": 7.1}
+          ],
+          "steps": [
+            "If using store-bought lard, melt and use as-is. If rendering from backfat:",
+            "Preheat oven to 121°C/250°F.",
+            "Add backfat and 15-30g water to oven-safe pan.",
+            "Cook 2-3 hours until golden brown and fully rendered.",
+            "Strain and reserve. Store refrigerated up to 6 months. Use ~15ml (1 tbsp) per bowl."
+          ]
+        },
+        {
+          "id": "scallion-oil",
+          "name": "Scallion Oil (Aromatic)",
+          "time_min": 20,
+          "ingredients": [
+            {"name": "Neutral oil (vegetable or canola)", "amount_g": 125, "amount_oz": 4.4},
+            {"name": "Green onion whites, trimmed (1 bunch)", "amount_g": 50, "amount_oz": 1.8}
+          ],
+          "steps": [
+            "Add oil and scallion whites to small saucepan.",
+            "Cook over medium heat, stirring occasionally, until scallions turn light golden and fragrant (10-15 minutes).",
+            "Remove from heat and let cool in pot.",
+            "Strain and transfer to container. Store refrigerated up to 6 months. Use ~15ml (1 tbsp) per bowl."
+          ]
+        },
+        {
+          "id": "mayu",
+          "name": "Mayu (Black Garlic Oil)",
+          "time_min": 30,
+          "ingredients": [
+            {"name": "Garlic cloves", "amount_g": 45, "amount_oz": 1.6},
+            {"name": "Oil (mix of sesame, vegetable, and lard)", "amount_g": 60, "amount_oz": 2.1}
+          ],
+          "steps": [
+            "Mince garlic finely in food processor (or by hand to 1/8-inch pieces).",
+            "Spread mince on paper towels and squeeze out as much moisture as possible. Replace towels until dry.",
+            "Heat oil in pan. When warm, add garlic.",
+            "Cook over medium-high heat, stirring constantly, until very dark brown (almost black) and oil begins to smoke (15-20 minutes).",
+            "Strain solids, reserving oil. Lay solids on paper towels to remove excess oil until crispy and crumbly.",
+            "Add dried solids to mortar and pestle. Mash for ~5 minutes until oil escapes and forms smooth black paste.",
+            "Mix reserved oil back in to thin to desired consistency.",
+            "Store refrigerated up to 6 months. Use sparingly (~5-10ml per bowl) for visual contrast and bitter complexity."
+          ]
+        },
+        {
+          "id": "chili-oil",
+          "name": "Chili Oil (Spicy)",
+          "time_min": 25,
+          "ingredients": [
+            {"name": "Pork lard or vegetable oil", "amount_g": 250, "amount_oz": 8.8},
+            {"name": "Garlic cloves", "amount_g": 24, "amount_oz": 0.8},
+            {"name": "Ginger, sliced into coins", "amount_g": 50, "amount_oz": 1.8},
+            {"name": "Onion, half of small", "amount_g": 75, "amount_oz": 2.6},
+            {"name": "Coarsely ground togarashi (Japanese chili)", "amount_g": 15, "amount_oz": 0.5},
+            {"name": "Dried Chinese chilis, whole", "amount_g": 4, "amount_oz": 0.1},
+            {"name": "Sichuan peppercorns", "amount_g": 3, "amount_oz": 0.1}
+          ],
+          "steps": [
+            "Add fat, garlic, ginger, and onion to small saucepan.",
+            "Heat over medium-low, stirring occasionally, until ingredients turn light golden and fragrant (15 minutes).",
+            "Add togarashi, Chinese chilis, and Sichuan peppercorns.",
+            "Remove from heat and steep 30 minutes.",
+            "Strain and transfer to container. Store refrigerated up to 6 months. Use ~15ml (1 tbsp) per bowl for heat."
+          ]
+        }
+      ]
+    },
+    "toppings": {
+      "label": "Choose Your Toppings",
+      "required": false,
+      "multiple": true,
+      "options": [
+        {
+          "id": "chashu",
+          "name": "Chashu (Braised Pork Belly)",
+          "time_min": 240,
+          "ingredients": [
+            {"name": "Pork belly or shoulder", "amount_g": 500, "amount_oz": 17.6},
+            {"name": "Salt", "amount_g": 5, "amount_oz": 0.2},
+            {"name": "Black pepper", "amount_g": 2, "amount_oz": 0.07},
+            {"name": "Mirin", "amount_g": 125, "amount_oz": 4.4},
+            {"name": "Soy sauce", "amount_g": 125, "amount_oz": 4.4},
+            {"name": "Water", "amount_g": 250, "amount_oz": 8.8},
+            {"name": "Brown sugar", "amount_g": 12, "amount_oz": 0.4},
+            {"name": "Sake", "amount_g": 60, "amount_oz": 2.1},
+            {"name": "Garlic cloves, smashed", "amount_g": 9, "amount_oz": 0.3}
+          ],
+          "steps": [
+            "Preheat oven to 110°C/225°F.",
+            "Heat oven-safe pot over medium. Season pork with salt and pepper.",
+            "Sear pork on all sides until golden brown (4-5 min per side). Sop up rendered fat with paper towel.",
+            "Combine mirin, soy sauce, water, brown sugar, and garlic in bowl.",
+            "Deglaze pot with sake, then add soy mixture.",
+            "Bring to boil, cover, and braise in oven 3-4 hours, turning hourly, until tender (internal temp ~93°C/200°F).",
+            "Cool in braising liquid, refrigerate until cold for easy slicing.",
+            "Slice and optionally sear before serving. Use 2-3 slices per bowl."
+          ]
+        },
+        {
+          "id": "soft-boiled-eggs",
+          "name": "Soft Boiled Eggs (Marinated)",
+          "time_min": 390,
+          "ingredients": [
+            {"name": "Large eggs", "amount_g": 200, "amount_oz": 7.1},
+            {"name": "Soy sauce", "amount_g": 100, "amount_oz": 3.5},
+            {"name": "Mirin", "amount_g": 100, "amount_oz": 3.5},
+            {"name": "Water", "amount_g": 100, "amount_oz": 3.5}
+          ],
+          "steps": [
+            "Bring large pot of water to rolling boil. Prepare ice bath.",
+            "Optional: poke small hole in wider end of egg with thumbtack (prevents cracking, aids peeling).",
+            "Lower eggs into boiling water (4-6 at a time to maintain temp).",
+            "Boil 6-7 minutes, stirring gently first minute. 6 min = liquid yolk, 7 min = slightly custardy yolk.",
+            "Immediately transfer to ice bath for 15 minutes until fully chilled.",
+            "Peel eggs carefully.",
+            "QUICK BRINE: Combine equal parts soy sauce, mirin, and water. Add peeled eggs, jostle every hour, soak 4-6 hours. Remove and refrigerate.",
+            "Halve eggs before serving. Use 1/2 egg per bowl."
+          ]
+        },
+        {
+          "id": "green-onions",
+          "name": "Green Onions (Sliced)",
+          "time_min": 5,
+          "ingredients": [
+            {"name": "Green onions/scallions", "amount_g": 20, "amount_oz": 0.7}
+          ],
+          "steps": [
+            "Slice green onions into thin rings, oblong diamonds (45° angle), or fine threads.",
+            "Use both white and green parts for color contrast.",
+            "Serve raw as garnish. Use ~10g per bowl."
+          ]
+        },
+        {
+          "id": "menma",
+          "name": "Menma (Bamboo Shoots)",
+          "time_min": 1455,
+          "ingredients": [
+            {"name": "Lacto-fermented bamboo shoots (or canned as substitute)", "amount_g": 100, "amount_oz": 3.5},
+            {"name": "Mirin", "amount_g": 20, "amount_oz": 0.7},
+            {"name": "Sugar", "amount_g": 3, "amount_oz": 0.1},
+            {"name": "Soy sauce", "amount_g": 4, "amount_oz": 0.1},
+            {"name": "Sesame oil", "amount_g": 5, "amount_oz": 0.2}
+          ],
+          "steps": [
+            "If using fermented bamboo: soak in cold water 12-24 hours in fridge. Drain thoroughly.",
+            "Add bamboo, mirin, sugar, and soy sauce to sauté pan.",
+            "Cook, stirring occasionally, until liquid slightly absorbed (10-15 minutes).",
+            "Add sesame oil to coat.",
+            "Transfer to container and refrigerate 24 hours before using. Keeps for months. Use 20-30g per bowl."
+          ]
+        },
+        {
+          "id": "nori",
+          "name": "Nori (Seaweed Sheet)",
+          "time_min": 1,
+          "ingredients": [
+            {"name": "Nori sheets (dried seaweed)", "amount_g": 2, "amount_oz": 0.07}
+          ],
+          "steps": [
+            "Cut nori sheet into rectangles or squares.",
+            "Place on edge of bowl just before serving so it stays crispy.",
+            "Use 1 sheet per bowl."
+          ]
+        },
+        {
+          "id": "corn",
+          "name": "Corn (Sweet)",
+          "time_min": 5,
+          "ingredients": [
+            {"name": "Corn kernels (canned or frozen)", "amount_g": 50, "amount_oz": 1.8}
+          ],
+          "steps": [
+            "If using frozen corn, thaw and drain.",
+            "If using canned corn, drain well.",
+            "Optional: quickly sauté in butter for extra flavor.",
+            "Sprinkle on top of finished bowl. Use ~30-50g per bowl."
+          ]
+        }
+      ]
+    }
+  },
+  "assembly": {
+    "ingredients": [
+      {"name": "Fresh ramen noodles", "amount_g": 140, "amount_oz": 4.9},
+      {"name": "Selected broth, heated to 95-100°C", "amount_g": 350, "amount_oz": 12.3},
+      {"name": "Selected tare", "amount_g": 35, "amount_oz": 1.2},
+      {"name": "Selected aroma oil", "amount_g": 15, "amount_oz": 0.5},
+      {"name": "Selected toppings", "amount_g": null, "amount_oz": null}
+    ],
+    "steps": [
+      "PREHEAT BOWL: Fill serving bowl with boiling water. Let sit while preparing - this is critical to prevent cooling the soup.",
+      "HEAT BROTH: Bring your selected broth to 95-100°C (203-212°F) in a pot.",
+      "BOIL NOODLES: Bring large pot of unsalted water to rolling boil. Add 140g fresh noodles. Cook 1-3 minutes depending on thickness (thin: 1-2 min, medium: 2-3 min, thick: 3-4 min). Stir gently to separate.",
+      "ASSEMBLE BOWL BASE: Dump preheating water from bowl. Add your selected tare amount to empty bowl (shoyu/shio: 30ml, miso: 60-70g).",
+      "Add your selected aroma oil (~15ml or 1 tablespoon).",
+      "Pour hot broth (350ml) over tare and oil. Stir gently to combine and dissolve tare completely.",
+      "DRAIN AND ADD NOODLES: Drain noodles thoroughly, shake off excess water. Add to bowl in center, using chopsticks to arrange neatly if desired.",
+      "TOP AND SERVE: Arrange your selected toppings artfully: chashu slices, halved egg, green onions, and any additional toppings.",
+      "SERVE IMMEDIATELY while piping hot. Enjoy your custom ramen creation!"
+    ]
+  },
+  "notes": [
+    "MODULAR DESIGN: This recipe lets you build your perfect bowl by mixing and matching components. Each component can be made 1-7 days in advance.",
+    "",
+    "POPULAR COMBINATIONS:",
+    "• Classic Shoyu: Chicken Chintan + Shoyu Tare + Scallion Oil + Chashu + Egg + Green Onions",
+    "• Rich Tonkotsu: Tonkotsu + Shio Tare + Pork Lard + Chashu + Egg + Green Onions + Mayu drizzle",
+    "• Sapporo Miso: Chicken Paitan + Miso Tare + Pork Lard + Corn + Chashu + Green Onions",
+    "• Vegan: Vegetable Chintan + Miso Tare + Scallion Oil + Corn + Green Onions + Nori",
+    "",
+    "MAKE-AHEAD SCHEDULE:",
+    "• 1 week before: Make tare and aroma oil (stores for months)",
+    "• 1-2 days before: Make broth, chashu, marinated eggs",
+    "• Day of: Slice toppings, heat broth, cook noodles, assemble",
+    "",
+    "BROTH NOTES:",
+    "• Chintan = clear, delicate, traditional",
+    "• Paitan = creamy, rich, emulsified from vigorous boiling",
+    "• Tonkotsu = pork bone paitan, most labor-intensive but iconic",
+    "• All broths freeze excellently for 6+ months",
+    "",
+    "TARE NOTES:",
+    "• Tare provides ALL the salt - unseasoned broth is bland!",
+    "• Shoyu = soy sauce based, most versatile, classic",
+    "• Shio = salt based, lets broth flavor shine",
+    "• Miso = paste based, adds body and earthy complexity",
+    "• Typical ratio: 10% tare to broth by volume",
+    "",
+    "NOODLE NOTES:",
+    "• Fresh ramen noodles must contain wheat + kansui (alkaline salts) for authentic springy texture and yellow color",
+    "• Sun Noodle brand (frozen section) is excellent and widely available",
+    "• Cook in unsalted water - the tare seasons everything",
+    "• Fresh noodles actually improve after 1-2 days rest in fridge",
+    "",
+    "COMPONENT FLEXIBILITY:",
+    "• Light broth + rich tare = balanced",
+    "• Rich broth + light tare = broth-forward",
+    "• Experiment to find your perfect combination!",
+    "",
+    "Source: Adapted from The Ramen_Lord Book of Ramen by Mike Satinover"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

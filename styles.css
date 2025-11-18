@@ -551,6 +551,100 @@ h1 {
   color: #a8b5ff;
 }
 
+/* Modular Recipe Styles */
+.modular-selectors {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border: 2px solid #e0e0e0;
+}
+
+.modular-selectors h3 {
+  margin-bottom: 1.5rem;
+  color: #667eea;
+}
+
+.component-selector {
+  margin-bottom: 1.5rem;
+}
+
+.component-selector:last-child {
+  margin-bottom: 0;
+}
+
+.component-selector label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.component-selector select {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.component-selector select:hover {
+  border-color: #667eea;
+}
+
+.component-selector select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.checkbox-option:hover {
+  border-color: #667eea;
+  background: #f5f5ff;
+}
+
+.checkbox-option input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.75rem;
+  cursor: pointer;
+  accent-color: #667eea;
+}
+
+.checkbox-option span {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.checkbox-option small {
+  color: #666;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
+
+#modular-recipe-display {
+  margin-top: 2rem;
+}
+
 @media (max-width: 768px) {
   .modal-content.cook-mode {
     margin: 0;
@@ -565,5 +659,13 @@ h1 {
 
   .cook-mode .ingredients-list li {
     font-size: 1.1rem;
+  }
+
+  .modular-selectors {
+    padding: 1rem;
+  }
+
+  .checkbox-option {
+    padding: 0.5rem;
   }
 }

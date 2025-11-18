@@ -146,6 +146,18 @@ function showRecipeModal(recipe) {
   // Reset cook mode when opening modal
   modalContent.classList.remove('cook-mode');
 
+  // Check if this is a modular recipe
+  if (recipe.modular) {
+    renderModularRecipe(recipe, modalBody);
+  } else {
+    renderStandardRecipe(recipe, modalBody);
+  }
+
+  modal.style.display = 'block';
+}
+
+// Render standard (non-modular) recipe
+function renderStandardRecipe(recipe, modalBody) {
   modalBody.innerHTML = `
     <button class="cook-mode-toggle" onclick="toggleCookMode()">
       🍳 Cook Mode
@@ -257,8 +269,211 @@ function showRecipeModal(recipe) {
       </div>
     </div>
   `;
+}
 
-  modal.style.display = 'block';
+// Render modular recipe with component selectors
+function renderModularRecipe(recipe, modalBody) {
+  // Initialize selections with first option from each component
+  window.modularSelections = {};
+  Object.keys(recipe.components).forEach(componentKey => {
+    const component = recipe.components[componentKey];
+    if (component.multiple) {
+      window.modularSelections[componentKey] = [];
+    } else {
+      window.modularSelections[componentKey] = component.options[0].id;
+    }
+  });
+
+  const html = `
+    <h2>${recipe.title}</h2>
+    ${recipe.source_url ? `<p class="source"><a href="${recipe.source_url}" target="_blank">View Original Recipe</a></p>` : ''}
+
+    <div class="recipe-tags">
+      ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+    </div>
+
+    <div class="modular-selectors">
+      <h3>Build Your Bowl</h3>
+      ${Object.entries(recipe.components).map(([componentKey, component]) => `
+        <div class="component-selector">
+          <label><strong>${component.label}${component.required ? ' *' : ''}</strong></label>
+          ${component.multiple ?
+            // Checkboxes for multiple selection
+            `<div class="checkbox-group">
+              ${component.options.map(option => `
+                <label class="checkbox-option">
+                  <input
+                    type="checkbox"
+                    name="${componentKey}"
+                    value="${option.id}"
+                    onchange="updateModularRecipe('${recipe.id}')"
+                  >
+                  <span>${option.name}</span>
+                  ${option.time_min ? `<small>(~${option.time_min} min)</small>` : ''}
+                </label>
+              `).join('')}
+            </div>`
+            :
+            // Dropdown for single selection
+            `<select name="${componentKey}" onchange="updateModularRecipe('${recipe.id}')">
+              ${component.options.map(option => `
+                <option value="${option.id}">
+                  ${option.name}${option.time_min ? ` (~${option.time_min} min)` : ''}
+                </option>
+              `).join('')}
+            </select>`
+          }
+        </div>
+      `).join('')}
+    </div>
+
+    <div id="modular-recipe-display">
+      ${generateModularRecipeDisplay(recipe)}
+    </div>
+
+    ${recipe.notes && recipe.notes.length > 0 ? `
+      <section>
+        <h3>Notes</h3>
+        <ul class="notes-list">
+          ${recipe.notes.map(note => `<li>${note}</li>`).join('')}
+        </ul>
+      </section>
+    ` : ''}
+
+    <div class="recipe-dates">
+      <small>Created: ${recipe.created_at}</small>
+      ${recipe.last_updated_at !== recipe.created_at ? `<small>Updated: ${recipe.last_updated_at}</small>` : ''}
+    </div>
+  `;
+
+  modalBody.innerHTML = html;
+}
+
+// Update modular recipe display when selections change
+function updateModularRecipe(recipeId) {
+  const recipe = allRecipes.find(r => r.id === recipeId);
+  if (!recipe || !recipe.modular) return;
+
+  // Update selections from form inputs
+  Object.keys(recipe.components).forEach(componentKey => {
+    const component = recipe.components[componentKey];
+    if (component.multiple) {
+      const checkboxes = document.querySelectorAll(`input[name="${componentKey}"]:checked`);
+      window.modularSelections[componentKey] = Array.from(checkboxes).map(cb => cb.value);
+    } else {
+      const select = document.querySelector(`select[name="${componentKey}"]`);
+      if (select) {
+        window.modularSelections[componentKey] = select.value;
+      }
+    }
+  });
+
+  // Re-render the display
+  const displayDiv = document.getElementById('modular-recipe-display');
+  if (displayDiv) {
+    displayDiv.innerHTML = generateModularRecipeDisplay(recipe);
+  }
+}
+
+// Generate the ingredients and steps based on current selections
+function generateModularRecipeDisplay(recipe) {
+  const selections = window.modularSelections || {};
+  let allIngredients = [];
+  let allSteps = [];
+  let totalTime = 0;
+
+  // Collect ingredients and steps from selected components
+  Object.entries(recipe.components).forEach(([componentKey, component]) => {
+    const selectedIds = component.multiple ? selections[componentKey] : [selections[componentKey]];
+
+    selectedIds.forEach(selectedId => {
+      if (!selectedId) return;
+
+      const option = component.options.find(opt => opt.id === selectedId);
+      if (!option) return;
+
+      // Add section header
+      allSteps.push(`<strong>${component.label}: ${option.name}</strong>`);
+
+      // Add ingredients with section label
+      if (option.ingredients && option.ingredients.length > 0) {
+        option.ingredients.forEach(ing => {
+          allIngredients.push({
+            ...ing,
+            section: option.name
+          });
+        });
+      }
+
+      // Add steps
+      if (option.steps && option.steps.length > 0) {
+        option.steps.forEach(step => {
+          allSteps.push(step);
+        });
+      }
+
+      // Add to total time
+      if (option.time_min) {
+        totalTime = Math.max(totalTime, option.time_min);
+      }
+    });
+  });
+
+  // Add assembly steps
+  if (recipe.assembly) {
+    allSteps.push('<strong>Final Assembly</strong>');
+
+    if (recipe.assembly.ingredients) {
+      recipe.assembly.ingredients.forEach(ing => {
+        allIngredients.push({
+          ...ing,
+          section: 'Assembly'
+        });
+      });
+    }
+
+    if (recipe.assembly.steps) {
+      recipe.assembly.steps.forEach(step => {
+        allSteps.push(step);
+      });
+    }
+  }
+
+  return `
+    ${totalTime > 0 ? `<div class="recipe-meta-large"><span><strong>Estimated Time:</strong> ${totalTime} minutes (components can be made in advance)</span></div>` : ''}
+
+    <section>
+      <h3>Ingredients</h3>
+      <ul class="ingredients-list">
+        ${allIngredients.map(ing => {
+          let amount = '';
+          if (ing.amount_g) {
+            amount = `${ing.amount_g}g`;
+            if (ing.amount_oz) {
+              amount += ` (${ing.amount_oz}oz)`;
+            }
+          }
+          return `<li>
+            ${amount ? `<strong>${amount}</strong> ` : ''}
+            ${ing.name}
+            ${ing.section ? `<em style="color: #666; font-size: 0.9em;"> - ${ing.section}</em>` : ''}
+          </li>`;
+        }).join('')}
+      </ul>
+    </section>
+
+    <section>
+      <h3>Instructions</h3>
+      <ol class="steps-list">
+        ${allSteps.map(step => {
+          if (step.startsWith('<strong>')) {
+            return `<li style="list-style: none; font-weight: bold; margin-top: 1em; margin-left: -1.5em;">${step}</li>`;
+          }
+          return `<li>${step}</li>`;
+        }).join('')}
+      </ol>
+    </section>
+  `;
 }
 
 // Toggle cook mode
