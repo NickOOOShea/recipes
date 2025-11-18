@@ -1,0 +1,85 @@
+{
+  "id": "tonkotsu-ramen",
+  "title": "Tonkotsu Ramen (Hakata Style Complete Bowl)",
+  "source_url": null,
+  "yield_servings": 1,
+  "total_time_min": 10,
+  "tags": ["ramen", "japanese", "complete bowl", "tonkotsu", "hakata", "pork", "main course"],
+  "ingredients": [
+    {
+      "name": "Tonkotsu Soup",
+      "amount_g": 300,
+      "amount_oz": 10.6
+    },
+    {
+      "name": "Bare Bones Shio Tare or Lighter Shoyu Tare",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "All-Purpose Negi (Scallion) Oil",
+      "amount_g": 15,
+      "amount_oz": 0.5
+    },
+    {
+      "name": "Makeshift-Hakata Style Noodles",
+      "amount_g": 130,
+      "amount_oz": 4.6
+    },
+    {
+      "name": "Chashu slices (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Soft-boiled egg, halved (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Wood ear mushrooms, sliced (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Pickled ginger (beni shoga) (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Green onions, sliced (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Nori sheet (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat your serving bowl by placing it in a 170°F (77°C) oven, or by filling it with hot water.",
+    "Prepare all toppings and have them ready (slice chashu, halve eggs, prepare wood ear mushrooms, slice green onions).",
+    "Bring a large pot of water to a rapid boil for cooking the noodles.",
+    "Heat the Tonkotsu Soup to a simmer.",
+    "When ready to assemble, empty the preheated bowl and add the Bare Bones Shio Tare or Lighter Shoyu Tare (30g) to the bottom of the bowl.",
+    "Add the All-Purpose Negi (Scallion) Oil (15g) to the bowl.",
+    "Add the hot Tonkotsu Soup (300g) to the bowl and stir to combine the tare and oil.",
+    "Cook the Makeshift-Hakata Style Noodles (130g) in the boiling water according to the noodle recipe instructions (typically very quick, 30-60 seconds for thin noodles).",
+    "When noodles are done, immediately drain them thoroughly in a fine mesh strainer, shaking vigorously to remove excess water.",
+    "Add the drained noodles to the bowl of soup. Use chopsticks to separate and arrange the noodles if desired.",
+    "Add toppings: place chashu at 6 o'clock position, egg at 11-12 o'clock, wood ear mushrooms and pickled ginger on the sides, green onions in the center, and nori at 1-2 o'clock (add nori last as it gets soggy quickly).",
+    "Serve immediately while hot."
+  ],
+  "notes": [
+    "Component recipes needed: tonkotsu-soup, bare-bones-shio-tare or lighter-shoyu-tare, all-purpose-negi-scallion-oil, makeshift-hakata-style-noodle",
+    "Prepare all component recipes in advance before assembly.",
+    "Classic Hakata-style tonkotsu features a rich, creamy pork bone broth.",
+    "Use shio tare to preserve the milky white color of the tonkotsu soup, or use shoyu tare if you prefer a darker color.",
+    "Hakata-style noodles are very thin and cook quickly - watch them carefully to avoid overcooking.",
+    "In Hakata, it's traditional to order kaedama (noodle refills) to add to the remaining soup.",
+    "30 mL of tare equals approximately 30g, 15 mL of oil equals approximately 15g, 300 mL of soup equals approximately 300g."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

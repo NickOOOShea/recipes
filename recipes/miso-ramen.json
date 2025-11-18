@@ -1,0 +1,85 @@
+{
+  "id": "miso-ramen",
+  "title": "Miso Ramen (Sapporo Style Complete Bowl)",
+  "source_url": null,
+  "yield_servings": 1,
+  "total_time_min": 10,
+  "tags": ["ramen", "japanese", "complete bowl", "miso", "sapporo", "main course"],
+  "ingredients": [
+    {
+      "name": "Doubutsu Kei Style Chintan broth",
+      "amount_g": 350,
+      "amount_oz": 12.3
+    },
+    {
+      "name": "Ramen_Lord's Miso Tare",
+      "amount_g": 80,
+      "amount_oz": 2.8
+    },
+    {
+      "name": "Ginger and Onion Pork Lard",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "Sapporo Style Noodles",
+      "amount_g": 140,
+      "amount_oz": 4.9
+    },
+    {
+      "name": "Chashu slices (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Soft-boiled egg, halved (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Sweet corn kernels (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Bean sprouts (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Green onions, sliced (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Nori sheet (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat your serving bowl by placing it in a 170°F (77°C) oven, or by filling it with hot water.",
+    "Prepare all toppings and have them ready (slice chashu, halve eggs, prepare corn and bean sprouts, slice green onions).",
+    "Bring a large pot of water to a rapid boil for cooking the noodles.",
+    "Heat the Doubutsu Kei Style Chintan broth to a simmer.",
+    "When ready to assemble, empty the preheated bowl and add the Ramen_Lord's Miso Tare (80g) to the bottom of the bowl.",
+    "Add the Ginger and Onion Pork Lard (30g) to the bowl.",
+    "Add the hot Doubutsu Kei Style Chintan broth (350g) to the bowl and whisk vigorously to fully incorporate the thick miso tare.",
+    "Cook the Sapporo Style Noodles (140g) in the boiling water according to the noodle recipe instructions.",
+    "When noodles are done, immediately drain them thoroughly in a fine mesh strainer, shaking vigorously to remove excess water.",
+    "Add the drained noodles to the bowl of soup. Use chopsticks to separate and arrange the noodles if desired.",
+    "Add toppings: place chashu at 6 o'clock position, egg at 11-12 o'clock, corn and bean sprouts on the sides, green onions in the center, and nori at 1-2 o'clock (add nori last as it gets soggy quickly).",
+    "Serve immediately while hot."
+  ],
+  "notes": [
+    "Component recipes needed: doubutsu-kei-chintan, ramen-lord-miso-tare, ginger-and-onion-lard, sapporo-style-noodle",
+    "Prepare all component recipes in advance before assembly.",
+    "This is a rich Sapporo-style miso ramen with a hearty, savory broth.",
+    "Alternative assembly method: Use the Sapporo Miso Wok Method where tare, lard, and some vegetables are stir-fried in a wok before adding soup.",
+    "The miso tare is thick, so whisking is essential to ensure even distribution in the soup.",
+    "Work quickly when adding noodles to prevent them from becoming sticky or overcooked.",
+    "80g of miso tare is thicker than liquid tare, 30 mL of lard equals approximately 30g, 350 mL of broth equals approximately 350g."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

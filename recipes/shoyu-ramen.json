@@ -1,0 +1,74 @@
+{
+  "id": "shoyu-ramen",
+  "title": "Shoyu Ramen (Tokyo Style Complete Bowl)",
+  "source_url": null,
+  "yield_servings": 1,
+  "total_time_min": 10,
+  "tags": ["ramen", "japanese", "complete bowl", "shoyu", "tokyo", "main course"],
+  "ingredients": [
+    {
+      "name": "Tokyo Style Chintan broth",
+      "amount_g": 300,
+      "amount_oz": 10.6
+    },
+    {
+      "name": "Standard Shoyu Tare",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "Negi Niboshi Oil",
+      "amount_g": 20,
+      "amount_oz": 0.7
+    },
+    {
+      "name": "Tokyo Style Noodles",
+      "amount_g": 135,
+      "amount_oz": 4.8
+    },
+    {
+      "name": "Chashu slices (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Soft-boiled egg, halved (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Green onions, sliced (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Nori sheet (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat your serving bowl by placing it in a 170°F (77°C) oven, or by filling it with hot water.",
+    "Prepare all toppings and have them ready (slice chashu, halve eggs, slice green onions).",
+    "Bring a large pot of water to a rapid boil for cooking the noodles.",
+    "Heat the Tokyo Style Chintan broth to a simmer.",
+    "When ready to assemble, empty the preheated bowl and add the Standard Shoyu Tare (30g) to the bottom of the bowl.",
+    "Add the Negi Niboshi Oil (20g) to the bowl.",
+    "Add the hot Tokyo Style Chintan broth (300g) to the bowl and stir to combine the tare and oil.",
+    "Cook the Tokyo Style Noodles (135g) in the boiling water according to the noodle recipe instructions (typically 1-2 minutes).",
+    "When noodles are done, immediately drain them thoroughly in a fine mesh strainer, shaking vigorously to remove excess water.",
+    "Add the drained noodles to the bowl of soup. Use chopsticks to separate and arrange the noodles if desired.",
+    "Add toppings: place chashu at 6 o'clock position, egg at 11-12 o'clock, green onions in the center, and nori at 1-2 o'clock (add nori last as it gets soggy quickly).",
+    "Serve immediately while hot."
+  ],
+  "notes": [
+    "Component recipes needed: tokyo-style-chintan, standard-shoyu-tare, negi-niboshi-oil, tokyo-style-noodle",
+    "Prepare all component recipes in advance before assembly.",
+    "This is the classic Tokyo-style shoyu ramen with a clear chicken and dashi broth.",
+    "Work quickly when adding noodles to prevent them from becoming sticky or overcooked.",
+    "The entire assembly process should take no more than 5 minutes once all components are ready.",
+    "30 mL of tare equals approximately 30g, 20 mL of oil equals approximately 20g, 300 mL of broth equals approximately 300g."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
