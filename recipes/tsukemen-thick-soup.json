@@ -1,0 +1,104 @@
+{
+  "id": "tsukemen-thick-soup",
+  "title": "Tsukemen Thick Soup",
+  "source_url": null,
+  "yield_servings": 10,
+  "total_time_min": 210,
+  "tags": ["soup", "broth", "paitan", "cloudy soup", "japanese", "ramen", "tsukemen", "pork", "chicken", "thick", "pressure cooker"],
+  "ingredients": [
+    {
+      "name": "water",
+      "amount_g": 4000,
+      "amount_oz": 141.1
+    },
+    {
+      "name": "pork bones, mix of femurs and necks",
+      "amount_g": 1500,
+      "amount_oz": 52.9
+    },
+    {
+      "name": "chicken backs",
+      "amount_g": 1500,
+      "amount_oz": 52.9
+    },
+    {
+      "name": "chicken feet",
+      "amount_g": 500,
+      "amount_oz": 17.6
+    },
+    {
+      "name": "pork belly and skin and ribs (or 0.5 kg ribs and 1 kg pork belly roast with skin)",
+      "amount_g": 1000,
+      "amount_oz": 35.3
+    },
+    {
+      "name": "yellow onion, peeled and quartered",
+      "amount_g": 150,
+      "amount_oz": 5.3
+    },
+    {
+      "name": "ginger, peeled and sliced into 0.5 cm coins (5-cm/2-inch piece)",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "kombu",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "niboshi",
+      "amount_g": 80,
+      "amount_oz": 2.8
+    },
+    {
+      "name": "thick-cut katsuobushi",
+      "amount_g": 50,
+      "amount_oz": 1.8
+    },
+    {
+      "name": "thick-cut sababushi",
+      "amount_g": 50,
+      "amount_oz": 1.8
+    },
+    {
+      "name": "gyofun (fish powder)",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    }
+  ],
+  "steps": [
+    "Add your water and pork bones to a pressure cooker (at least 8-quart, preferably 10-quart).",
+    "Bring to a boil, and skim the scum, until little to none rises, around 20 minutes.",
+    "Cover, bring to high pressure, cook for 1 hour.",
+    "Meanwhile, deskin the pork belly, roll into a cylinder. If attached to the ribs, cut along the ribs to remove the belly first.",
+    "While cooking, remove the toenails of the chicken feet.",
+    "Open the pressure cooker using the fast release setting, add the chicken backs, chicken feet, tied pork belly, ribs, and pork belly skin.",
+    "Close the pressure cooker, bring to high pressure, cook for 1 hour.",
+    "Fast release again, open the pressure cooker, remove the pork belly roll, and reserve for chashu.",
+    "Add the onion, ginger, and garlic. Boil for 1 hour uncovered. Add water as needed to keep things submerged, but some evaporation is expected.",
+    "Strain the soup, reserving the pulp of bones and meat and vegetables. Do not discard pulp.",
+    "Dig through the pulp to remove large bones like femurs or extra chunky neck bones. Any bones you can crumble in your fingers are good to keep.",
+    "Blend 2/3rds the bones, meat, vegetables in a blender with enough soup to make a slurry.",
+    "Add the slurry back to the strained soup. Mix to combine. Yields 3.5 L, add or boil water to get to this level.",
+    "Add the slurry to a large pot, and add kombu and niboshi. Heat to below simmer (around 80-90°C/176-194°F), and allow it to steep for 20 minutes.",
+    "Discard kombu, bring the soup to a simmer, and add remaining ingredients (katsuobushi, sababushi, and gyofun).",
+    "Remove from heat, steep 15 minutes. Stir frequently to prevent burning on the bottom of the pot, as the sludge can settle and scorch.",
+    "Strain soup through a porous strainer to remove fish, pressing on pulp to ensure full extraction."
+  ],
+  "notes": [
+    "Unlike previously mentioned paitan soups, this soup blends essentially all ingredients together to create an extremely thick and rich soup, similar to a gravy.",
+    "This soup is extremely difficult to make, recipe is specifically for a pressure cooker.",
+    "Can make via stovetop by multiplying cook times in steps 3 and 7 by 8.",
+    "Final yield is around 2.5 L, which is around 10 generous servings.",
+    "Target Brix level: 11+.",
+    "From 'The Book of Ramen' - Chapter 2: Soup"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

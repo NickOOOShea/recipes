@@ -1,0 +1,71 @@
+{
+  "id": "yamagata-akayu-chintan",
+  "title": "Yamagata Style Akayu Chintan",
+  "source_url": null,
+  "yield_servings": 6,
+  "total_time_min": 500,
+  "tags": ["soup", "broth", "chintan", "clear soup", "japanese", "ramen", "pork", "miso", "akayu", "traditional"],
+  "ingredients": [
+    {
+      "name": "pork femur bones",
+      "amount_g": 1500,
+      "amount_oz": 52.9
+    },
+    {
+      "name": "water",
+      "amount_g": 3000,
+      "amount_oz": 105.8
+    },
+    {
+      "name": "carrot (half)",
+      "amount_g": 75,
+      "amount_oz": 2.6
+    },
+    {
+      "name": "cabbage (one inch slice of head)",
+      "amount_g": 100,
+      "amount_oz": 3.5
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": 24,
+      "amount_oz": 0.85
+    },
+    {
+      "name": "green onions (one bunch)",
+      "amount_g": 50,
+      "amount_oz": 1.8
+    },
+    {
+      "name": "niboshi",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "kombu",
+      "amount_g": 15,
+      "amount_oz": 0.53
+    },
+    {
+      "name": "katsuobushi",
+      "amount_g": 15,
+      "amount_oz": 0.53
+    }
+  ],
+  "steps": [
+    "Add the pork bones to a stockpot, cover with water.",
+    "Bring up to a boil over high heat. When boiling, skim the scum that rises to the surface. Continue to boil until little to no scum remains, around 20 minutes.",
+    "Turn the heat to low, and let the pork bones cook at a bare simmer (around 88°C/190°F), 7 hours.",
+    "In the last hour, add all remaining ingredients, let steep for 1 hour at below simmer.",
+    "Strain the soup and reserve until needed."
+  ],
+  "notes": [
+    "Similar to the Eifukucho Taishoken recipe - shop dates from early 60s.",
+    "Older shops use higher ratio of water to bones and heavily use fish products to provide umami.",
+    "Specifically meant to be paired with other Akayu recipes.",
+    "The aromatics pair nicely with a miso tare.",
+    "From 'The Book of Ramen' - Chapter 2: Soup"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

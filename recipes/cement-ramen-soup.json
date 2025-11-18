@@ -1,0 +1,86 @@
+{
+  "id": "cement-ramen-soup",
+  "title": "Cement Ramen Soup",
+  "source_url": null,
+  "yield_servings": 8,
+  "total_time_min": 1260,
+  "tags": ["soup", "broth", "paitan", "cloudy soup", "japanese", "ramen", "pork", "fish", "niboshi", "polarizing"],
+  "ingredients": [
+    {
+      "name": "pork femurs, split to expose marrow",
+      "amount_g": 2000,
+      "amount_oz": 70.5
+    },
+    {
+      "name": "water (for soaking bones)",
+      "amount_g": 4000,
+      "amount_oz": 141.1
+    },
+    {
+      "name": "water (for niboshi/kombu soak)",
+      "amount_g": 2000,
+      "amount_oz": 70.5
+    },
+    {
+      "name": "water (for cooking)",
+      "amount_g": 4000,
+      "amount_oz": 141.1
+    },
+    {
+      "name": "onion, halved",
+      "amount_g": 150,
+      "amount_oz": 5.3
+    },
+    {
+      "name": "ginger, peeled and sliced into thin coins (2-inch piece)",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": 24,
+      "amount_oz": 0.85
+    },
+    {
+      "name": "niboshi, medium-sized",
+      "amount_g": 300,
+      "amount_oz": 10.6
+    },
+    {
+      "name": "kombu",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "niboshi, small-sized",
+      "amount_g": 35,
+      "amount_oz": 1.2
+    }
+  ],
+  "steps": [
+    "Combine medium-sized niboshi and kombu, cover with 2 L water, place in the fridge to soak overnight (This overnight soak helps save time over traditional dashi. You can also follow the dashi method shown).",
+    "Soak pork bones in water overnight.",
+    "Take soaked pork bones, discard soaking water, and add to new water in a pot. Bring to high heat and blanch to remove scum, around 5-10 minutes at a rolling boil.",
+    "Strain, discard blanching liquid. Cover with 4 L of new water. Boil for 18 hours.",
+    "After 18 hours, add aromatics and boil for 1 hour.",
+    "Strain. You should have around 2-3 L.",
+    "Add steeped niboshi and kombu mix to strained soup. Bring to a boil. At 80°C/176°F, discard kombu.",
+    "Reduce heat to lowest on the stove, simmer the niboshi for 1 hour.",
+    "Strain soup, reserving niboshi.",
+    "In a blender, blend the small niboshi to form a powder.",
+    "Add reserved niboshi from step 9 to the powder-filled blender jar, and enough soup to cover (including as much un-emulsified fat as possible). Blend on high until grey/green slurry is formed. The niboshi should be quite soft at this stage.",
+    "Add slurry back to the soup, mix to incorporate.",
+    "Strain one more time to remove the residual pulp, pressing on pulp to achieve full extraction.",
+    "Reserve soup until needed."
+  ],
+  "notes": [
+    "Despite the name, this style specifically refers to the greyish/greenish hue of the soup.",
+    "The color comes from blending in whole niboshi and niboshi powder before straining.",
+    "A popular but admittedly polarizing style, heavy on fish notes, and can be daunting.",
+    "The soup is a fish lover's delight.",
+    "The blended fish helps to stabilize the emulsion.",
+    "From 'The Book of Ramen' - Chapter 2: Soup"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

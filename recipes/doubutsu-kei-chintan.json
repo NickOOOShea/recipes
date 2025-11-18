@@ -1,0 +1,56 @@
+{
+  "id": "doubutsu-kei-chintan",
+  "title": "Doubutsu Kei Style Chintan",
+  "source_url": null,
+  "yield_servings": 12,
+  "total_time_min": 510,
+  "tags": ["soup", "broth", "chintan", "clear soup", "japanese", "ramen", "chicken", "pork", "miso"],
+  "ingredients": [
+    {
+      "name": "pork neck bones",
+      "amount_g": 2000,
+      "amount_oz": 70.5
+    },
+    {
+      "name": "chicken backs",
+      "amount_g": 2000,
+      "amount_oz": 70.5
+    },
+    {
+      "name": "water",
+      "amount_g": 6000,
+      "amount_oz": 211.6
+    },
+    {
+      "name": "onion, peeled and halved",
+      "amount_g": 150,
+      "amount_oz": 5.3
+    },
+    {
+      "name": "garlic cloves, peeled",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "ginger (2-inch piece)",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    }
+  ],
+  "steps": [
+    "Blanch the pork neck bones briefly by covering them with cold water in a pot, bringing them to a boil, and cooking for 15-20 minutes, or until the scum subsides. Strain the bones and reserve.",
+    "Add neck bones and chicken backs to new water in a stockpot, bring to a simmer, and skim any scum that rises, for around 5-10 minutes.",
+    "Reduce heat back down to below simmer (around 88°C/190°F), hold for 7 hours (additional time to account for the pork bones).",
+    "Add your onion, garlic, and ginger. Cook for an additional hour.",
+    "Strain the soup and hold until needed."
+  ],
+  "notes": [
+    "This recipe combines chicken and pork products to produce a more round amino acid profile.",
+    "Lighter in body, this soup is excellent in Miso and also good with shoyu applications.",
+    "Blanching the pork neck bones helps remove myoglobin and preserve clarity (optional).",
+    "Can use all chicken backs or all pork bones if desired.",
+    "From 'The Book of Ramen' - Chapter 2: Soup"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "tonkotsu-gyokai-soup",
+  "title": "Tonkotsu Gyokai Soup",
+  "source_url": null,
+  "yield_servings": 12,
+  "total_time_min": 1200,
+  "tags": ["soup", "broth", "paitan", "cloudy soup", "japanese", "ramen", "pork", "tonkotsu", "fish", "gyokai", "emulsified"],
+  "ingredients": [
+    {
+      "name": "pork neck bones",
+      "amount_g": 2000,
+      "amount_oz": 70.5
+    },
+    {
+      "name": "pork femurs, split to expose marrow",
+      "amount_g": 2000,
+      "amount_oz": 70.5
+    },
+    {
+      "name": "water",
+      "amount_g": 6000,
+      "amount_oz": 211.6
+    },
+    {
+      "name": "pork trotter (half)",
+      "amount_g": 500,
+      "amount_oz": 17.6
+    },
+    {
+      "name": "onion",
+      "amount_g": 150,
+      "amount_oz": 5.3
+    },
+    {
+      "name": "garlic cloves",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "ginger (2-inch piece)",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "kombu",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "niboshi",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "katsuobushi",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "gyofun (fish powder)",
+      "amount_g": 40,
+      "amount_oz": 1.4
+    }
+  ],
+  "steps": [
+    "The night before, or at least 6 hours before cooking, soak your neck bones and femurs in water in a cold, non-reactive vessel (technically optional, but results in whiter appearance).",
+    "When ready to cook, add your neck bones and femurs to a pot with fresh water. Bring to a boil, then down to a simmer, and skim the scum that rises to the top. Do this for 15-20 minutes, or until little scum is rising. This blanch is integral for white tonkotsu.",
+    "Strain the bones from the blanching liquid. Discard the liquid.",
+    "Scrub and clean the bones under running water, removing any black or dirty looking particulate.",
+    "Add your now clean bones to a pot.",
+    "Cook at a medium boil for 18 hours, stirring frequently and adding water to ensure bones are covered.",
+    "Add the onion, garlic, ginger, kombu, niboshi, and katsuobushi to the soup, turning off the heat, letting it steep for one hour.",
+    "Strain the soup.",
+    "Add one-quarter of the soup to a blender with the gyofun and blend on high for 30 seconds, being careful to gradually bring the blender to high to avoid splashing.",
+    "Combine with the remaining soup, and reserve the soup as needed."
+  ],
+  "notes": [
+    "A riff on tonkotsu that incorporates fish elements.",
+    "Packed with umami and decadently rich.",
+    "Target Brix level: 6-8.",
+    "Can be made in pressure cooker: Up to 2 hours at pressure.",
+    "Can be stored for up to a week in the fridge or 6 months in the freezer.",
+    "From 'The Book of Ramen' - Chapter 2: Soup"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

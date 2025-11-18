@@ -1,0 +1,42 @@
+{
+  "id": "clam-dashi",
+  "title": "Clam Dashi",
+  "source_url": null,
+  "yield_servings": 4,
+  "total_time_min": 90,
+  "tags": ["soup", "broth", "dashi", "japanese", "ramen", "seafood", "clam"],
+  "ingredients": [
+    {
+      "name": "cold water",
+      "amount_g": 1000,
+      "amount_oz": 35.3
+    },
+    {
+      "name": "sake",
+      "amount_g": 20,
+      "amount_oz": 0.71
+    },
+    {
+      "name": "clams (manila or cherrystone)",
+      "amount_g": 1000,
+      "amount_oz": 35.3
+    }
+  ],
+  "steps": [
+    "To remove the grit from the clams, place them in cold water and allow them to sit undisturbed for one hour.",
+    "Wash the clams and scrub their exteriors to remove any residual dirt on the outside.",
+    "Combine 1 L cold water, sake, and cleaned clams in a pot.",
+    "Heat over high heat until reaching a simmer.",
+    "Cook the clams at a simmer for 10-15 minutes, or until the shells have opened and the clams are completely cooked.",
+    "Strain through a fine-mesh strainer and reserve until needed. You can then harvest the meat for alternative purposes."
+  ],
+  "notes": [
+    "Clam ramen is becoming more popular - this dashi is clam forward with only 3 ingredients.",
+    "This dashi can have additional dashi elements like katsuobushi or niboshi steeped in it after completion.",
+    "Only keeps for a few days in the fridge.",
+    "Can be combined with other soups to create complexity.",
+    "From 'The Book of Ramen' - Chapter 2: Soup"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

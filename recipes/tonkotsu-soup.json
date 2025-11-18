@@ -1,0 +1,63 @@
+{
+  "id": "tonkotsu-soup",
+  "title": "Tonkotsu Soup",
+  "source_url": null,
+  "yield_servings": 12,
+  "total_time_min": 1200,
+  "tags": ["soup", "broth", "paitan", "cloudy soup", "japanese", "ramen", "pork", "tonkotsu", "emulsified"],
+  "ingredients": [
+    {
+      "name": "pork neck bones",
+      "amount_g": 2000,
+      "amount_oz": 70.5
+    },
+    {
+      "name": "pork femurs, split to expose marrow",
+      "amount_g": 2000,
+      "amount_oz": 70.5
+    },
+    {
+      "name": "water",
+      "amount_g": 6000,
+      "amount_oz": 211.6
+    },
+    {
+      "name": "fatback (optional, for additional fat)",
+      "amount_g": 500,
+      "amount_oz": 17.6
+    },
+    {
+      "name": "onion, halved (optional aromatics)",
+      "amount_g": 150,
+      "amount_oz": 5.3
+    },
+    {
+      "name": "garlic cloves, peeled (optional aromatics)",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    }
+  ],
+  "steps": [
+    "The night before, or at least 6 hours before cooking, soak your neck bones and femurs in water in a cold, non-reactive vessel (technically optional, but results in whiter appearance).",
+    "When ready to cook, add your neck bones and femurs to a pot with fresh water. Bring to a boil, then down to a simmer, and skim the scum that rises to the top. Do this for 15-20 minutes, or until little scum is rising. The scum goes through several phases - you'll know when it's done rising. This blanch is integral for white tonkotsu.",
+    "Strain the bones from the blanching liquid. Discard the liquid.",
+    "Scrub and clean the bones under running water, removing any black or dirty looking particulate that may be on the outside of the bones or in crevices.",
+    "Add your now clean bones to a pot.",
+    "Cook at a medium boil for 18 hours, stirring frequently.",
+    "If using, add aromatics to the broth in the last hour.",
+    "Strain the soup.",
+    "To finalize the emulsion, add the soup to a blender and blend on high for 30 seconds, being careful to gradually bring the blender to high to avoid splashing. You can also use a hand blender for 5 minutes, though the emulsion won't be as strong.",
+    "Reserve the soup as needed."
+  ],
+  "notes": [
+    "Tonkotsu is a paitan (cloudy soup) of pork bones.",
+    "This is the basic tonkotsu approach that most restaurants use.",
+    "Some restaurants add new bones midway through cooking or use different bones like heads or ribs, but the method is essentially the same: cook bones to death and emulsify everything.",
+    "Target Brix level: 6-8.",
+    "Can be made in pressure cooker: Up to 2 hours at pressure.",
+    "Can be stored for up to a week in the fridge or 6 months in the freezer.",
+    "From 'The Book of Ramen' - Chapter 2: Soup"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

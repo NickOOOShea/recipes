@@ -1,0 +1,45 @@
+{
+  "id": "all-purpose-chintan",
+  "title": "All-Purpose Chintan",
+  "source_url": null,
+  "yield_servings": 12,
+  "total_time_min": 370,
+  "tags": ["soup", "broth", "chintan", "clear soup", "japanese", "ramen", "chicken", "versatile"],
+  "ingredients": [
+    {
+      "name": "chicken backs",
+      "amount_g": 4000,
+      "amount_oz": 141.1
+    },
+    {
+      "name": "water",
+      "amount_g": 6000,
+      "amount_oz": 211.6
+    },
+    {
+      "name": "onion, peeled and halved",
+      "amount_g": 150,
+      "amount_oz": 5.3
+    },
+    {
+      "name": "garlic cloves, peeled",
+      "amount_g": 30,
+      "amount_oz": 1.1
+    }
+  ],
+  "steps": [
+    "Add chicken backs to fresh water in a stockpot, bring to a simmer, and skim any scum that rises, for around 5-10 minutes.",
+    "Reduce heat back down to below simmer (around 88°C/190°F), hold for 5 hours.",
+    "Add your onion and garlic. Cook for an additional hour.",
+    "Strain the soup and hold it until needed."
+  ],
+  "notes": [
+    "Very similar to the doubutsu kei soup but excludes ginger and pork.",
+    "Makes this an overarchingly all-purpose soup, even in non-ramen applications.",
+    "Can be made in pressure cooker: 45 minutes at pressure (or 30 minutes with 30-minute natural release).",
+    "Can be stored for up to a week in the fridge or 6 months in the freezer.",
+    "From 'The Book of Ramen' - Chapter 2: Soup"
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
