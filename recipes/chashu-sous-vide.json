@@ -1,0 +1,70 @@
+{
+  "id": "chashu-sous-vide",
+  "title": "Chashu - Sous Vide",
+  "source_url": null,
+  "yield_servings": null,
+  "total_time_min": 720,
+  "tags": ["topping", "ramen", "japanese", "chashu", "pork", "protein", "belly", "sous vide"],
+  "ingredients": [
+    {
+      "name": "pork belly",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "mirin",
+      "amount_g": 125,
+      "amount_oz": 4.4
+    },
+    {
+      "name": "soy sauce",
+      "amount_g": 125,
+      "amount_oz": 4.4
+    },
+    {
+      "name": "water",
+      "amount_g": 250,
+      "amount_oz": 8.8
+    },
+    {
+      "name": "brown sugar",
+      "amount_g": 12.5,
+      "amount_oz": 0.44
+    },
+    {
+      "name": "sake",
+      "amount_g": 60,
+      "amount_oz": 2.1
+    },
+    {
+      "name": "ice water (for shocking)",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat a water bath to 79°C (175°F) using a sous vide water circulator.",
+    "Sear the pork belly on all sides on high heat in a pan until golden brown, then place in a sturdy bag (ideally one used for a vacuum sealer).",
+    "Deglaze the pan with the sake, then add mirin, soy sauce, water, and brown sugar. Reserve this liquid and allow it to cool.",
+    "When the liquid has cooled, add it to the bag with the pork.",
+    "Seal the bag, removing as much air as possible.",
+    "Cook the pork belly sous vide for 7-12 hours.",
+    "Remove the meat from the bath, and add to the ice water to chill quickly.",
+    "Reserve in the fridge until needed, then slice as desired."
+  ],
+  "notes": [
+    "Sous vide is an incredible tool for chashu.",
+    "Produces meat that is both exceptionally tender, well structured, and gorgeously pink, while still being fully cooked and safe to eat.",
+    "Most high-end shops are pivoting to this approach because it allows them to cook with marvelous consistency.",
+    "You can store the pork in the bag well in advance before use.",
+    "Simply remove the bag from the water bath, chill in ice bath, then reserve in the fridge.",
+    "The pork should keep well for several weeks in the vacuum-sealed bag, as it will be pasteurized and won't be exposed to oxygen.",
+    "You can select many temperatures and times based on preference.",
+    "For a more steaky, firm chashu, use lower temperatures (68°C/155°F) for a longer period (24-36 hours).",
+    "The cooking liquid is practically identical to what's used in the braising recipe.",
+    "Most control, most consistent product, great color, consistent flavor.",
+    "Most time consuming and equipment can be expensive."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "spice-blend",
+  "title": "Spice Blend for Ramen",
+  "source_url": null,
+  "yield_servings": null,
+  "total_time_min": 10,
+  "tags": ["topping", "ramen", "japanese", "spice", "condiment", "hot"],
+  "ingredients": [
+    {
+      "name": "dried Chinese chilies, whole",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "togarashi powder",
+      "amount_g": 6,
+      "amount_oz": 0.21
+    },
+    {
+      "name": "whole Sichuan peppercorns",
+      "amount_g": 3,
+      "amount_oz": 0.11
+    },
+    {
+      "name": "white peppercorns (optional)",
+      "amount_g": 2,
+      "amount_oz": 0.07
+    }
+  ],
+  "steps": [
+    "In a spice mill, blend the above ingredients one by one.",
+    "Combine all ground spices in a small bowl.",
+    "Reserve until needed."
+  ],
+  "notes": [
+    "The author doesn't know whether this counts as a 'topping' or not, but likes to add it both to the bottom of the bowl and also on top of the soup after the noodles have been added.",
+    "Heat comes in several forms in ramen. You can add chili oil, togarashi powder (ground Japanese chilis), or fermented pastes like Gochujang and Tobanjan.",
+    "This is a standard spice blend the author uses for spicier variants of ramen.",
+    "Can be used in various applications beyond ramen.",
+    "Store in an airtight container to preserve freshness and potency.",
+    "Adjust the proportions to your heat preference.",
+    "The Sichuan peppercorns add a unique numbing sensation in addition to heat."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

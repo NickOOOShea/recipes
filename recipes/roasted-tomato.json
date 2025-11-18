@@ -1,0 +1,45 @@
+{
+  "id": "roasted-tomato",
+  "title": "Roasted Tomato",
+  "source_url": null,
+  "yield_servings": null,
+  "total_time_min": 150,
+  "tags": ["topping", "ramen", "japanese", "vegetable", "tomato", "oven", "roasted"],
+  "ingredients": [
+    {
+      "name": "tomatoes (Roma or any variety)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "black pepper",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "olive oil",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat your oven to 107°C (225°F).",
+    "Slice the tops and bottoms off of the tomato, then slice the tomato in half lengthwise (so that you have two round, fat disks of tomato).",
+    "Place the tomato on a baking sheet, season with salt, pepper, and drizzle with olive oil.",
+    "Roast the tomatoes until they are plush, withered, and have shrunk in size, around 2-3 hours."
+  ],
+  "notes": [
+    "This method is blatantly stolen from the legendary Ivan Orkin, who used this topping to great effect in his shio ramen in Japan.",
+    "It's delicious, and a great alternative for an umami-laden ingredient.",
+    "Roma tomatoes are recommended, but any tomato you like will work.",
+    "The slow roasting concentrates the tomato flavor and creates a sweet, umami-rich topping.",
+    "Great for adding complexity to lighter ramen styles, particularly shio ramen."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

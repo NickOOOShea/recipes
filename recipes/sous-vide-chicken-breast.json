@@ -1,0 +1,57 @@
+{
+  "id": "sous-vide-chicken-breast",
+  "title": "Sous Vide Chicken Breast",
+  "source_url": null,
+  "yield_servings": null,
+  "total_time_min": 120,
+  "tags": ["topping", "ramen", "japanese", "chicken", "protein", "sous vide"],
+  "ingredients": [
+    {
+      "name": "chicken breast",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "shio koji",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "garlic powder",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "white pepper",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "green onion",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Preheat a water bath to 63°C (145°F) using a sous vide water circulator (or whichever temperature you prefer - 63°C/145°F is extremely supple, juicy, and tender).",
+    "Season the chicken breasts with the garlic powder and white pepper, making sure to cover the breasts evenly.",
+    "Place the chicken breasts in a sturdy bag ideally one used for a vacuum sealer or a sealable bag.",
+    "Add shio koji to the bag to sufficiently cover the breasts. Add a few green onions to each bag.",
+    "Remove as much of the air from the bag as possible. Use either a vacuum sealer or the water in the immersion circulator to push out the air before sealing the bag.",
+    "Cook for 2 hours (or up to 4) to ensure pasteurization.",
+    "Remove from the water bath, and plunge the bag into ice water to chill completely."
+  ],
+  "notes": [
+    "Chicken breast is probably the most misunderstood and disrespected meat of all time.",
+    "Most cooked chicken breast is either too dry or under seasoned.",
+    "Sous vide takes all of the careful measurement and delicate process control away, fixing the cooking temperature to a precise number.",
+    "Overcooking chicken with sous vide goes from being a frequent problem for home cooks to a total nonissue.",
+    "You can cook chicken breast at lower temperatures than with conventional cooking while still producing a safely cooked product.",
+    "The USDA recommends heating poultry to 74°C/165°F, but that's assuming a short exposure time.",
+    "Chicken cooked to 63°C/145°F with adjusted cooking time tastes really good.",
+    "This method is extremely versatile - feel free to add herbs, other spices, or seasonings like soy sauce or mirin to the bag.",
+    "Store the sealed bag in the fridge until ready to use."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}

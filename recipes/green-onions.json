@@ -1,0 +1,34 @@
+{
+  "id": "green-onions",
+  "title": "Green Onions (Scallions) - Cutting Techniques",
+  "source_url": null,
+  "yield_servings": null,
+  "total_time_min": 5,
+  "tags": ["topping", "ramen", "japanese", "vegetable", "scallion", "green onion", "no-cook", "knife skills"],
+  "ingredients": [
+    {
+      "name": "green onions (scallions)",
+      "amount_g": null,
+      "amount_oz": null
+    }
+  ],
+  "steps": [
+    "Choose your preferred cutting technique from the following options:",
+    "RINGLETS: Slice the scallion into small rings, typically as thin as you can get them. The goal of this cut is to have the green onions be so thin that they give almost no texture to the bowl. You can use the green or the white or both for this application.",
+    "OBLONG DIAMONDS: A more western technique, slicing the green onions at a 45-degree angle gives the resulting shape a diamond-like appearance.",
+    "THREADS: Slice the green onion lengthwise. Cut the green onion into 3-inch pieces, rotate, and slice into threads. The layers of the green onion will help you achieve this, and it's easier with the white part of the green onion.",
+    "FINE DICE: After creating threads along the length of the onion, slice the green onion further into small dice. This looks nice when added with the tare, giving the surface of the soup a speckled appearance.",
+    "Since the onions are served raw, there's no cooking required, only cutting them how you'd like to eat them."
+  ],
+  "notes": [
+    "Green onions are the most important topping in ramen according to the author.",
+    "Scallions add sharpness, vegetal complexity, texture, and color contrast.",
+    "In Japan, a similar allium known as 'Tokyo negi' is often swapped in, but the flavor and preparation are similar enough that most home cooks can get away with using scallions.",
+    "A bowl of ramen without scallions feels incomplete, even with chashu, eggs, menma, or anything else.",
+    "Scallions should be included on virtually every bowl.",
+    "The different cutting techniques are mostly personal preference.",
+    "Each cutting style provides different textures and visual appearances in the final bowl."
+  ],
+  "created_at": "2025-11-18",
+  "last_updated_at": "2025-11-18"
+}
