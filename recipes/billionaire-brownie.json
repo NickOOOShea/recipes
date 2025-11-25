@@ -1,7 +1,6 @@
 {
   "id": "billionaire-brownie",
   "title": "Billionaire Brownie",
-  "source_url": "https://www.chefsteps.com/activities/ultimate-brownie",
   "yield_servings": 18,
   "total_time_min": 240,
   "tags": [
@@ -12,20 +11,76 @@
     "sous vide"
   ],
   "ingredients": [
-    {"name": "unsweetened chocolate, coarsely chopped", "amount_g": 77, "amount_oz": 2.7},
-    {"name": "70% dark chocolate, coarsely chopped", "amount_g": 128, "amount_oz": 4.5},
-    {"name": "unsalted butter, diced", "amount_g": 261, "amount_oz": 9.2},
-    {"name": "large eggs, tempered to room temperature (about 4)", "amount_g": 212, "amount_oz": 7.5},
-    {"name": "granulated sugar", "amount_g": 671, "amount_oz": 23.7},
-    {"name": "water (for sugar syrup)", "amount_g": 250, "amount_oz": 8.8},
-    {"name": "white miso paste", "amount_g": 100, "amount_oz": 3.5},
-    {"name": "kosher salt", "amount_g": 3, "amount_oz": 0.1},
-    {"name": "vanilla extract", "amount_g": 9, "amount_oz": 0.3},
-    {"name": "bread flour (or cassava flour for gluten-free)", "amount_g": 170, "amount_oz": 6},
-    {"name": "Dutch-process cocoa powder", "amount_g": 47, "amount_oz": 1.7},
-    {"name": "sweetened condensed milk (for dulce de leche)", "amount_g": 396, "amount_oz": 14},
-    {"name": "36% milk chocolate, chunks or pistoles (optional)", "amount_g": 200, "amount_oz": 7},
-    {"name": "Maldon flake salt, for finishing (optional)", "amount_g": 3.5, "amount_oz": 0.12}
+    {
+      "name": "unsweetened chocolate, coarsely chopped",
+      "amount_g": 77,
+      "amount_oz": 2.7
+    },
+    {
+      "name": "70% dark chocolate, coarsely chopped",
+      "amount_g": 128,
+      "amount_oz": 4.5
+    },
+    {
+      "name": "unsalted butter, diced",
+      "amount_g": 261,
+      "amount_oz": 9.2
+    },
+    {
+      "name": "large eggs, tempered to room temperature (about 4)",
+      "amount_g": 212,
+      "amount_oz": 7.5
+    },
+    {
+      "name": "granulated sugar",
+      "amount_g": 671,
+      "amount_oz": 23.7
+    },
+    {
+      "name": "water (for sugar syrup)",
+      "amount_g": 250,
+      "amount_oz": 8.8
+    },
+    {
+      "name": "white miso paste",
+      "amount_g": 100,
+      "amount_oz": 3.5
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": 3,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "vanilla extract",
+      "amount_g": 9,
+      "amount_oz": 0.3
+    },
+    {
+      "name": "bread flour (or cassava flour for gluten-free)",
+      "amount_g": 170,
+      "amount_oz": 6
+    },
+    {
+      "name": "Dutch-process cocoa powder",
+      "amount_g": 47,
+      "amount_oz": 1.7
+    },
+    {
+      "name": "sweetened condensed milk (for dulce de leche)",
+      "amount_g": 396,
+      "amount_oz": 14
+    },
+    {
+      "name": "36% milk chocolate, chunks or pistoles (optional)",
+      "amount_g": 200,
+      "amount_oz": 7
+    },
+    {
+      "name": "Maldon flake salt, for finishing (optional)",
+      "amount_g": 3.5,
+      "amount_oz": 0.12
+    }
   ],
   "steps": [
     "MAKE DULCE DE LECHE: Heat sous vide bath to 185°F (85°C). Submerge unopened can of sweetened condensed milk and cook for 4 hours. Let cool before opening.",

@@ -1,7 +1,6 @@
 {
   "id": "2025-thanksgiving",
   "title": "2025 Thanksgiving Menu",
-  "source_url": null,
   "yield_servings": 10,
   "total_time_min": null,
   "tags": [
@@ -20,110 +19,526 @@
     "american"
   ],
   "ingredients": [
-    {"name": "=== CHICKEN & DUMPLINGS ===", "amount_g": null, "amount_oz": null},
-    {"name": "olive oil", "amount_g": 15, "amount_oz": 0.5},
-    {"name": "chicken (bone-in thighs or breasts)", "amount_g": 950, "amount_oz": 33.5},
-    {"name": "salt", "amount_g": null, "amount_oz": null},
-    {"name": "black pepper", "amount_g": null, "amount_oz": null},
-    {"name": "butter", "amount_g": 70, "amount_oz": 2.5},
-    {"name": "yellow onion, diced", "amount_g": 150, "amount_oz": 5.3},
-    {"name": "carrots, diced", "amount_g": 120, "amount_oz": 4.2},
-    {"name": "celery, diced", "amount_g": 120, "amount_oz": 4.2},
-    {"name": "garlic, minced", "amount_g": 10, "amount_oz": 0.4},
-    {"name": "Worcestershire sauce", "amount_g": 5, "amount_oz": 0.2},
-    {"name": "hot sauce (Frank's)", "amount_g": 5, "amount_oz": 0.2},
-    {"name": "all-purpose flour", "amount_g": 40, "amount_oz": 1.4},
-    {"name": "chicken broth", "amount_g": 1000, "amount_oz": 35.3},
-    {"name": "chicken bouillon cube (optional)", "amount_g": 1, "amount_oz": null},
-    {"name": "half & half", "amount_g": 350, "amount_oz": 12.3},
-    {"name": "frozen peas", "amount_g": 100, "amount_oz": 3.5},
-    {"name": "onion powder", "amount_g": 3, "amount_oz": 0.1},
-    {"name": "dried basil", "amount_g": 1, "amount_oz": null},
-    {"name": "parsley", "amount_g": 1, "amount_oz": null},
-    {"name": "thyme", "amount_g": 1, "amount_oz": null},
-    {"name": "rosemary", "amount_g": 1, "amount_oz": null},
-    {"name": "mustard powder", "amount_g": 1, "amount_oz": null},
-    {"name": "ground sage", "amount_g": 0.5, "amount_oz": null},
-    {"name": "all-purpose flour (dumplings)", "amount_g": 240, "amount_oz": 8.5},
-    {"name": "baking powder", "amount_g": 8, "amount_oz": 0.3},
-    {"name": "baking soda", "amount_g": 3, "amount_oz": 0.1},
-    {"name": "salt (dumplings)", "amount_g": 5, "amount_oz": 0.2},
-    {"name": "garlic powder", "amount_g": 3, "amount_oz": 0.1},
-    {"name": "sugar", "amount_g": 8, "amount_oz": 0.3},
-    {"name": "cold sour cream", "amount_g": 180, "amount_oz": 6.3},
-    {"name": "cold milk", "amount_g": 60, "amount_oz": 2.1},
-    {"name": "butter, melted (dumplings)", "amount_g": 57, "amount_oz": 2.0},
-    {"name": "=== SMOKED MAC & CHEESE ===", "amount_g": null, "amount_oz": null},
-    {"name": "elbow macaroni", "amount_g": 450, "amount_oz": 15.9},
-    {"name": "butter", "amount_g": 113, "amount_oz": 4.0},
-    {"name": "all-purpose flour", "amount_g": 32, "amount_oz": 1.1},
-    {"name": "mustard powder", "amount_g": 8, "amount_oz": 0.3},
-    {"name": "half & half", "amount_g": 475, "amount_oz": 16.8},
-    {"name": "cream cheese", "amount_g": 113, "amount_oz": 4.0},
-    {"name": "sharp cheddar, shredded", "amount_g": 340, "amount_oz": 12.0},
-    {"name": "smoked gouda, shredded", "amount_g": 170, "amount_oz": 6.0},
-    {"name": "panko breadcrumbs", "amount_g": 50, "amount_oz": 1.8},
-    {"name": "butter, melted (topping)", "amount_g": 57, "amount_oz": 2.0},
-    {"name": "sweet rub", "amount_g": 12, "amount_oz": 0.4},
-    {"name": "=== VINEGAR COLESLAW ===", "amount_g": null, "amount_oz": null},
-    {"name": "apple cider vinegar", "amount_g": 120, "amount_oz": 4.2},
-    {"name": "sugar (dressing)", "amount_g": 50, "amount_oz": 1.8},
-    {"name": "olive oil", "amount_g": 45, "amount_oz": 1.6},
-    {"name": "garlic, minced", "amount_g": 4, "amount_oz": 0.1},
-    {"name": "kosher salt (dressing)", "amount_g": 6, "amount_oz": 0.2},
-    {"name": "black pepper", "amount_g": null, "amount_oz": null},
-    {"name": "celery seed", "amount_g": 3, "amount_oz": 0.1},
-    {"name": "cabbage, shredded", "amount_g": 1600, "amount_oz": 56.4},
-    {"name": "carrots, grated", "amount_g": 170, "amount_oz": 6.0},
-    {"name": "yellow onion, thin sliced", "amount_g": 225, "amount_oz": 7.9},
-    {"name": "sugar (purge - use HALF: 66g)", "amount_g": 66, "amount_oz": 2.3},
-    {"name": "kosher salt (purge - use HALF: 24g)", "amount_g": 24, "amount_oz": 0.8},
-    {"name": "=== MUSTARD GREENS WITH HAM HOCK ===", "amount_g": null, "amount_oz": null},
-    {"name": "mustard greens (2 bunches)", "amount_g": 750, "amount_oz": 26.5},
-    {"name": "olive oil", "amount_g": 20, "amount_oz": 0.7},
-    {"name": "onion", "amount_g": 150, "amount_oz": 5.3},
-    {"name": "garlic (6 cloves)", "amount_g": 18, "amount_oz": 0.6},
-    {"name": "onion powder", "amount_g": 2, "amount_oz": 0.1},
-    {"name": "garlic powder", "amount_g": 2, "amount_oz": 0.1},
-    {"name": "crushed red pepper", "amount_g": 2, "amount_oz": 0.1},
-    {"name": "black pepper", "amount_g": null, "amount_oz": null},
-    {"name": "salt", "amount_g": null, "amount_oz": null},
-    {"name": "chicken broth", "amount_g": 1000, "amount_oz": 35.3},
-    {"name": "ham hock, smoked", "amount_g": 900, "amount_oz": 31.7},
-    {"name": "apple cider vinegar", "amount_g": 15, "amount_oz": 0.5},
-    {"name": "brown sugar", "amount_g": 10, "amount_oz": 0.4},
-    {"name": "hot sauce (optional)", "amount_g": null, "amount_oz": null},
-    {"name": "=== BUTTERMILK BISCUITS ===", "amount_g": null, "amount_oz": null},
-    {"name": "White Lily self-rising flour", "amount_g": 300, "amount_oz": 10.6},
-    {"name": "butter, frozen", "amount_g": 113, "amount_oz": 4.0},
-    {"name": "cold buttermilk", "amount_g": 240, "amount_oz": 8.5},
-    {"name": "melted butter (for brushing)", "amount_g": 28, "amount_oz": 1.0},
-    {"name": "=== STUFFING ===", "amount_g": null, "amount_oz": null},
-    {"name": "bread cubes", "amount_g": 375, "amount_oz": 13.2},
-    {"name": "unsalted butter", "amount_g": 227, "amount_oz": 8.0},
-    {"name": "onion, diced", "amount_g": 300, "amount_oz": 10.6},
-    {"name": "celery, diced", "amount_g": 220, "amount_oz": 7.8},
-    {"name": "garlic, minced (6 cloves)", "amount_g": 18, "amount_oz": 0.6},
-    {"name": "kosher salt", "amount_g": null, "amount_oz": null},
-    {"name": "pepper", "amount_g": null, "amount_oz": null},
-    {"name": "sage, chopped", "amount_g": 10, "amount_oz": 0.4},
-    {"name": "parsley", "amount_g": 10, "amount_oz": 0.4},
-    {"name": "rosemary", "amount_g": 10, "amount_oz": 0.4},
-    {"name": "stock", "amount_g": 600, "amount_oz": 21.2},
-    {"name": "eggs", "amount_g": 100, "amount_oz": 3.5},
-    {"name": "=== PUMPKIN SOUS VIDE CHEESECAKES ===", "amount_g": null, "amount_oz": null},
-    {"name": "cream cheese", "amount_g": 452, "amount_oz": 16.0},
-    {"name": "sugar", "amount_g": 100, "amount_oz": 3.5},
-    {"name": "salt", "amount_g": 2, "amount_oz": 0.1},
-    {"name": "eggs", "amount_g": 130, "amount_oz": 4.6},
-    {"name": "vanilla", "amount_g": 5, "amount_oz": 0.2},
-    {"name": "buttermilk or heavy cream", "amount_g": 130, "amount_oz": 4.6},
-    {"name": "pumpkin purée", "amount_g": 160, "amount_oz": 5.6},
-    {"name": "pumpkin spice", "amount_g": 8, "amount_oz": 0.3},
-    {"name": "=== GRAHAM STREUSEL TOPPING ===", "amount_g": null, "amount_oz": null},
-    {"name": "graham crackers", "amount_g": 105, "amount_oz": 3.7},
-    {"name": "butter, melted", "amount_g": 55, "amount_oz": 1.9},
-    {"name": "sugar", "amount_g": 25, "amount_oz": 0.9}
+    {
+      "name": "=== CHICKEN & DUMPLINGS ===",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "olive oil",
+      "amount_g": 15,
+      "amount_oz": 0.5
+    },
+    {
+      "name": "chicken (bone-in thighs or breasts)",
+      "amount_g": 950,
+      "amount_oz": 33.5
+    },
+    {
+      "name": "salt",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "black pepper",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "butter",
+      "amount_g": 70,
+      "amount_oz": 2.5
+    },
+    {
+      "name": "yellow onion, diced",
+      "amount_g": 150,
+      "amount_oz": 5.3
+    },
+    {
+      "name": "carrots, diced",
+      "amount_g": 120,
+      "amount_oz": 4.2
+    },
+    {
+      "name": "celery, diced",
+      "amount_g": 120,
+      "amount_oz": 4.2
+    },
+    {
+      "name": "garlic, minced",
+      "amount_g": 10,
+      "amount_oz": 0.4
+    },
+    {
+      "name": "Worcestershire sauce",
+      "amount_g": 5,
+      "amount_oz": 0.2
+    },
+    {
+      "name": "hot sauce (Frank's)",
+      "amount_g": 5,
+      "amount_oz": 0.2
+    },
+    {
+      "name": "all-purpose flour",
+      "amount_g": 40,
+      "amount_oz": 1.4
+    },
+    {
+      "name": "chicken broth",
+      "amount_g": 1000,
+      "amount_oz": 35.3
+    },
+    {
+      "name": "chicken bouillon cube (optional)",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "half & half",
+      "amount_g": 350,
+      "amount_oz": 12.3
+    },
+    {
+      "name": "frozen peas",
+      "amount_g": 100,
+      "amount_oz": 3.5
+    },
+    {
+      "name": "onion powder",
+      "amount_g": 3,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "dried basil",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "parsley",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "thyme",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "rosemary",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "mustard powder",
+      "amount_g": 1,
+      "amount_oz": null
+    },
+    {
+      "name": "ground sage",
+      "amount_g": 0.5,
+      "amount_oz": null
+    },
+    {
+      "name": "all-purpose flour (dumplings)",
+      "amount_g": 240,
+      "amount_oz": 8.5
+    },
+    {
+      "name": "baking powder",
+      "amount_g": 8,
+      "amount_oz": 0.3
+    },
+    {
+      "name": "baking soda",
+      "amount_g": 3,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "salt (dumplings)",
+      "amount_g": 5,
+      "amount_oz": 0.2
+    },
+    {
+      "name": "garlic powder",
+      "amount_g": 3,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "sugar",
+      "amount_g": 8,
+      "amount_oz": 0.3
+    },
+    {
+      "name": "cold sour cream",
+      "amount_g": 180,
+      "amount_oz": 6.3
+    },
+    {
+      "name": "cold milk",
+      "amount_g": 60,
+      "amount_oz": 2.1
+    },
+    {
+      "name": "butter, melted (dumplings)",
+      "amount_g": 57,
+      "amount_oz": 2.0
+    },
+    {
+      "name": "=== SMOKED MAC & CHEESE ===",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "elbow macaroni",
+      "amount_g": 450,
+      "amount_oz": 15.9
+    },
+    {
+      "name": "butter",
+      "amount_g": 113,
+      "amount_oz": 4.0
+    },
+    {
+      "name": "all-purpose flour",
+      "amount_g": 32,
+      "amount_oz": 1.1
+    },
+    {
+      "name": "mustard powder",
+      "amount_g": 8,
+      "amount_oz": 0.3
+    },
+    {
+      "name": "half & half",
+      "amount_g": 475,
+      "amount_oz": 16.8
+    },
+    {
+      "name": "cream cheese",
+      "amount_g": 113,
+      "amount_oz": 4.0
+    },
+    {
+      "name": "sharp cheddar, shredded",
+      "amount_g": 340,
+      "amount_oz": 12.0
+    },
+    {
+      "name": "smoked gouda, shredded",
+      "amount_g": 170,
+      "amount_oz": 6.0
+    },
+    {
+      "name": "panko breadcrumbs",
+      "amount_g": 50,
+      "amount_oz": 1.8
+    },
+    {
+      "name": "butter, melted (topping)",
+      "amount_g": 57,
+      "amount_oz": 2.0
+    },
+    {
+      "name": "sweet rub",
+      "amount_g": 12,
+      "amount_oz": 0.4
+    },
+    {
+      "name": "=== VINEGAR COLESLAW ===",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "apple cider vinegar",
+      "amount_g": 120,
+      "amount_oz": 4.2
+    },
+    {
+      "name": "sugar (dressing)",
+      "amount_g": 50,
+      "amount_oz": 1.8
+    },
+    {
+      "name": "olive oil",
+      "amount_g": 45,
+      "amount_oz": 1.6
+    },
+    {
+      "name": "garlic, minced",
+      "amount_g": 4,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "kosher salt (dressing)",
+      "amount_g": 6,
+      "amount_oz": 0.2
+    },
+    {
+      "name": "black pepper",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "celery seed",
+      "amount_g": 3,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "cabbage, shredded",
+      "amount_g": 1600,
+      "amount_oz": 56.4
+    },
+    {
+      "name": "carrots, grated",
+      "amount_g": 170,
+      "amount_oz": 6.0
+    },
+    {
+      "name": "yellow onion, thin sliced",
+      "amount_g": 225,
+      "amount_oz": 7.9
+    },
+    {
+      "name": "sugar (purge - use HALF: 66g)",
+      "amount_g": 66,
+      "amount_oz": 2.3
+    },
+    {
+      "name": "kosher salt (purge - use HALF: 24g)",
+      "amount_g": 24,
+      "amount_oz": 0.8
+    },
+    {
+      "name": "=== MUSTARD GREENS WITH HAM HOCK ===",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "mustard greens (2 bunches)",
+      "amount_g": 750,
+      "amount_oz": 26.5
+    },
+    {
+      "name": "olive oil",
+      "amount_g": 20,
+      "amount_oz": 0.7
+    },
+    {
+      "name": "onion",
+      "amount_g": 150,
+      "amount_oz": 5.3
+    },
+    {
+      "name": "garlic (6 cloves)",
+      "amount_g": 18,
+      "amount_oz": 0.6
+    },
+    {
+      "name": "onion powder",
+      "amount_g": 2,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "garlic powder",
+      "amount_g": 2,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "crushed red pepper",
+      "amount_g": 2,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "black pepper",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "salt",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "chicken broth",
+      "amount_g": 1000,
+      "amount_oz": 35.3
+    },
+    {
+      "name": "ham hock, smoked",
+      "amount_g": 900,
+      "amount_oz": 31.7
+    },
+    {
+      "name": "apple cider vinegar",
+      "amount_g": 15,
+      "amount_oz": 0.5
+    },
+    {
+      "name": "brown sugar",
+      "amount_g": 10,
+      "amount_oz": 0.4
+    },
+    {
+      "name": "hot sauce (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "=== BUTTERMILK BISCUITS ===",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "White Lily self-rising flour",
+      "amount_g": 300,
+      "amount_oz": 10.6
+    },
+    {
+      "name": "butter, frozen",
+      "amount_g": 113,
+      "amount_oz": 4.0
+    },
+    {
+      "name": "cold buttermilk",
+      "amount_g": 240,
+      "amount_oz": 8.5
+    },
+    {
+      "name": "melted butter (for brushing)",
+      "amount_g": 28,
+      "amount_oz": 1.0
+    },
+    {
+      "name": "=== STUFFING ===",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "bread cubes",
+      "amount_g": 375,
+      "amount_oz": 13.2
+    },
+    {
+      "name": "unsalted butter",
+      "amount_g": 227,
+      "amount_oz": 8.0
+    },
+    {
+      "name": "onion, diced",
+      "amount_g": 300,
+      "amount_oz": 10.6
+    },
+    {
+      "name": "celery, diced",
+      "amount_g": 220,
+      "amount_oz": 7.8
+    },
+    {
+      "name": "garlic, minced (6 cloves)",
+      "amount_g": 18,
+      "amount_oz": 0.6
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "pepper",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "sage, chopped",
+      "amount_g": 10,
+      "amount_oz": 0.4
+    },
+    {
+      "name": "parsley",
+      "amount_g": 10,
+      "amount_oz": 0.4
+    },
+    {
+      "name": "rosemary",
+      "amount_g": 10,
+      "amount_oz": 0.4
+    },
+    {
+      "name": "stock",
+      "amount_g": 600,
+      "amount_oz": 21.2
+    },
+    {
+      "name": "eggs",
+      "amount_g": 100,
+      "amount_oz": 3.5
+    },
+    {
+      "name": "=== PUMPKIN SOUS VIDE CHEESECAKES ===",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "cream cheese",
+      "amount_g": 452,
+      "amount_oz": 16.0
+    },
+    {
+      "name": "sugar",
+      "amount_g": 100,
+      "amount_oz": 3.5
+    },
+    {
+      "name": "salt",
+      "amount_g": 2,
+      "amount_oz": 0.1
+    },
+    {
+      "name": "eggs",
+      "amount_g": 130,
+      "amount_oz": 4.6
+    },
+    {
+      "name": "vanilla",
+      "amount_g": 5,
+      "amount_oz": 0.2
+    },
+    {
+      "name": "buttermilk or heavy cream",
+      "amount_g": 130,
+      "amount_oz": 4.6
+    },
+    {
+      "name": "pumpkin purée",
+      "amount_g": 160,
+      "amount_oz": 5.6
+    },
+    {
+      "name": "pumpkin spice",
+      "amount_g": 8,
+      "amount_oz": 0.3
+    },
+    {
+      "name": "=== GRAHAM STREUSEL TOPPING ===",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "graham crackers",
+      "amount_g": 105,
+      "amount_oz": 3.7
+    },
+    {
+      "name": "butter, melted",
+      "amount_g": 55,
+      "amount_oz": 1.9
+    },
+    {
+      "name": "sugar",
+      "amount_g": 25,
+      "amount_oz": 0.9
+    }
   ],
   "steps": [
     "=== CHICKEN & DUMPLINGS (Serves 6-8, ~1 hour) ===",

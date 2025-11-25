@@ -1,7 +1,6 @@
 {
   "id": "watermelon-gazpacho",
   "title": "Watermelon Gazpacho",
-  "source_url": "https://www.seriouseats.com/watermelon-gazpacho-calabrian-chile-crema-recipe",
   "yield_servings": 8,
   "total_time_min": 185,
   "tags": [
@@ -13,17 +12,61 @@
     "wife's favorite"
   ],
   "ingredients": [
-    {"name": "watermelon, roughly diced", "amount_g": 840, "amount_oz": 30},
-    {"name": "tomatoes, roughly diced", "amount_g": 400, "amount_oz": 14},
-    {"name": "cucumber, roughly diced", "amount_g": 400, "amount_oz": 14},
-    {"name": "red onion, roughly diced", "amount_g": 110, "amount_oz": 4},
-    {"name": "toasted almonds", "amount_g": 60, "amount_oz": 2},
-    {"name": "kosher salt, plus more to taste", "amount_g": 12, "amount_oz": 0.4},
-    {"name": "freshly ground black pepper", "amount_g": 1, "amount_oz": 0.04},
-    {"name": "sherry vinegar", "amount_g": 30, "amount_oz": 1},
-    {"name": "extra-virgin olive oil (use the best you can find)", "amount_g": 60, "amount_oz": 2},
-    {"name": "crema (or Greek yogurt, sour cream, or buttermilk)", "amount_g": 75, "amount_oz": 2.7},
-    {"name": "Calabrian chiles, chopped", "amount_g": 15, "amount_oz": 0.5}
+    {
+      "name": "watermelon, roughly diced",
+      "amount_g": 840,
+      "amount_oz": 30
+    },
+    {
+      "name": "tomatoes, roughly diced",
+      "amount_g": 400,
+      "amount_oz": 14
+    },
+    {
+      "name": "cucumber, roughly diced",
+      "amount_g": 400,
+      "amount_oz": 14
+    },
+    {
+      "name": "red onion, roughly diced",
+      "amount_g": 110,
+      "amount_oz": 4
+    },
+    {
+      "name": "toasted almonds",
+      "amount_g": 60,
+      "amount_oz": 2
+    },
+    {
+      "name": "kosher salt, plus more to taste",
+      "amount_g": 12,
+      "amount_oz": 0.4
+    },
+    {
+      "name": "freshly ground black pepper",
+      "amount_g": 1,
+      "amount_oz": 0.04
+    },
+    {
+      "name": "sherry vinegar",
+      "amount_g": 30,
+      "amount_oz": 1
+    },
+    {
+      "name": "extra-virgin olive oil (use the best you can find)",
+      "amount_g": 60,
+      "amount_oz": 2
+    },
+    {
+      "name": "crema (or Greek yogurt, sour cream, or buttermilk)",
+      "amount_g": 75,
+      "amount_oz": 2.7
+    },
+    {
+      "name": "Calabrian chiles, chopped",
+      "amount_g": 15,
+      "amount_oz": 0.5
+    }
   ],
   "steps": [
     "In a large bowl, toss together watermelon, tomatoes, cucumber, red onion, almonds, kosher salt, and pepper. Set aside to marinate for about 1 hour.",

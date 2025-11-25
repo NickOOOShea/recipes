@@ -1,7 +1,6 @@
 {
   "id": "aged-eggnog",
   "title": "Aged Eggnog",
-  "source_url": "https://altonbrown.com/recipes/aged-eggnog/",
   "yield_servings": 10,
   "total_time_min": 86415,
   "tags": [
@@ -14,16 +13,56 @@
     "vegetarian"
   ],
   "ingredients": [
-    {"name": "egg yolks (about 12 large eggs)", "amount_g": 216, "amount_oz": 7.6},
-    {"name": "sugar", "amount_g": 454, "amount_oz": 16},
-    {"name": "freshly grated nutmeg, plus more for garnish", "amount_g": 2, "amount_oz": 0.07},
-    {"name": "half-and-half", "amount_g": 473, "amount_oz": 16.7},
-    {"name": "whole milk", "amount_g": 473, "amount_oz": 16.7},
-    {"name": "heavy cream", "amount_g": 473, "amount_oz": 16.7},
-    {"name": "Jamaican rum", "amount_g": 237, "amount_oz": 8.4},
-    {"name": "cognac", "amount_g": 237, "amount_oz": 8.4},
-    {"name": "bourbon", "amount_g": 237, "amount_oz": 8.4},
-    {"name": "kosher salt", "amount_g": 1.5, "amount_oz": 0.05}
+    {
+      "name": "egg yolks (about 12 large eggs)",
+      "amount_g": 216,
+      "amount_oz": 7.6
+    },
+    {
+      "name": "sugar",
+      "amount_g": 454,
+      "amount_oz": 16
+    },
+    {
+      "name": "freshly grated nutmeg, plus more for garnish",
+      "amount_g": 2,
+      "amount_oz": 0.07
+    },
+    {
+      "name": "half-and-half",
+      "amount_g": 473,
+      "amount_oz": 16.7
+    },
+    {
+      "name": "whole milk",
+      "amount_g": 473,
+      "amount_oz": 16.7
+    },
+    {
+      "name": "heavy cream",
+      "amount_g": 473,
+      "amount_oz": 16.7
+    },
+    {
+      "name": "Jamaican rum",
+      "amount_g": 237,
+      "amount_oz": 8.4
+    },
+    {
+      "name": "cognac",
+      "amount_g": 237,
+      "amount_oz": 8.4
+    },
+    {
+      "name": "bourbon",
+      "amount_g": 237,
+      "amount_oz": 8.4
+    },
+    {
+      "name": "kosher salt",
+      "amount_g": 1.5,
+      "amount_oz": 0.05
+    }
   ],
   "steps": [
     "Separate the eggs and store the whites for another application.",

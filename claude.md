@@ -21,7 +21,6 @@
 All recipes in `/recipes/*.json` follow this structure:
 - `id`: kebab-case slug from title
 - `title`: Human-readable name
-- `source_url`: Optional original recipe URL
 - `yield_servings`: Integer or null
 - `total_time_min`: Integer or null
 - `tags`: Array of searchable tags
@@ -50,7 +49,6 @@ All recipes in `/recipes/*.json` follow this structure:
   "id": "recipe-modular",
   "title": "Recipe Name - Build Your Own",
   "modular": true,
-  "source_url": "optional",
   "yield_servings": 1,
   "total_time_min": null,
   "tags": ["tag1", "tag2", "customizable", "modular"],

@@ -1,10 +1,15 @@
 {
   "id": "ramen-master-recipe",
   "title": "Ramen Bowl - Master Recipe",
-  "source_url": "https://github.com/ramen-lord/ramen-book",
   "yield_servings": 1,
   "total_time_min": 30,
-  "tags": ["ramen", "japanese", "noodle soup", "customizable", "modular"],
+  "tags": [
+    "ramen",
+    "japanese",
+    "noodle soup",
+    "customizable",
+    "modular"
+  ],
   "ingredients": [
     {
       "name": "BROTH - Choose one: Tonkotsu (pork bone, 18hr boil), Chicken Chintan (clear, 6hr simmer), Chicken Paitan (creamy, 8hr boil), or Vegetable broth",

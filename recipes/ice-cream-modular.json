@@ -1,10 +1,15 @@
 {
   "id": "ice-cream-modular",
   "title": "Ice Cream - Build Your Own",
-  "source_url": null,
   "yield_servings": 4,
   "total_time_min": null,
-  "tags": ["dessert", "ice cream", "customizable", "modular", "interactive"],
+  "tags": [
+    "dessert",
+    "ice cream",
+    "customizable",
+    "modular",
+    "interactive"
+  ],
   "modular": true,
   "components": {
     "base": {
@@ -17,12 +22,36 @@
           "name": "Standard Ice Cream Base",
           "time_min": 370,
           "ingredients": [
-            {"name": "granulated sugar", "amount_g": 100, "amount_oz": 3.5},
-            {"name": "dry milk powder", "amount_g": 16, "amount_oz": 0.6},
-            {"name": "xanthan gum", "amount_g": 0.75, "amount_oz": 0.03},
-            {"name": "light corn syrup", "amount_g": 42, "amount_oz": 1.5},
-            {"name": "whole milk", "amount_g": 320, "amount_oz": 11.3},
-            {"name": "heavy cream", "amount_g": 320, "amount_oz": 11.3}
+            {
+              "name": "granulated sugar",
+              "amount_g": 100,
+              "amount_oz": 3.5
+            },
+            {
+              "name": "dry milk powder",
+              "amount_g": 16,
+              "amount_oz": 0.6
+            },
+            {
+              "name": "xanthan gum",
+              "amount_g": 0.75,
+              "amount_oz": 0.03
+            },
+            {
+              "name": "light corn syrup",
+              "amount_g": 42,
+              "amount_oz": 1.5
+            },
+            {
+              "name": "whole milk",
+              "amount_g": 320,
+              "amount_oz": 11.3
+            },
+            {
+              "name": "heavy cream",
+              "amount_g": 320,
+              "amount_oz": 11.3
+            }
           ],
           "steps": [
             "Combine the sugar, dry milk powder, and xanthan gum in a small bowl and stir well.",
@@ -47,15 +76,51 @@
           "name": "Blood Pudding",
           "time_min": 200,
           "ingredients": [
-            {"name": "heavy cream", "amount_g": 237, "amount_oz": 8.4},
-            {"name": "pig's blood, thawed if frozen", "amount_g": 118, "amount_oz": 4.2},
-            {"name": "brandy", "amount_g": 59, "amount_oz": 2.1},
-            {"name": "granulated sugar", "amount_g": 67, "amount_oz": 2.4},
-            {"name": "unsweetened cocoa powder (preferably Guittard's Cocoa Rouge)", "amount_g": 12, "amount_oz": 0.4},
-            {"name": "cinnamon stick, 2-inch", "amount_g": 3, "amount_oz": 0.1},
-            {"name": "kosher salt", "amount_g": 6, "amount_oz": 0.2},
-            {"name": "coriander seeds", "amount_g": 1, "amount_oz": 0.04},
-            {"name": "black peppercorns", "amount_g": 0.5, "amount_oz": 0.02}
+            {
+              "name": "heavy cream",
+              "amount_g": 237,
+              "amount_oz": 8.4
+            },
+            {
+              "name": "pig's blood, thawed if frozen",
+              "amount_g": 118,
+              "amount_oz": 4.2
+            },
+            {
+              "name": "brandy",
+              "amount_g": 59,
+              "amount_oz": 2.1
+            },
+            {
+              "name": "granulated sugar",
+              "amount_g": 67,
+              "amount_oz": 2.4
+            },
+            {
+              "name": "unsweetened cocoa powder (preferably Guittard's Cocoa Rouge)",
+              "amount_g": 12,
+              "amount_oz": 0.4
+            },
+            {
+              "name": "cinnamon stick, 2-inch",
+              "amount_g": 3,
+              "amount_oz": 0.1
+            },
+            {
+              "name": "kosher salt",
+              "amount_g": 6,
+              "amount_oz": 0.2
+            },
+            {
+              "name": "coriander seeds",
+              "amount_g": 1,
+              "amount_oz": 0.04
+            },
+            {
+              "name": "black peppercorns",
+              "amount_g": 0.5,
+              "amount_oz": 0.02
+            }
           ],
           "steps": [
             "In a small saucepan, combine the cream, blood, brandy, sugar, cocoa powder, cinnamon stick, salt, coriander seeds, and peppercorns. Thoroughly whisk the ingredients together.",
@@ -71,10 +136,26 @@
           "name": "Lavender Honey",
           "time_min": 250,
           "ingredients": [
-            {"name": "water", "amount_g": 177, "amount_oz": 6.2},
-            {"name": "wildflower honey", "amount_g": 85, "amount_oz": 3},
-            {"name": "dried lavender buds", "amount_g": 24, "amount_oz": 0.85},
-            {"name": "natural purple food coloring (optional, preferably India Tree brand)", "amount_g": null, "amount_oz": null}
+            {
+              "name": "water",
+              "amount_g": 177,
+              "amount_oz": 6.2
+            },
+            {
+              "name": "wildflower honey",
+              "amount_g": 85,
+              "amount_oz": 3
+            },
+            {
+              "name": "dried lavender buds",
+              "amount_g": 24,
+              "amount_oz": 0.85
+            },
+            {
+              "name": "natural purple food coloring (optional, preferably India Tree brand)",
+              "amount_g": null,
+              "amount_oz": null
+            }
           ],
           "steps": [
             "In a small saucepan, combine the water and honey. Bring the mixture to a boil, stirring occasionally, then take it off the heat.",
@@ -88,11 +169,31 @@
           "name": "Goat Cheese with Marionberry-Habanero Jam",
           "time_min": 30,
           "ingredients": [
-            {"name": "fresh goat cheese (chevre), at room temperature", "amount_g": 170, "amount_oz": 6},
-            {"name": "kosher salt", "amount_g": 3, "amount_oz": 0.1},
-            {"name": "freshly squeezed lemon juice", "amount_g": 5, "amount_oz": 0.2},
-            {"name": "seedless marionberry, blackberry, or black raspberry jam", "amount_g": 312, "amount_oz": 11},
-            {"name": "fresh habanero chile, coarsely chopped (seeds removed for less heat)", "amount_g": 8, "amount_oz": 0.3}
+            {
+              "name": "fresh goat cheese (chevre), at room temperature",
+              "amount_g": 170,
+              "amount_oz": 6
+            },
+            {
+              "name": "kosher salt",
+              "amount_g": 3,
+              "amount_oz": 0.1
+            },
+            {
+              "name": "freshly squeezed lemon juice",
+              "amount_g": 5,
+              "amount_oz": 0.2
+            },
+            {
+              "name": "seedless marionberry, blackberry, or black raspberry jam",
+              "amount_g": 312,
+              "amount_oz": 11
+            },
+            {
+              "name": "fresh habanero chile, coarsely chopped (seeds removed for less heat)",
+              "amount_g": 8,
+              "amount_oz": 0.3
+            }
           ],
           "steps": [
             "MAKE THE JAM: Combine ¼ cup (about 80g) of the jam and the habanero in a small saucepan.",
@@ -108,8 +209,16 @@
   },
   "assembly": {
     "ingredients": [
-      {"name": "ice cream base, very cold (from above)", "amount_g": 720, "amount_oz": 25.4},
-      {"name": "flavor mixture, chilled (from above)", "amount_g": null, "amount_oz": null}
+      {
+        "name": "ice cream base, very cold (from above)",
+        "amount_g": 720,
+        "amount_oz": 25.4
+      },
+      {
+        "name": "flavor mixture, chilled (from above)",
+        "amount_g": null,
+        "amount_oz": null
+      }
     ],
     "steps": [
       "Put the ice cream base and the flavor mixture into a bowl and use a stick blender to briefly blend to combine well.",

@@ -1,10 +1,16 @@
 {
   "id": "ramen-modular",
   "title": "Ramen Bowl - Build Your Own",
-  "source_url": "https://github.com/ramen-lord/ramen-book",
   "yield_servings": 1,
   "total_time_min": null,
-  "tags": ["ramen", "japanese", "noodle soup", "customizable", "modular", "interactive"],
+  "tags": [
+    "ramen",
+    "japanese",
+    "noodle soup",
+    "customizable",
+    "modular",
+    "interactive"
+  ],
   "modular": true,
   "components": {
     "broth": {
@@ -17,11 +23,31 @@
           "name": "Tonkotsu (Creamy Pork Bone)",
           "time_min": 1080,
           "ingredients": [
-            {"name": "Pork neck bones", "amount_g": 2000, "amount_oz": 70.5},
-            {"name": "Pork femurs, split to expose marrow", "amount_g": 2000, "amount_oz": 70.5},
-            {"name": "Water", "amount_g": 6000, "amount_oz": 211.6},
-            {"name": "Optional: onion, halved", "amount_g": 150, "amount_oz": 5.3},
-            {"name": "Optional: garlic cloves, peeled", "amount_g": 30, "amount_oz": 1.1}
+            {
+              "name": "Pork neck bones",
+              "amount_g": 2000,
+              "amount_oz": 70.5
+            },
+            {
+              "name": "Pork femurs, split to expose marrow",
+              "amount_g": 2000,
+              "amount_oz": 70.5
+            },
+            {
+              "name": "Water",
+              "amount_g": 6000,
+              "amount_oz": 211.6
+            },
+            {
+              "name": "Optional: onion, halved",
+              "amount_g": 150,
+              "amount_oz": 5.3
+            },
+            {
+              "name": "Optional: garlic cloves, peeled",
+              "amount_g": 30,
+              "amount_oz": 1.1
+            }
           ],
           "steps": [
             "Soak bones in cold water for 6 hours or overnight to remove blood (optional but improves color).",
@@ -38,10 +64,26 @@
           "name": "Chicken Chintan (Clear)",
           "time_min": 360,
           "ingredients": [
-            {"name": "Chicken backs (or 2 small whole chickens, broken down)", "amount_g": 4000, "amount_oz": 141},
-            {"name": "Water", "amount_g": 4000, "amount_oz": 141},
-            {"name": "Optional: onion, halved", "amount_g": 140, "amount_oz": 4.9},
-            {"name": "Optional: garlic cloves", "amount_g": 24, "amount_oz": 0.8}
+            {
+              "name": "Chicken backs (or 2 small whole chickens, broken down)",
+              "amount_g": 4000,
+              "amount_oz": 141
+            },
+            {
+              "name": "Water",
+              "amount_g": 4000,
+              "amount_oz": 141
+            },
+            {
+              "name": "Optional: onion, halved",
+              "amount_g": 140,
+              "amount_oz": 4.9
+            },
+            {
+              "name": "Optional: garlic cloves",
+              "amount_g": 24,
+              "amount_oz": 0.8
+            }
           ],
           "steps": [
             "Add chicken to stockpot, cover with water.",
@@ -56,12 +98,36 @@
           "name": "Chicken Paitan (Creamy)",
           "time_min": 420,
           "ingredients": [
-            {"name": "Chicken backs", "amount_g": 3000, "amount_oz": 105.8},
-            {"name": "Chicken feet", "amount_g": 1000, "amount_oz": 35.3},
-            {"name": "Water", "amount_g": 6000, "amount_oz": 211.6},
-            {"name": "Onion, halved", "amount_g": 150, "amount_oz": 5.3},
-            {"name": "Garlic cloves", "amount_g": 30, "amount_oz": 1.1},
-            {"name": "Ginger, 2-inch piece", "amount_g": 50, "amount_oz": 1.8}
+            {
+              "name": "Chicken backs",
+              "amount_g": 3000,
+              "amount_oz": 105.8
+            },
+            {
+              "name": "Chicken feet",
+              "amount_g": 1000,
+              "amount_oz": 35.3
+            },
+            {
+              "name": "Water",
+              "amount_g": 6000,
+              "amount_oz": 211.6
+            },
+            {
+              "name": "Onion, halved",
+              "amount_g": 150,
+              "amount_oz": 5.3
+            },
+            {
+              "name": "Garlic cloves",
+              "amount_g": 30,
+              "amount_oz": 1.1
+            },
+            {
+              "name": "Ginger, 2-inch piece",
+              "amount_g": 50,
+              "amount_oz": 1.8
+            }
           ],
           "steps": [
             "Add chicken parts and water to pot.",
@@ -77,14 +143,46 @@
           "name": "Vegetable Chintan (Vegan)",
           "time_min": 75,
           "ingredients": [
-            {"name": "Water", "amount_g": 3000, "amount_oz": 105.8},
-            {"name": "Onion, split and peeled", "amount_g": 150, "amount_oz": 5.3},
-            {"name": "Carrot, peeled and chunked", "amount_g": 120, "amount_oz": 4.2},
-            {"name": "Garlic cloves", "amount_g": 30, "amount_oz": 1.1},
-            {"name": "Ginger, 2-inch piece", "amount_g": 50, "amount_oz": 1.8},
-            {"name": "Dried shiitake mushrooms", "amount_g": 10, "amount_oz": 0.4},
-            {"name": "Green onions, whole bunch", "amount_g": 100, "amount_oz": 3.5},
-            {"name": "Kombu (dried kelp)", "amount_g": 20, "amount_oz": 0.7}
+            {
+              "name": "Water",
+              "amount_g": 3000,
+              "amount_oz": 105.8
+            },
+            {
+              "name": "Onion, split and peeled",
+              "amount_g": 150,
+              "amount_oz": 5.3
+            },
+            {
+              "name": "Carrot, peeled and chunked",
+              "amount_g": 120,
+              "amount_oz": 4.2
+            },
+            {
+              "name": "Garlic cloves",
+              "amount_g": 30,
+              "amount_oz": 1.1
+            },
+            {
+              "name": "Ginger, 2-inch piece",
+              "amount_g": 50,
+              "amount_oz": 1.8
+            },
+            {
+              "name": "Dried shiitake mushrooms",
+              "amount_g": 10,
+              "amount_oz": 0.4
+            },
+            {
+              "name": "Green onions, whole bunch",
+              "amount_g": 100,
+              "amount_oz": 3.5
+            },
+            {
+              "name": "Kombu (dried kelp)",
+              "amount_g": 20,
+              "amount_oz": 0.7
+            }
           ],
           "steps": [
             "Add water, onion, carrot, garlic, ginger, and shiitake to pot.",
@@ -106,13 +204,41 @@
           "name": "Shoyu (Soy Sauce)",
           "time_min": 30,
           "ingredients": [
-            {"name": "Soy sauce", "amount_g": 450, "amount_oz": 15.9},
-            {"name": "Kombu (dried kelp)", "amount_g": 15, "amount_oz": 0.5},
-            {"name": "Mirin (sweet rice wine)", "amount_g": 50, "amount_oz": 1.8},
-            {"name": "Sake", "amount_g": 40, "amount_oz": 1.4},
-            {"name": "Niboshi (dried sardines)", "amount_g": 15, "amount_oz": 0.5},
-            {"name": "Katsuobushi (bonito flakes)", "amount_g": 15, "amount_oz": 0.5},
-            {"name": "Brown sugar", "amount_g": 30, "amount_oz": 1.1}
+            {
+              "name": "Soy sauce",
+              "amount_g": 450,
+              "amount_oz": 15.9
+            },
+            {
+              "name": "Kombu (dried kelp)",
+              "amount_g": 15,
+              "amount_oz": 0.5
+            },
+            {
+              "name": "Mirin (sweet rice wine)",
+              "amount_g": 50,
+              "amount_oz": 1.8
+            },
+            {
+              "name": "Sake",
+              "amount_g": 40,
+              "amount_oz": 1.4
+            },
+            {
+              "name": "Niboshi (dried sardines)",
+              "amount_g": 15,
+              "amount_oz": 0.5
+            },
+            {
+              "name": "Katsuobushi (bonito flakes)",
+              "amount_g": 15,
+              "amount_oz": 0.5
+            },
+            {
+              "name": "Brown sugar",
+              "amount_g": 30,
+              "amount_oz": 1.1
+            }
           ],
           "steps": [
             "Combine soy sauce, mirin, kombu, niboshi, and sake in sealed container.",
@@ -130,12 +256,36 @@
           "name": "Shio (Salt-Based)",
           "time_min": 30,
           "ingredients": [
-            {"name": "Water", "amount_g": 400, "amount_oz": 14.1},
-            {"name": "Kombu (dried kelp)", "amount_g": 15, "amount_oz": 0.5},
-            {"name": "Mirin", "amount_g": 50, "amount_oz": 1.8},
-            {"name": "Sake", "amount_g": 100, "amount_oz": 3.5},
-            {"name": "Salt", "amount_g": 50, "amount_oz": 1.8},
-            {"name": "MSG (optional but recommended)", "amount_g": 10, "amount_oz": 0.4}
+            {
+              "name": "Water",
+              "amount_g": 400,
+              "amount_oz": 14.1
+            },
+            {
+              "name": "Kombu (dried kelp)",
+              "amount_g": 15,
+              "amount_oz": 0.5
+            },
+            {
+              "name": "Mirin",
+              "amount_g": 50,
+              "amount_oz": 1.8
+            },
+            {
+              "name": "Sake",
+              "amount_g": 100,
+              "amount_oz": 3.5
+            },
+            {
+              "name": "Salt",
+              "amount_g": 50,
+              "amount_oz": 1.8
+            },
+            {
+              "name": "MSG (optional but recommended)",
+              "amount_g": 10,
+              "amount_oz": 0.4
+            }
           ],
           "steps": [
             "Combine water, kombu, and mirin in sealed container.",
@@ -152,18 +302,66 @@
           "name": "Miso (Fermented Soybean Paste)",
           "time_min": 45,
           "ingredients": [
-            {"name": "Onion, pureed or finely grated (about 1/2 onion)", "amount_g": 140, "amount_oz": 4.9},
-            {"name": "Garlic, grated (about 2 cloves)", "amount_g": 7, "amount_oz": 0.2},
-            {"name": "Ginger, grated (1-inch piece)", "amount_g": 6, "amount_oz": 0.2},
-            {"name": "White miso", "amount_g": 300, "amount_oz": 10.6},
-            {"name": "Red or mugi miso", "amount_g": 180, "amount_oz": 6.3},
-            {"name": "Hatcho miso (dark miso)", "amount_g": 80, "amount_oz": 2.8},
-            {"name": "Mirin", "amount_g": 20, "amount_oz": 0.7},
-            {"name": "Soy sauce", "amount_g": 30, "amount_oz": 1.1},
-            {"name": "Sesame oil", "amount_g": 5, "amount_oz": 0.2},
-            {"name": "Tahini or sesame paste", "amount_g": 14, "amount_oz": 0.5},
-            {"name": "Black pepper", "amount_g": 1, "amount_oz": 0.04},
-            {"name": "Tobanjan or doubanjiang (chili bean paste)", "amount_g": 2, "amount_oz": 0.07}
+            {
+              "name": "Onion, pureed or finely grated (about 1/2 onion)",
+              "amount_g": 140,
+              "amount_oz": 4.9
+            },
+            {
+              "name": "Garlic, grated (about 2 cloves)",
+              "amount_g": 7,
+              "amount_oz": 0.2
+            },
+            {
+              "name": "Ginger, grated (1-inch piece)",
+              "amount_g": 6,
+              "amount_oz": 0.2
+            },
+            {
+              "name": "White miso",
+              "amount_g": 300,
+              "amount_oz": 10.6
+            },
+            {
+              "name": "Red or mugi miso",
+              "amount_g": 180,
+              "amount_oz": 6.3
+            },
+            {
+              "name": "Hatcho miso (dark miso)",
+              "amount_g": 80,
+              "amount_oz": 2.8
+            },
+            {
+              "name": "Mirin",
+              "amount_g": 20,
+              "amount_oz": 0.7
+            },
+            {
+              "name": "Soy sauce",
+              "amount_g": 30,
+              "amount_oz": 1.1
+            },
+            {
+              "name": "Sesame oil",
+              "amount_g": 5,
+              "amount_oz": 0.2
+            },
+            {
+              "name": "Tahini or sesame paste",
+              "amount_g": 14,
+              "amount_oz": 0.5
+            },
+            {
+              "name": "Black pepper",
+              "amount_g": 1,
+              "amount_oz": 0.04
+            },
+            {
+              "name": "Tobanjan or doubanjiang (chili bean paste)",
+              "amount_g": 2,
+              "amount_oz": 0.07
+            }
           ],
           "steps": [
             "Take 70g of pureed onion and add to small pan.",
@@ -187,7 +385,11 @@
           "name": "Chicken Fat (Neutral)",
           "time_min": 15,
           "ingredients": [
-            {"name": "Chicken skin", "amount_g": 200, "amount_oz": 7.1}
+            {
+              "name": "Chicken skin",
+              "amount_g": 200,
+              "amount_oz": 7.1
+            }
           ],
           "steps": [
             "MICROWAVE METHOD: Place chicken skin in microwave-safe bowl. Cook uncovered on high for 8 minutes. Strain fat from crispy skins.",
@@ -200,7 +402,11 @@
           "name": "Pork Lard (Rich)",
           "time_min": 30,
           "ingredients": [
-            {"name": "Pork backfat or lard (store-bought works)", "amount_g": 200, "amount_oz": 7.1}
+            {
+              "name": "Pork backfat or lard (store-bought works)",
+              "amount_g": 200,
+              "amount_oz": 7.1
+            }
           ],
           "steps": [
             "If using store-bought lard, melt and use as-is. If rendering from backfat:",
@@ -215,8 +421,16 @@
           "name": "Scallion Oil (Aromatic)",
           "time_min": 20,
           "ingredients": [
-            {"name": "Neutral oil (vegetable or canola)", "amount_g": 125, "amount_oz": 4.4},
-            {"name": "Green onion whites, trimmed (1 bunch)", "amount_g": 50, "amount_oz": 1.8}
+            {
+              "name": "Neutral oil (vegetable or canola)",
+              "amount_g": 125,
+              "amount_oz": 4.4
+            },
+            {
+              "name": "Green onion whites, trimmed (1 bunch)",
+              "amount_g": 50,
+              "amount_oz": 1.8
+            }
           ],
           "steps": [
             "Add oil and scallion whites to small saucepan.",
@@ -230,8 +444,16 @@
           "name": "Mayu (Black Garlic Oil)",
           "time_min": 30,
           "ingredients": [
-            {"name": "Garlic cloves", "amount_g": 45, "amount_oz": 1.6},
-            {"name": "Oil (mix of sesame, vegetable, and lard)", "amount_g": 60, "amount_oz": 2.1}
+            {
+              "name": "Garlic cloves",
+              "amount_g": 45,
+              "amount_oz": 1.6
+            },
+            {
+              "name": "Oil (mix of sesame, vegetable, and lard)",
+              "amount_g": 60,
+              "amount_oz": 2.1
+            }
           ],
           "steps": [
             "Mince garlic finely in food processor (or by hand to 1/8-inch pieces).",
@@ -249,13 +471,41 @@
           "name": "Chili Oil (Spicy)",
           "time_min": 25,
           "ingredients": [
-            {"name": "Pork lard or vegetable oil", "amount_g": 250, "amount_oz": 8.8},
-            {"name": "Garlic cloves", "amount_g": 24, "amount_oz": 0.8},
-            {"name": "Ginger, sliced into coins", "amount_g": 50, "amount_oz": 1.8},
-            {"name": "Onion, half of small", "amount_g": 75, "amount_oz": 2.6},
-            {"name": "Coarsely ground togarashi (Japanese chili)", "amount_g": 15, "amount_oz": 0.5},
-            {"name": "Dried Chinese chilis, whole", "amount_g": 4, "amount_oz": 0.1},
-            {"name": "Sichuan peppercorns", "amount_g": 3, "amount_oz": 0.1}
+            {
+              "name": "Pork lard or vegetable oil",
+              "amount_g": 250,
+              "amount_oz": 8.8
+            },
+            {
+              "name": "Garlic cloves",
+              "amount_g": 24,
+              "amount_oz": 0.8
+            },
+            {
+              "name": "Ginger, sliced into coins",
+              "amount_g": 50,
+              "amount_oz": 1.8
+            },
+            {
+              "name": "Onion, half of small",
+              "amount_g": 75,
+              "amount_oz": 2.6
+            },
+            {
+              "name": "Coarsely ground togarashi (Japanese chili)",
+              "amount_g": 15,
+              "amount_oz": 0.5
+            },
+            {
+              "name": "Dried Chinese chilis, whole",
+              "amount_g": 4,
+              "amount_oz": 0.1
+            },
+            {
+              "name": "Sichuan peppercorns",
+              "amount_g": 3,
+              "amount_oz": 0.1
+            }
           ],
           "steps": [
             "Add fat, garlic, ginger, and onion to small saucepan.",
@@ -277,15 +527,51 @@
           "name": "Chashu (Braised Pork Belly)",
           "time_min": 240,
           "ingredients": [
-            {"name": "Pork belly or shoulder", "amount_g": 500, "amount_oz": 17.6},
-            {"name": "Salt", "amount_g": 5, "amount_oz": 0.2},
-            {"name": "Black pepper", "amount_g": 2, "amount_oz": 0.07},
-            {"name": "Mirin", "amount_g": 125, "amount_oz": 4.4},
-            {"name": "Soy sauce", "amount_g": 125, "amount_oz": 4.4},
-            {"name": "Water", "amount_g": 250, "amount_oz": 8.8},
-            {"name": "Brown sugar", "amount_g": 12, "amount_oz": 0.4},
-            {"name": "Sake", "amount_g": 60, "amount_oz": 2.1},
-            {"name": "Garlic cloves, smashed", "amount_g": 9, "amount_oz": 0.3}
+            {
+              "name": "Pork belly or shoulder",
+              "amount_g": 500,
+              "amount_oz": 17.6
+            },
+            {
+              "name": "Salt",
+              "amount_g": 5,
+              "amount_oz": 0.2
+            },
+            {
+              "name": "Black pepper",
+              "amount_g": 2,
+              "amount_oz": 0.07
+            },
+            {
+              "name": "Mirin",
+              "amount_g": 125,
+              "amount_oz": 4.4
+            },
+            {
+              "name": "Soy sauce",
+              "amount_g": 125,
+              "amount_oz": 4.4
+            },
+            {
+              "name": "Water",
+              "amount_g": 250,
+              "amount_oz": 8.8
+            },
+            {
+              "name": "Brown sugar",
+              "amount_g": 12,
+              "amount_oz": 0.4
+            },
+            {
+              "name": "Sake",
+              "amount_g": 60,
+              "amount_oz": 2.1
+            },
+            {
+              "name": "Garlic cloves, smashed",
+              "amount_g": 9,
+              "amount_oz": 0.3
+            }
           ],
           "steps": [
             "Preheat oven to 110°C/225°F.",
@@ -303,10 +589,26 @@
           "name": "Soft Boiled Eggs (Marinated)",
           "time_min": 390,
           "ingredients": [
-            {"name": "Large eggs", "amount_g": 200, "amount_oz": 7.1},
-            {"name": "Soy sauce", "amount_g": 100, "amount_oz": 3.5},
-            {"name": "Mirin", "amount_g": 100, "amount_oz": 3.5},
-            {"name": "Water", "amount_g": 100, "amount_oz": 3.5}
+            {
+              "name": "Large eggs",
+              "amount_g": 200,
+              "amount_oz": 7.1
+            },
+            {
+              "name": "Soy sauce",
+              "amount_g": 100,
+              "amount_oz": 3.5
+            },
+            {
+              "name": "Mirin",
+              "amount_g": 100,
+              "amount_oz": 3.5
+            },
+            {
+              "name": "Water",
+              "amount_g": 100,
+              "amount_oz": 3.5
+            }
           ],
           "steps": [
             "Bring large pot of water to rolling boil. Prepare ice bath.",
@@ -324,7 +626,11 @@
           "name": "Green Onions (Sliced)",
           "time_min": 5,
           "ingredients": [
-            {"name": "Green onions/scallions", "amount_g": 20, "amount_oz": 0.7}
+            {
+              "name": "Green onions/scallions",
+              "amount_g": 20,
+              "amount_oz": 0.7
+            }
           ],
           "steps": [
             "Slice green onions into thin rings, oblong diamonds (45° angle), or fine threads.",
@@ -337,11 +643,31 @@
           "name": "Menma (Bamboo Shoots)",
           "time_min": 1455,
           "ingredients": [
-            {"name": "Lacto-fermented bamboo shoots (or canned as substitute)", "amount_g": 100, "amount_oz": 3.5},
-            {"name": "Mirin", "amount_g": 20, "amount_oz": 0.7},
-            {"name": "Sugar", "amount_g": 3, "amount_oz": 0.1},
-            {"name": "Soy sauce", "amount_g": 4, "amount_oz": 0.1},
-            {"name": "Sesame oil", "amount_g": 5, "amount_oz": 0.2}
+            {
+              "name": "Lacto-fermented bamboo shoots (or canned as substitute)",
+              "amount_g": 100,
+              "amount_oz": 3.5
+            },
+            {
+              "name": "Mirin",
+              "amount_g": 20,
+              "amount_oz": 0.7
+            },
+            {
+              "name": "Sugar",
+              "amount_g": 3,
+              "amount_oz": 0.1
+            },
+            {
+              "name": "Soy sauce",
+              "amount_g": 4,
+              "amount_oz": 0.1
+            },
+            {
+              "name": "Sesame oil",
+              "amount_g": 5,
+              "amount_oz": 0.2
+            }
           ],
           "steps": [
             "If using fermented bamboo: soak in cold water 12-24 hours in fridge. Drain thoroughly.",
@@ -356,7 +682,11 @@
           "name": "Nori (Seaweed Sheet)",
           "time_min": 1,
           "ingredients": [
-            {"name": "Nori sheets (dried seaweed)", "amount_g": 2, "amount_oz": 0.07}
+            {
+              "name": "Nori sheets (dried seaweed)",
+              "amount_g": 2,
+              "amount_oz": 0.07
+            }
           ],
           "steps": [
             "Cut nori sheet into rectangles or squares.",
@@ -369,7 +699,11 @@
           "name": "Corn (Sweet)",
           "time_min": 5,
           "ingredients": [
-            {"name": "Corn kernels (canned or frozen)", "amount_g": 50, "amount_oz": 1.8}
+            {
+              "name": "Corn kernels (canned or frozen)",
+              "amount_g": 50,
+              "amount_oz": 1.8
+            }
           ],
           "steps": [
             "If using frozen corn, thaw and drain.",
@@ -383,8 +717,16 @@
           "name": "Salt Cured Egg Yolk (Grated)",
           "time_min": 20160,
           "ingredients": [
-            {"name": "Egg yolks", "amount_g": 60, "amount_oz": 2.1},
-            {"name": "Kosher salt or canning salt", "amount_g": 500, "amount_oz": 17.6}
+            {
+              "name": "Egg yolks",
+              "amount_g": 60,
+              "amount_oz": 2.1
+            },
+            {
+              "name": "Kosher salt or canning salt",
+              "amount_g": 500,
+              "amount_oz": 17.6
+            }
           ],
           "steps": [
             "Pour ½ inch of salt into a glass or stoneware baking dish.",
@@ -404,11 +746,31 @@
   },
   "assembly": {
     "ingredients": [
-      {"name": "Fresh ramen noodles", "amount_g": 140, "amount_oz": 4.9},
-      {"name": "Selected broth, heated to 95-100°C", "amount_g": 350, "amount_oz": 12.3},
-      {"name": "Selected tare", "amount_g": 35, "amount_oz": 1.2},
-      {"name": "Selected aroma oil", "amount_g": 15, "amount_oz": 0.5},
-      {"name": "Selected toppings", "amount_g": null, "amount_oz": null}
+      {
+        "name": "Fresh ramen noodles",
+        "amount_g": 140,
+        "amount_oz": 4.9
+      },
+      {
+        "name": "Selected broth, heated to 95-100°C",
+        "amount_g": 350,
+        "amount_oz": 12.3
+      },
+      {
+        "name": "Selected tare",
+        "amount_g": 35,
+        "amount_oz": 1.2
+      },
+      {
+        "name": "Selected aroma oil",
+        "amount_g": 15,
+        "amount_oz": 0.5
+      },
+      {
+        "name": "Selected toppings",
+        "amount_g": null,
+        "amount_oz": null
+      }
     ],
     "steps": [
       "PREHEAT BOWL: Fill serving bowl with boiling water. Let sit while preparing - this is critical to prevent cooling the soup.",

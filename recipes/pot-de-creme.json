@@ -1,7 +1,6 @@
 {
   "id": "pot-de-creme",
   "title": "Pot de Crème",
-  "source_url": "https://www.chefsteps.com/activities/pot-de-creme",
   "yield_servings": 6,
   "total_time_min": 180,
   "tags": [
@@ -13,12 +12,36 @@
     "vegetarian"
   ],
   "ingredients": [
-    {"name": "egg yolks (about 17 yolks)", "amount_g": 250, "amount_oz": 8.8},
-    {"name": "salt", "amount_g": 5, "amount_oz": 0.2},
-    {"name": "granulated sugar", "amount_g": 125, "amount_oz": 4.4},
-    {"name": "heavy cream", "amount_g": 625, "amount_oz": 22},
-    {"name": "maple syrup, for serving (optional)", "amount_g": null, "amount_oz": null},
-    {"name": "Maldon flake salt, for serving (optional)", "amount_g": null, "amount_oz": null}
+    {
+      "name": "egg yolks (about 17 yolks)",
+      "amount_g": 250,
+      "amount_oz": 8.8
+    },
+    {
+      "name": "salt",
+      "amount_g": 5,
+      "amount_oz": 0.2
+    },
+    {
+      "name": "granulated sugar",
+      "amount_g": 125,
+      "amount_oz": 4.4
+    },
+    {
+      "name": "heavy cream",
+      "amount_g": 625,
+      "amount_oz": 22
+    },
+    {
+      "name": "maple syrup, for serving (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    },
+    {
+      "name": "Maldon flake salt, for serving (optional)",
+      "amount_g": null,
+      "amount_oz": null
+    }
   ],
   "steps": [
     "Heat sous vide water bath to 176°F (80°C).",
