@@ -70,7 +70,7 @@ function applyFilters() {
     const matchesSearch = !searchTerm ||
       recipe.title.toLowerCase().includes(searchTerm) ||
       recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm)) ||
-      recipe.ingredients.some(ing => ing.name.toLowerCase().includes(searchTerm));
+      (recipe.ingredients && recipe.ingredients.some(ing => ing.name.toLowerCase().includes(searchTerm)));
 
     // Tag filter
     const matchesTags = activeTagFilters.size === 0 ||
