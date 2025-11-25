@@ -65,6 +65,23 @@
             "Pour through a fine-mesh strainer into a container and discard the peppercorns, coriander seeds, and cinnamon stick.",
             "Chill until cold and the mixture has a pudding-like consistency, about 3 hours. Use right away or store in the fridge with plastic wrap directly on the surface for up to 2 days."
           ]
+        },
+        {
+          "id": "lavender",
+          "name": "Lavender Honey",
+          "time_min": 250,
+          "ingredients": [
+            {"name": "water", "amount_g": 177, "amount_oz": 6.2},
+            {"name": "wildflower honey", "amount_g": 85, "amount_oz": 3},
+            {"name": "dried lavender buds", "amount_g": 24, "amount_oz": 0.85},
+            {"name": "natural purple food coloring (optional, preferably India Tree brand)", "amount_g": null, "amount_oz": null}
+          ],
+          "steps": [
+            "In a small saucepan, combine the water and honey. Bring the mixture to a boil, stirring occasionally, then take it off the heat.",
+            "Stir in the lavender, cover the saucepan, and let steep at room temperature for at least 4 hours or overnight.",
+            "Pour the syrup through a fine-mesh strainer into a container, pressing on the flower buds to extract as much liquid as possible.",
+            "Chill until cold and use right away, or refrigerate in an airtight container for up to 2 weeks."
+          ]
         }
       ]
     }
@@ -88,6 +105,7 @@
     "The base recipe yields a few more tablespoons than needed - this is intentional so you have enough even when some gets left behind in the pan or container.",
     "For blood pudding: The flavor is a heady mix of spices, cocoa, and cream cooked into real blood pudding. It carefully toes the line between delectable and frightful.",
     "Pig's blood can often be found frozen at Asian grocery stores or ordered from a butcher.",
+    "For lavender: Use culinary-grade dried lavender (pesticide-free) from the spice shop or a specialty store.",
     "Always fully thaw frozen base before using.",
     "For best texture, chill the base for 24 hours before churning."
   ],
