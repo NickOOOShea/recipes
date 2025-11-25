@@ -20,7 +20,7 @@ async function loadRecipes() {
     filteredRecipes = [...allRecipes];
 
     renderTagFilters();
-    renderRecipes();
+    applyFilters(); // Apply initial sort
   } catch (error) {
     console.error('Error loading recipes:', error);
     document.getElementById('recipe-grid').innerHTML = '<p>Error loading recipes. Please check the console.</p>';
