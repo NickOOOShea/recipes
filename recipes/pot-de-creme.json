@@ -1,0 +1,45 @@
+{
+  "id": "pot-de-creme",
+  "title": "Pot de Crème",
+  "source_url": "https://www.chefsteps.com/activities/pot-de-creme",
+  "yield_servings": 6,
+  "total_time_min": 180,
+  "tags": [
+    "dessert",
+    "sous vide",
+    "custard",
+    "french",
+    "make ahead",
+    "vegetarian"
+  ],
+  "ingredients": [
+    {"name": "egg yolks (about 17 yolks)", "amount_g": 250, "amount_oz": 8.8},
+    {"name": "salt", "amount_g": 5, "amount_oz": 0.2},
+    {"name": "granulated sugar", "amount_g": 125, "amount_oz": 4.4},
+    {"name": "heavy cream", "amount_g": 625, "amount_oz": 22},
+    {"name": "maple syrup, for serving (optional)", "amount_g": null, "amount_oz": null},
+    {"name": "Maldon flake salt, for serving (optional)", "amount_g": null, "amount_oz": null}
+  ],
+  "steps": [
+    "Heat sous vide water bath to 176°F (80°C).",
+    "Combine egg yolks, salt, and sugar in a bowl and whisk until smooth.",
+    "Add cream to the base and whisk until smooth.",
+    "Strain the mixture, then allow to rest for 20 to 30 minutes so that bubbles have time to rise to the top and dissipate. Skim away any remaining bubbles.",
+    "Cast 150g of mixture into each wide-mouth canning jar, pouring in a slow, low, steady stream. Pouring too quickly or from too high will cause bubbles.",
+    "Place lids on jars and twist until 'fingertip tight' - just barely closed. This allows air to escape during cooking and prevents cracking.",
+    "Using canning tongs, carefully transfer jars to sous vide bath, ensuring they are fully submerged. Cook for 1 hour.",
+    "Remove jars from bath. Rest at room temperature for 15 minutes before transferring to an ice bath (or just refrigerate). Rapid temperature change can crack the jars.",
+    "Once cold, jars will keep sealed in the refrigerator for up to a week.",
+    "Serve as is or topped with maple syrup and flake salt."
+  ],
+  "notes": [
+    "Similar to crème brûlée but richer and more unctuous - has almost twice the egg yolks.",
+    "Cooking sous vide means you can make as many servings as you like with consistent results.",
+    "Maple syrup and flake salt is an alarmingly delicious topping combination.",
+    "Black lava salt makes a gorgeous color contrast if you have it.",
+    "Skip the ice bath if you prefer - just chill in the fridge instead.",
+    "To close jars fingertip tight: twist until you feel resistance, then twist back once, then forward once more."
+  ],
+  "created_at": "2025-11-25",
+  "last_updated_at": "2025-11-25"
+}
