@@ -377,6 +377,27 @@
             "Optional: quickly sauté in butter for extra flavor.",
             "Sprinkle on top of finished bowl. Use ~30-50g per bowl."
           ]
+        },
+        {
+          "id": "cured-egg-yolk",
+          "name": "Salt Cured Egg Yolk (Grated)",
+          "time_min": 20160,
+          "ingredients": [
+            {"name": "Egg yolks", "amount_g": 60, "amount_oz": 2.1},
+            {"name": "Kosher salt or canning salt", "amount_g": 500, "amount_oz": 17.6}
+          ],
+          "steps": [
+            "Pour ½ inch of salt into a glass or stoneware baking dish.",
+            "Use a spoon to create small indentations for each yolk, keeping them ¼ inch apart.",
+            "Carefully separate eggs and place yolks in divots.",
+            "Cover yolks completely with salt (should be invisible under salt).",
+            "Refrigerate for 7 days.",
+            "Remove yolks from salt and dust off excess with a damp towel.",
+            "Wrap yolks in cheesecloth, separated by butcher's twine to maintain airflow.",
+            "Hang in a cool location (below 50°F, preferably in refrigerator) for 7-10 days.",
+            "Yolks should be firm but still grate-able (not rock hard).",
+            "Store tightly covered in refrigerator. Grate over finished ramen bowl."
+          ]
         }
       ]
     }
@@ -442,5 +463,5 @@
     "Source: Adapted from The Ramen_Lord Book of Ramen by Mike Satinover"
   ],
   "created_at": "2025-11-18",
-  "last_updated_at": "2025-11-18"
+  "last_updated_at": "2025-11-25"
 }
