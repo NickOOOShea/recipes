@@ -11,7 +11,15 @@
     <header>
       <h1>Recipe Library</h1>
       <div class="controls">
-        <input type="text" id="search" placeholder="Search recipes...">
+        <div class="search-sort-row">
+          <input type="text" id="search" placeholder="Search recipes...">
+          <select id="sort-select">
+            <option value="name-asc">Name (A-Z)</option>
+            <option value="name-desc">Name (Z-A)</option>
+            <option value="time-asc">Cook Time (shortest)</option>
+            <option value="time-desc">Cook Time (longest)</option>
+          </select>
+        </div>
         <div id="tag-filters" class="tag-filters"></div>
         <button id="clear-filters">Clear Filters</button>
       </div>

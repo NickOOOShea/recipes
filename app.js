@@ -2,6 +2,8 @@
 let allRecipes = [];
 let filteredRecipes = [];
 let activeTagFilters = new Set();
+let currentScale = 1;
+let currentSort = 'name-asc';
 
 // Load all recipes on page load
 async function loadRecipes() {
@@ -61,6 +63,32 @@ function renderTagFilters() {
   });
 }
 
+// Sort recipes based on current sort option
+function sortRecipes(recipes) {
+  return [...recipes].sort((a, b) => {
+    switch (currentSort) {
+      case 'name-asc':
+        return a.title.localeCompare(b.title);
+      case 'name-desc':
+        return b.title.localeCompare(a.title);
+      case 'time-asc':
+        // Null times go to the end
+        if (a.total_time_min === null && b.total_time_min === null) return 0;
+        if (a.total_time_min === null) return 1;
+        if (b.total_time_min === null) return -1;
+        return a.total_time_min - b.total_time_min;
+      case 'time-desc':
+        // Null times go to the end
+        if (a.total_time_min === null && b.total_time_min === null) return 0;
+        if (a.total_time_min === null) return 1;
+        if (b.total_time_min === null) return -1;
+        return b.total_time_min - a.total_time_min;
+      default:
+        return 0;
+    }
+  });
+}
+
 // Apply search and tag filters
 function applyFilters() {
   const searchTerm = document.getElementById('search').value.toLowerCase();
@@ -80,6 +108,9 @@ function applyFilters() {
 
     return matchesSearch && matchesTags;
   });
+
+  // Apply sorting
+  filteredRecipes = sortRecipes(filteredRecipes);
 
   renderRecipes();
 }
@@ -143,8 +174,9 @@ function showRecipeModal(recipe) {
   const modalBody = document.getElementById('modal-body');
   const modalContent = modal.querySelector('.modal-content');
 
-  // Reset cook mode when opening modal
+  // Reset cook mode and scale when opening modal
   modalContent.classList.remove('cook-mode');
+  currentScale = 1;
 
   // Check if this is a modular recipe
   if (recipe.modular) {
@@ -156,19 +188,54 @@ function showRecipeModal(recipe) {
   modal.style.display = 'block';
 }
 
+// Format scaled ingredient amount
+function formatScaledAmount(amount_g, amount_oz, scale) {
+  if (!amount_g) return '';
+  const scaledG = Math.round(amount_g * scale * 10) / 10;
+  let result = `${scaledG}g`;
+  if (amount_oz) {
+    const scaledOz = Math.round(amount_oz * scale * 10) / 10;
+    result += ` (${scaledOz}oz)`;
+  }
+  return result;
+}
+
+// Update recipe display when scale changes
+function updateScale(recipeId) {
+  const scaleSelect = document.getElementById('scale-select');
+  currentScale = parseFloat(scaleSelect.value);
+  const recipe = allRecipes.find(r => r.id === recipeId);
+  if (recipe && !recipe.modular) {
+    const modalBody = document.getElementById('modal-body');
+    renderStandardRecipe(recipe, modalBody);
+  }
+}
+
 // Render standard (non-modular) recipe
 function renderStandardRecipe(recipe, modalBody) {
   modalBody.innerHTML = `
-    <button class="cook-mode-toggle" onclick="toggleCookMode()">
-      🍳 Cook Mode
-    </button>
+    <div class="modal-controls">
+      <button class="cook-mode-toggle" onclick="toggleCookMode()">
+        🍳 Cook Mode
+      </button>
+      <div class="scale-control">
+        <label for="scale-select">Scale:</label>
+        <select id="scale-select" onchange="updateScale('${recipe.id}')">
+          <option value="0.5" ${currentScale === 0.5 ? 'selected' : ''}>0.5x</option>
+          <option value="1" ${currentScale === 1 ? 'selected' : ''}>1x</option>
+          <option value="2" ${currentScale === 2 ? 'selected' : ''}>2x</option>
+          <option value="3" ${currentScale === 3 ? 'selected' : ''}>3x</option>
+          <option value="4" ${currentScale === 4 ? 'selected' : ''}>4x</option>
+        </select>
+      </div>
+    </div>
 
     <div class="normal-view">
       <h2>${recipe.title}</h2>
       ${recipe.source_url ? `<p class="source"><a href="${recipe.source_url}" target="_blank">View Original Recipe</a></p>` : ''}
 
       <div class="recipe-meta-large">
-        ${recipe.yield_servings ? `<span><strong>Servings:</strong> ${recipe.yield_servings}</span>` : ''}
+        ${recipe.yield_servings ? `<span><strong>Servings:</strong> ${Math.round(recipe.yield_servings * currentScale * 10) / 10}</span>` : ''}
         ${recipe.total_time_min ? `<span><strong>Time:</strong> ${recipe.total_time_min} minutes</span>` : ''}
       </div>
 
@@ -180,13 +247,7 @@ function renderStandardRecipe(recipe, modalBody) {
         <h3>Ingredients</h3>
         <ul class="ingredients-list">
           ${recipe.ingredients.map(ing => {
-            let amount = '';
-            if (ing.amount_g) {
-              amount = `${ing.amount_g}g`;
-              if (ing.amount_oz) {
-                amount += ` (${ing.amount_oz}oz)`;
-              }
-            }
+            const amount = formatScaledAmount(ing.amount_g, ing.amount_oz, currentScale);
             return `<li>${amount ? `<strong>${amount}</strong> ` : ''}${ing.name}</li>`;
           }).join('')}
         </ul>
@@ -218,7 +279,7 @@ function renderStandardRecipe(recipe, modalBody) {
       <div class="cook-mode-header">
         <h2>${recipe.title}</h2>
         <div class="recipe-meta-large">
-          ${recipe.yield_servings ? `<span><strong>Servings:</strong> ${recipe.yield_servings}</span>` : ''}
+          ${recipe.yield_servings ? `<span><strong>Servings:</strong> ${Math.round(recipe.yield_servings * currentScale * 10) / 10}</span>` : ''}
           ${recipe.total_time_min ? `<span><strong>Time:</strong> ${recipe.total_time_min} min</span>` : ''}
         </div>
       </div>
@@ -227,13 +288,7 @@ function renderStandardRecipe(recipe, modalBody) {
         <h3>Ingredients</h3>
         <ul class="ingredients-list">
           ${recipe.ingredients.map((ing, idx) => {
-            let amount = '';
-            if (ing.amount_g) {
-              amount = `${ing.amount_g}g`;
-              if (ing.amount_oz) {
-                amount += ` (${ing.amount_oz}oz)`;
-              }
-            }
+            const amount = formatScaledAmount(ing.amount_g, ing.amount_oz, currentScale);
             const text = `${amount ? `<strong>${amount}</strong> ` : ''}${ing.name}`;
             return `<li onclick="toggleIngredient(this)">
               <input type="checkbox" onclick="event.preventDefault()">
@@ -515,6 +570,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Search input
   document.getElementById('search').addEventListener('input', applyFilters);
+
+  // Sort dropdown
+  document.getElementById('sort-select').addEventListener('change', (e) => {
+    currentSort = e.target.value;
+    applyFilters();
+  });
 
   // Clear filters button
   document.getElementById('clear-filters').addEventListener('click', () => {

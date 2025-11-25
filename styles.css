@@ -42,8 +42,13 @@ h1 {
   gap: 1rem;
 }
 
+.search-sort-row {
+  display: flex;
+  gap: 1rem;
+}
+
 #search {
-  width: 100%;
+  flex: 1;
   padding: 0.75rem 1rem;
   font-size: 1rem;
   border: 2px solid #e0e0e0;
@@ -52,6 +57,23 @@ h1 {
 }
 
 #search:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+#sort-select {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  min-width: 180px;
+}
+
+#sort-select:hover,
+#sort-select:focus {
   outline: none;
   border-color: #667eea;
 }
@@ -667,5 +689,222 @@ h1 {
 
   .checkbox-option {
     padding: 0.5rem;
+  }
+
+  .search-sort-row {
+    flex-direction: column;
+  }
+
+  #sort-select {
+    min-width: unset;
+    width: 100%;
+  }
+}
+
+/* Modal Controls (Cook Mode + Scale) */
+.modal-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.scale-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.scale-control label {
+  font-weight: 600;
+  color: #555;
+}
+
+.scale-control select {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.scale-control select:hover,
+.scale-control select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+/* Print Styles */
+@media print {
+  /* Hide non-essential elements */
+  body {
+    background: white;
+    color: black;
+  }
+
+  .container,
+  header,
+  .recipe-grid,
+  .no-results {
+    display: none !important;
+  }
+
+  .modal {
+    display: block !important;
+    position: static;
+    background: none;
+    overflow: visible;
+  }
+
+  .modal-content {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    max-width: 100%;
+    animation: none;
+  }
+
+  .modal-content.cook-mode {
+    background: white;
+    color: black;
+    min-height: auto;
+  }
+
+  .close,
+  .cook-mode-toggle,
+  .modal-controls,
+  .click-hint {
+    display: none !important;
+  }
+
+  /* Recipe title */
+  #modal-body h2 {
+    color: black;
+    font-size: 24pt;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+  }
+
+  #modal-body h3 {
+    color: black;
+    font-size: 14pt;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Meta info */
+  .recipe-meta-large {
+    background: #f5f5f5;
+    padding: 0.5rem 1rem;
+    font-size: 11pt;
+    margin: 0.5rem 0;
+  }
+
+  /* Hide tags in print */
+  .recipe-tags {
+    display: none;
+  }
+
+  /* Ingredients */
+  .ingredients-list {
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .ingredients-list li {
+    break-inside: avoid;
+    margin-bottom: 0.25rem;
+    font-size: 11pt;
+  }
+
+  .ingredients-list strong {
+    color: black;
+  }
+
+  /* Steps */
+  .steps-list li {
+    margin-bottom: 0.5rem;
+    font-size: 11pt;
+    page-break-inside: avoid;
+  }
+
+  /* Notes */
+  .notes-list li {
+    font-size: 10pt;
+    margin-bottom: 0.25rem;
+  }
+
+  /* Source link */
+  .source a {
+    color: black;
+  }
+
+  .source a::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+  }
+
+  /* Dates */
+  .recipe-dates {
+    display: none;
+  }
+
+  /* Cook mode specific overrides */
+  .cook-mode .ingredients-list,
+  .cook-mode .steps-list,
+  .cook-mode .notes-list {
+    background: none;
+  }
+
+  .cook-mode .ingredients-list li,
+  .cook-mode .steps-list li,
+  .cook-mode .notes-list li {
+    background: none;
+    padding: 0;
+    border: none;
+    cursor: default;
+  }
+
+  .cook-mode .steps-list li::before {
+    position: static;
+    display: inline-block;
+    margin-right: 0.5rem;
+    background: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .cook-mode .steps-list li::before {
+    content: counter(step-counter) ".";
+  }
+
+  .cook-mode .ingredients-list li input[type="checkbox"] {
+    display: none;
+  }
+
+  .cook-mode-header {
+    position: static;
+    background: none;
+    border-bottom: 2px solid black;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .cook-mode-header h2 {
+    color: black;
+  }
+
+  .cook-mode-header .recipe-meta-large {
+    background: #f5f5f5;
+    color: black;
+  }
+
+  /* Page setup */
+  @page {
+    margin: 0.75in;
   }
 }
