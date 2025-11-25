@@ -5,6 +5,29 @@ let activeTagFilters = new Set();
 let currentScale = 1;
 let currentSort = 'name-asc';
 
+// Format time in human-readable units
+function formatTime(minutes) {
+  if (!minutes) return null;
+
+  if (minutes < 60) {
+    return `${minutes} min`;
+  } else if (minutes < 1440) { // Less than 24 hours
+    const hours = Math.floor(minutes / 60);
+    const mins = minutes % 60;
+    if (mins === 0) {
+      return `${hours} hr${hours !== 1 ? 's' : ''}`;
+    }
+    return `${hours} hr${hours !== 1 ? 's' : ''} ${mins} min`;
+  } else { // 24 hours or more
+    const days = Math.floor(minutes / 1440);
+    const remainingHours = Math.floor((minutes % 1440) / 60);
+    if (remainingHours === 0) {
+      return `${days} day${days !== 1 ? 's' : ''}`;
+    }
+    return `${days} day${days !== 1 ? 's' : ''} ${remainingHours} hr${remainingHours !== 1 ? 's' : ''}`;
+  }
+}
+
 // Load all recipes on page load
 async function loadRecipes() {
   try {
@@ -136,9 +159,7 @@ function renderRecipes() {
       : '? servings';
 
     // Format time
-    const time = recipe.total_time_min
-      ? `${recipe.total_time_min} min`
-      : '? min';
+    const time = formatTime(recipe.total_time_min) || '? min';
 
     return `
       <div class="recipe-card" data-recipe-id="${recipe.id}">
@@ -236,7 +257,7 @@ function renderStandardRecipe(recipe, modalBody) {
 
       <div class="recipe-meta-large">
         ${recipe.yield_servings ? `<span><strong>Servings:</strong> ${Math.round(recipe.yield_servings * currentScale * 10) / 10}</span>` : ''}
-        ${recipe.total_time_min ? `<span><strong>Time:</strong> ${recipe.total_time_min} minutes</span>` : ''}
+        ${recipe.total_time_min ? `<span><strong>Time:</strong> ${formatTime(recipe.total_time_min)}</span>` : ''}
       </div>
 
       <div class="recipe-tags">
@@ -280,7 +301,7 @@ function renderStandardRecipe(recipe, modalBody) {
         <h2>${recipe.title}</h2>
         <div class="recipe-meta-large">
           ${recipe.yield_servings ? `<span><strong>Servings:</strong> ${Math.round(recipe.yield_servings * currentScale * 10) / 10}</span>` : ''}
-          ${recipe.total_time_min ? `<span><strong>Time:</strong> ${recipe.total_time_min} min</span>` : ''}
+          ${recipe.total_time_min ? `<span><strong>Time:</strong> ${formatTime(recipe.total_time_min)}</span>` : ''}
         </div>
       </div>
 
@@ -495,7 +516,7 @@ function generateModularRecipeDisplay(recipe) {
   }
 
   return `
-    ${totalTime > 0 ? `<div class="recipe-meta-large"><span><strong>Estimated Time:</strong> ${totalTime} minutes (components can be made in advance)</span></div>` : ''}
+    ${totalTime > 0 ? `<div class="recipe-meta-large"><span><strong>Estimated Time:</strong> ${formatTime(totalTime)} (components can be made in advance)</span></div>` : ''}
 
     <section>
       <h3>Ingredients</h3>
