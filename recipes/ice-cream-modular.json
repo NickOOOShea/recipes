@@ -1,0 +1,96 @@
+{
+  "id": "ice-cream-modular",
+  "title": "Ice Cream - Build Your Own",
+  "source_url": null,
+  "yield_servings": 4,
+  "total_time_min": null,
+  "tags": ["dessert", "ice cream", "customizable", "modular", "interactive"],
+  "modular": true,
+  "components": {
+    "base": {
+      "label": "Choose Your Base",
+      "required": true,
+      "multiple": false,
+      "options": [
+        {
+          "id": "standard-base",
+          "name": "Standard Ice Cream Base",
+          "time_min": 370,
+          "ingredients": [
+            {"name": "granulated sugar", "amount_g": 100, "amount_oz": 3.5},
+            {"name": "dry milk powder", "amount_g": 16, "amount_oz": 0.6},
+            {"name": "xanthan gum", "amount_g": 0.75, "amount_oz": 0.03},
+            {"name": "light corn syrup", "amount_g": 42, "amount_oz": 1.5},
+            {"name": "whole milk", "amount_g": 320, "amount_oz": 11.3},
+            {"name": "heavy cream", "amount_g": 320, "amount_oz": 11.3}
+          ],
+          "steps": [
+            "Combine the sugar, dry milk powder, and xanthan gum in a small bowl and stir well.",
+            "Pour the corn syrup into a medium pot and stir in the whole milk.",
+            "Add the sugar mixture and immediately whisk vigorously until smooth.",
+            "Set the pot over medium heat and cook, stirring often and adjusting the heat if necessary to prevent a simmer, until the sugar has fully dissolved, about 3 minutes.",
+            "Remove the pot from the heat.",
+            "Add the cream and whisk until fully combined.",
+            "Transfer the mixture to an airtight container and refrigerate until well chilled, at least 6 hours, or for even better texture and flavor, 24 hours.",
+            "Stir the base back together if it separates during the resting time. The base can be stored in the fridge for up to 1 week or in the freezer for up to 3 months."
+          ]
+        }
+      ]
+    },
+    "flavor": {
+      "label": "Choose Your Flavor",
+      "required": true,
+      "multiple": false,
+      "options": [
+        {
+          "id": "blood-pudding",
+          "name": "Blood Pudding",
+          "time_min": 200,
+          "ingredients": [
+            {"name": "heavy cream", "amount_g": 237, "amount_oz": 8.4},
+            {"name": "pig's blood, thawed if frozen", "amount_g": 118, "amount_oz": 4.2},
+            {"name": "brandy", "amount_g": 59, "amount_oz": 2.1},
+            {"name": "granulated sugar", "amount_g": 67, "amount_oz": 2.4},
+            {"name": "unsweetened cocoa powder (preferably Guittard's Cocoa Rouge)", "amount_g": 12, "amount_oz": 0.4},
+            {"name": "cinnamon stick, 2-inch", "amount_g": 3, "amount_oz": 0.1},
+            {"name": "kosher salt", "amount_g": 6, "amount_oz": 0.2},
+            {"name": "coriander seeds", "amount_g": 1, "amount_oz": 0.04},
+            {"name": "black peppercorns", "amount_g": 0.5, "amount_oz": 0.02}
+          ],
+          "steps": [
+            "In a small saucepan, combine the cream, blood, brandy, sugar, cocoa powder, cinnamon stick, salt, coriander seeds, and peppercorns. Thoroughly whisk the ingredients together.",
+            "Set the pan over medium-low heat and cook, stirring constantly, until the blood mixture thickens enough to coat the back of a spoon, about 8 minutes.",
+            "Toward the end, use an instant-read thermometer to ensure the mixture registers 160°F (71°C).",
+            "Remove the pan from the heat and let the mixture sit for 10 to 15 minutes to cool slightly and steep the spices.",
+            "Pour through a fine-mesh strainer into a container and discard the peppercorns, coriander seeds, and cinnamon stick.",
+            "Chill until cold and the mixture has a pudding-like consistency, about 3 hours. Use right away or store in the fridge with plastic wrap directly on the surface for up to 2 days."
+          ]
+        }
+      ]
+    }
+  },
+  "assembly": {
+    "ingredients": [
+      {"name": "ice cream base, very cold (from above)", "amount_g": 720, "amount_oz": 25.4},
+      {"name": "flavor mixture, chilled (from above)", "amount_g": null, "amount_oz": null}
+    ],
+    "steps": [
+      "Put the ice cream base and the flavor mixture into a bowl and use a stick blender to briefly blend to combine well.",
+      "Pour the mixture into an ice cream maker and turn on the machine.",
+      "Churn just until the mixture has the texture of soft-serve.",
+      "Transfer the ice cream into freezer-friendly containers.",
+      "Cover with parchment paper, pressing it to the surface of the ice cream so it adheres, then cover with a lid.",
+      "Store in the coldest part of your freezer (farthest from the door) until firm, at least 6 hours.",
+      "Ice cream will keep for up to 3 months."
+    ]
+  },
+  "notes": [
+    "The base recipe yields a few more tablespoons than needed - this is intentional so you have enough even when some gets left behind in the pan or container.",
+    "For blood pudding: The flavor is a heady mix of spices, cocoa, and cream cooked into real blood pudding. It carefully toes the line between delectable and frightful.",
+    "Pig's blood can often be found frozen at Asian grocery stores or ordered from a butcher.",
+    "Always fully thaw frozen base before using.",
+    "For best texture, chill the base for 24 hours before churning."
+  ],
+  "created_at": "2025-11-25",
+  "last_updated_at": "2025-11-25"
+}
