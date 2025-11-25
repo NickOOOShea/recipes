@@ -82,6 +82,26 @@
             "Pour the syrup through a fine-mesh strainer into a container, pressing on the flower buds to extract as much liquid as possible.",
             "Chill until cold and use right away, or refrigerate in an airtight container for up to 2 weeks."
           ]
+        },
+        {
+          "id": "goat-cheese-marionberry-habanero",
+          "name": "Goat Cheese with Marionberry-Habanero Jam",
+          "time_min": 30,
+          "ingredients": [
+            {"name": "fresh goat cheese (chevre), at room temperature", "amount_g": 170, "amount_oz": 6},
+            {"name": "kosher salt", "amount_g": 3, "amount_oz": 0.1},
+            {"name": "freshly squeezed lemon juice", "amount_g": 5, "amount_oz": 0.2},
+            {"name": "seedless marionberry, blackberry, or black raspberry jam", "amount_g": 312, "amount_oz": 11},
+            {"name": "fresh habanero chile, coarsely chopped (seeds removed for less heat)", "amount_g": 8, "amount_oz": 0.3}
+          ],
+          "steps": [
+            "MAKE THE JAM: Combine ¼ cup (about 80g) of the jam and the habanero in a small saucepan.",
+            "Cook over medium-low heat, stirring occasionally, until the jam liquefies and just begins to simmer, about 5 minutes.",
+            "Strain the mixture through a fine-mesh strainer into a bowl, then add the remaining jam and stir well to combine.",
+            "Refrigerate until fully chilled. The jam keeps in the fridge for up to 6 months.",
+            "MAKE THE BASE: Combine the ice cream base, goat cheese, and salt in a bowl and use a stick blender to completely incorporate the cheese.",
+            "Stir in the lemon juice just before churning."
+          ]
         }
       ]
     }
@@ -93,9 +113,8 @@
     ],
     "steps": [
       "Put the ice cream base and the flavor mixture into a bowl and use a stick blender to briefly blend to combine well.",
-      "Pour the mixture into an ice cream maker and turn on the machine.",
-      "Churn just until the mixture has the texture of soft-serve.",
-      "Transfer the ice cream into freezer-friendly containers.",
+      "Pour the mixture into an ice cream maker and turn on the machine. Churn just until the mixture has the texture of soft-serve.",
+      "Transfer the ice cream into freezer-friendly containers. For flavors with jam/swirl, alternate spooning layers of ice cream and generous dollops of jam.",
       "Cover with parchment paper, pressing it to the surface of the ice cream so it adheres, then cover with a lid.",
       "Store in the coldest part of your freezer (farthest from the door) until firm, at least 6 hours.",
       "Ice cream will keep for up to 3 months."
@@ -103,9 +122,11 @@
   },
   "notes": [
     "The base recipe yields a few more tablespoons than needed - this is intentional so you have enough even when some gets left behind in the pan or container.",
+    "DRY ICE ALTERNATIVE: Instead of an ice cream maker, use a KitchenAid mixer with paddle attachment. Drop pea-sized pieces of dry ice into the mixture while mixing on low until it reaches soft-serve consistency. Use gloves and work in a ventilated area.",
     "For blood pudding: The flavor is a heady mix of spices, cocoa, and cream cooked into real blood pudding. It carefully toes the line between delectable and frightful.",
     "Pig's blood can often be found frozen at Asian grocery stores or ordered from a butcher.",
     "For lavender: Use culinary-grade dried lavender (pesticide-free) from the spice shop or a specialty store.",
+    "For goat cheese: Any fresh chevre will work. The amount of habanero is up to you - more heat makes the next lick of cold cream taste sweeter.",
     "Always fully thaw frozen base before using.",
     "For best texture, chill the base for 24 hours before churning."
   ],
