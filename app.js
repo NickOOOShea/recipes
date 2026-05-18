@@ -5,6 +5,46 @@ let activeTagFilters = new Set();
 let currentScale = 1;
 let currentSort = 'name-asc';
 
+// Timer state
+let activeTimers = [];
+let timerTickId = null;
+let nextTimerId = 1;
+let audioCtx = null;
+
+// Escape user-supplied strings before injecting into innerHTML.
+function escapeHtml(value) {
+  if (value === null || value === undefined) return '';
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// Tap-to-start timer detection inside step text.
+const TIMER_UNIT_MS = {
+  s: 1000, sec: 1000, secs: 1000, second: 1000, seconds: 1000,
+  m: 60_000, min: 60_000, mins: 60_000, minute: 60_000, minutes: 60_000,
+  h: 3_600_000, hr: 3_600_000, hrs: 3_600_000, hour: 3_600_000, hours: 3_600_000,
+};
+
+const TIMER_REGEX = /\b(\d+(?:\.\d+)?)\s*(seconds?|secs?|minutes?|mins?|hours?|hrs?)\b/gi;
+
+// Wrap durations in step text with timer buttons. Input must already be HTML-escaped.
+function injectTimerButtons(escapedText) {
+  return escapedText.replace(TIMER_REGEX, (match, numStr, unit) => {
+    const ms = parseFloat(numStr) * TIMER_UNIT_MS[unit.toLowerCase()];
+    if (!isFinite(ms) || ms <= 0) return match;
+    return `<button type="button" class="timer-trigger" data-ms="${ms}" data-label="${match}" aria-label="Start ${match} timer">&#9201; ${match}</button>`;
+  });
+}
+
+// Convert a raw step string into safe HTML with timer buttons.
+function renderStepText(step) {
+  return injectTimerButtons(escapeHtml(step));
+}
+
 // Format time in human-readable units
 function formatTime(minutes) {
   if (!minutes) return null;
@@ -28,25 +68,22 @@ function formatTime(minutes) {
   }
 }
 
-// Load all recipes on page load
+// Load all recipes from the prebuilt bundle (single HTTP request).
 async function loadRecipes() {
   try {
-    const indexResponse = await fetch('recipes/index.json');
-    const recipeFiles = await indexResponse.json();
+    const response = await fetch('recipes/bundle.json', { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`Bundle fetch failed: ${response.status}`);
+    const bundle = await response.json();
 
-    const recipePromises = recipeFiles.map(async (filename) => {
-      const response = await fetch(`recipes/${filename}`);
-      return await response.json();
-    });
-
-    allRecipes = await Promise.all(recipePromises);
+    allRecipes = bundle.recipes || [];
     filteredRecipes = [...allRecipes];
 
     renderTagFilters();
-    applyFilters(); // Apply initial sort
+    applyFilters();
   } catch (error) {
     console.error('Error loading recipes:', error);
-    document.getElementById('recipe-grid').innerHTML = '<p>Error loading recipes. Please check the console.</p>';
+    const grid = document.getElementById('recipe-grid');
+    grid.textContent = 'Error loading recipes. Please check the console.';
   }
 }
 
@@ -65,7 +102,7 @@ function renderTagFilters() {
   const allTags = getAllTags();
 
   tagFiltersContainer.innerHTML = allTags.map(tag =>
-    `<button class="tag-filter" data-tag="${tag}">${tag}</button>`
+    `<button class="tag-filter" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)}</button>`
   ).join('');
 
   // Add click handlers to tag filters
@@ -153,25 +190,24 @@ function renderRecipes() {
   noResults.style.display = 'none';
 
   grid.innerHTML = filteredRecipes.map(recipe => {
-    // Format servings
     const servings = recipe.yield_servings
       ? `${recipe.yield_servings} serving${recipe.yield_servings !== 1 ? 's' : ''}`
       : '? servings';
-
-    // Format time
     const time = formatTime(recipe.total_time_min) || '? min';
+    const tagsToShow = recipe.tags.slice(0, 5);
+    const moreCount = recipe.tags.length - 5;
 
     return `
-      <div class="recipe-card" data-recipe-id="${recipe.id}">
+      <div class="recipe-card" data-recipe-id="${escapeHtml(recipe.id)}">
         <div class="recipe-card-front">
-          <h2>${recipe.title}</h2>
+          <h2>${escapeHtml(recipe.title)}</h2>
           <div class="recipe-meta">
-            <span>🍽️ ${servings}</span>
-            <span>⏱️ ${time}</span>
+            <span>🍽️ ${escapeHtml(servings)}</span>
+            <span>⏱️ ${escapeHtml(time)}</span>
           </div>
           <div class="recipe-tags">
-            ${recipe.tags.slice(0, 5).map(tag => `<span class="tag">${tag}</span>`).join('')}
-            ${recipe.tags.length > 5 ? `<span class="tag">+${recipe.tags.length - 5}</span>` : ''}
+            ${tagsToShow.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}
+            ${moreCount > 0 ? `<span class="tag">+${moreCount}</span>` : ''}
           </div>
           <p class="click-hint">Click for details</p>
         </div>
@@ -207,6 +243,7 @@ function showRecipeModal(recipe) {
   }
 
   modal.style.display = 'block';
+  document.body.classList.add('modal-open');
 }
 
 // Format scaled ingredient amount
@@ -232,16 +269,65 @@ function updateScale(recipeId) {
   }
 }
 
+function renderIngredientLi(ing, scale, opts = {}) {
+  const withCheckbox = opts.withCheckbox === true;
+  const amount = formatScaledAmount(ing.amount_g, ing.amount_oz, scale);
+  const amountHtml = amount ? `<strong>${escapeHtml(amount)}</strong> ` : '';
+  const nameHtml = escapeHtml(ing.name);
+  if (withCheckbox) {
+    return `<li onclick="toggleIngredient(this)">
+      <input type="checkbox" onclick="event.preventDefault()">
+      <span>${amountHtml}${nameHtml}</span>
+    </li>`;
+  }
+  return `<li>${amountHtml}${nameHtml}</li>`;
+}
+
 // Render standard (non-modular) recipe
 function renderStandardRecipe(recipe, modalBody) {
+  const title = escapeHtml(recipe.title);
+  const tags = recipe.tags.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('');
+
+  const metaLarge = `
+    ${recipe.yield_servings ? `<span><strong>Servings:</strong> ${Math.round(recipe.yield_servings * currentScale * 10) / 10}</span>` : ''}
+    ${recipe.total_time_min ? `<span><strong>Time:</strong> ${escapeHtml(formatTime(recipe.total_time_min))}</span>` : ''}
+  `;
+
+  const ingredientsList = recipe.ingredients.map(ing => renderIngredientLi(ing, currentScale)).join('');
+  const stepsList = recipe.steps.map(step => `<li>${renderStepText(step)}</li>`).join('');
+  const notesList = (recipe.notes && recipe.notes.length > 0)
+    ? `
+      <section>
+        <h3>Notes</h3>
+        <ul class="notes-list">
+          ${recipe.notes.map(note => `<li>${escapeHtml(note)}</li>`).join('')}
+        </ul>
+      </section>
+    ` : '';
+
+  const datesBlock = `
+    <div class="recipe-dates no-print">
+      <small>Created: ${escapeHtml(recipe.created_at)}</small>
+      ${recipe.last_updated_at !== recipe.created_at ? `<small>Updated: ${escapeHtml(recipe.last_updated_at)}</small>` : ''}
+    </div>
+  `;
+
+  const cookIngredients = recipe.ingredients.map(ing => renderIngredientLi(ing, currentScale, { withCheckbox: true })).join('');
+  const cookSteps = recipe.steps.map(step =>
+    `<li onclick="toggleStep(this)">${renderStepText(step)}</li>`
+  ).join('');
+
   modalBody.innerHTML = `
-    <div class="modal-controls">
+    <div class="modal-controls no-print">
       <button class="cook-mode-toggle" onclick="toggleCookMode()">
         🍳 Cook Mode
       </button>
+      <button class="print-button" onclick="window.print()" aria-label="Print recipe">
+        🖨️ Print
+      </button>
       <div class="scale-control">
         <label for="scale-select">Scale:</label>
-        <select id="scale-select" onchange="updateScale('${recipe.id}')">
+        <select id="scale-select" onchange="updateScale('${escapeHtml(recipe.id)}')">
           <option value="0.5" ${currentScale === 0.5 ? 'selected' : ''}>0.5x</option>
           <option value="1" ${currentScale === 1 ? 'selected' : ''}>1x</option>
           <option value="2" ${currentScale === 2 ? 'selected' : ''}>2x</option>
@@ -251,98 +337,47 @@ function renderStandardRecipe(recipe, modalBody) {
       </div>
     </div>
 
-    <div class="normal-view">
-      <h2>${recipe.title}</h2>
-      ${recipe.source_url ? `<p class="source"><a href="${recipe.source_url}" target="_blank">View Original Recipe</a></p>` : ''}
+    <div class="normal-view print-target">
+      <h2>${title}</h2>
 
-      <div class="recipe-meta-large">
-        ${recipe.yield_servings ? `<span><strong>Servings:</strong> ${Math.round(recipe.yield_servings * currentScale * 10) / 10}</span>` : ''}
-        ${recipe.total_time_min ? `<span><strong>Time:</strong> ${formatTime(recipe.total_time_min)}</span>` : ''}
-      </div>
+      <div class="recipe-meta-large">${metaLarge}</div>
 
-      <div class="recipe-tags">
-        ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
-      </div>
+      <div class="recipe-tags no-print">${tags}</div>
 
       <section>
         <h3>Ingredients</h3>
-        <ul class="ingredients-list">
-          ${recipe.ingredients.map(ing => {
-            const amount = formatScaledAmount(ing.amount_g, ing.amount_oz, currentScale);
-            return `<li>${amount ? `<strong>${amount}</strong> ` : ''}${ing.name}</li>`;
-          }).join('')}
-        </ul>
+        <ul class="ingredients-list">${ingredientsList}</ul>
       </section>
 
       <section>
         <h3>Instructions</h3>
-        <ol class="steps-list">
-          ${recipe.steps.map(step => `<li>${step}</li>`).join('')}
-        </ol>
+        <ol class="steps-list">${stepsList}</ol>
       </section>
 
-      ${recipe.notes && recipe.notes.length > 0 ? `
-        <section>
-          <h3>Notes</h3>
-          <ul class="notes-list">
-            ${recipe.notes.map(note => `<li>${note}</li>`).join('')}
-          </ul>
-        </section>
-      ` : ''}
+      ${notesList}
 
-      <div class="recipe-dates">
-        <small>Created: ${recipe.created_at}</small>
-        ${recipe.last_updated_at !== recipe.created_at ? `<small>Updated: ${recipe.last_updated_at}</small>` : ''}
-      </div>
+      ${datesBlock}
     </div>
 
     <div class="cook-view" style="display: none;">
       <div class="cook-mode-header">
-        <h2>${recipe.title}</h2>
-        <div class="recipe-meta-large">
-          ${recipe.yield_servings ? `<span><strong>Servings:</strong> ${Math.round(recipe.yield_servings * currentScale * 10) / 10}</span>` : ''}
-          ${recipe.total_time_min ? `<span><strong>Time:</strong> ${formatTime(recipe.total_time_min)}</span>` : ''}
-        </div>
+        <h2>${title}</h2>
+        <div class="recipe-meta-large">${metaLarge}</div>
       </div>
 
       <section>
         <h3>Ingredients</h3>
-        <ul class="ingredients-list">
-          ${recipe.ingredients.map((ing, idx) => {
-            const amount = formatScaledAmount(ing.amount_g, ing.amount_oz, currentScale);
-            const text = `${amount ? `<strong>${amount}</strong> ` : ''}${ing.name}`;
-            return `<li onclick="toggleIngredient(this)">
-              <input type="checkbox" onclick="event.preventDefault()">
-              <span>${text}</span>
-            </li>`;
-          }).join('')}
-        </ul>
+        <ul class="ingredients-list">${cookIngredients}</ul>
       </section>
 
       <section>
         <h3>Instructions</h3>
-        <ol class="steps-list">
-          ${recipe.steps.map(step =>
-            `<li onclick="toggleStep(this)">${step}</li>`
-          ).join('')}
-        </ol>
+        <ol class="steps-list">${cookSteps}</ol>
       </section>
 
-      ${recipe.notes && recipe.notes.length > 0 ? `
-        <section>
-          <h3>Notes</h3>
-          <ul class="notes-list">
-            ${recipe.notes.map(note => `<li>${note}</li>`).join('')}
-          </ul>
-        </section>
-      ` : ''}
+      ${notesList}
 
-      ${recipe.source_url ? `<p class="source"><a href="${recipe.source_url}" target="_blank">View Original Recipe</a></p>` : ''}
-
-      <div class="recipe-dates">
-        <small>Created: ${recipe.created_at}</small>
-        ${recipe.last_updated_at !== recipe.created_at ? `<small>Updated: ${recipe.last_updated_at}</small>` : ''}
-      </div>
+      ${datesBlock}
     </div>
   `;
 }
@@ -360,69 +395,75 @@ function renderModularRecipe(recipe, modalBody) {
     }
   });
 
-  const html = `
-    <h2>${recipe.title}</h2>
-    ${recipe.source_url ? `<p class="source"><a href="${recipe.source_url}" target="_blank">View Original Recipe</a></p>` : ''}
+  const recipeIdSafe = escapeHtml(recipe.id);
+  const selectorsHtml = Object.entries(recipe.components).map(([componentKey, component]) => {
+    const safeKey = escapeHtml(componentKey);
+    const optionsHtml = component.options.map(option => {
+      const safeId = escapeHtml(option.id);
+      const safeName = escapeHtml(option.name);
+      const timeLabel = option.time_min ? `(~${option.time_min} min)` : '';
+      if (component.multiple) {
+        return `
+          <label class="checkbox-option">
+            <input type="checkbox" name="${safeKey}" value="${safeId}" onchange="updateModularRecipe('${recipeIdSafe}')">
+            <span>${safeName}</span>
+            ${timeLabel ? `<small>${escapeHtml(timeLabel)}</small>` : ''}
+          </label>
+        `;
+      }
+      return `<option value="${safeId}">${safeName}${timeLabel ? ` ${escapeHtml(timeLabel)}` : ''}</option>`;
+    }).join('');
 
-    <div class="recipe-tags">
-      ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+    const control = component.multiple
+      ? `<div class="checkbox-group">${optionsHtml}</div>`
+      : `<select name="${safeKey}" onchange="updateModularRecipe('${recipeIdSafe}')">${optionsHtml}</select>`;
+
+    return `
+      <div class="component-selector">
+        <label><strong>${escapeHtml(component.label)}${component.required ? ' *' : ''}</strong></label>
+        ${control}
+      </div>
+    `;
+  }).join('');
+
+  modalBody.innerHTML = `
+    <div class="modal-controls no-print">
+      <button class="print-button" onclick="window.print()" aria-label="Print recipe">
+        🖨️ Print
+      </button>
     </div>
 
-    <div class="modular-selectors">
-      <h3>Build Your Bowl</h3>
-      ${Object.entries(recipe.components).map(([componentKey, component]) => `
-        <div class="component-selector">
-          <label><strong>${component.label}${component.required ? ' *' : ''}</strong></label>
-          ${component.multiple ?
-            // Checkboxes for multiple selection
-            `<div class="checkbox-group">
-              ${component.options.map(option => `
-                <label class="checkbox-option">
-                  <input
-                    type="checkbox"
-                    name="${componentKey}"
-                    value="${option.id}"
-                    onchange="updateModularRecipe('${recipe.id}')"
-                  >
-                  <span>${option.name}</span>
-                  ${option.time_min ? `<small>(~${option.time_min} min)</small>` : ''}
-                </label>
-              `).join('')}
-            </div>`
-            :
-            // Dropdown for single selection
-            `<select name="${componentKey}" onchange="updateModularRecipe('${recipe.id}')">
-              ${component.options.map(option => `
-                <option value="${option.id}">
-                  ${option.name}${option.time_min ? ` (~${option.time_min} min)` : ''}
-                </option>
-              `).join('')}
-            </select>`
-          }
-        </div>
-      `).join('')}
-    </div>
+    <div class="print-target">
+      <h2>${escapeHtml(recipe.title)}</h2>
 
-    <div id="modular-recipe-display">
-      ${generateModularRecipeDisplay(recipe)}
-    </div>
+      <div class="recipe-tags no-print">
+        ${recipe.tags.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}
+      </div>
 
-    ${recipe.notes && recipe.notes.length > 0 ? `
-      <section>
-        <h3>Notes</h3>
-        <ul class="notes-list">
-          ${recipe.notes.map(note => `<li>${note}</li>`).join('')}
-        </ul>
-      </section>
-    ` : ''}
+      <div class="modular-selectors no-print">
+        <h3>Build Your Bowl</h3>
+        ${selectorsHtml}
+      </div>
 
-    <div class="recipe-dates">
-      <small>Created: ${recipe.created_at}</small>
-      ${recipe.last_updated_at !== recipe.created_at ? `<small>Updated: ${recipe.last_updated_at}</small>` : ''}
+      <div id="modular-recipe-display">
+        ${generateModularRecipeDisplay(recipe)}
+      </div>
+
+      ${recipe.notes && recipe.notes.length > 0 ? `
+        <section>
+          <h3>Notes</h3>
+          <ul class="notes-list">
+            ${recipe.notes.map(note => `<li>${escapeHtml(note)}</li>`).join('')}
+          </ul>
+        </section>
+      ` : ''}
+
+      <div class="recipe-dates no-print">
+        <small>Created: ${escapeHtml(recipe.created_at)}</small>
+        ${recipe.last_updated_at !== recipe.created_at ? `<small>Updated: ${escapeHtml(recipe.last_updated_at)}</small>` : ''}
+      </div>
     </div>
   `;
-
-  modalBody.innerHTML = html;
 }
 
 // Update modular recipe display when selections change
@@ -451,103 +492,80 @@ function updateModularRecipe(recipeId) {
   }
 }
 
-// Generate the ingredients and steps based on current selections
+// Generate ingredients and steps from current modular selections.
+// Steps are tracked as {type, text} so we can escape safely.
 function generateModularRecipeDisplay(recipe) {
   const selections = window.modularSelections || {};
-  let allIngredients = [];
-  let allSteps = [];
+  const allIngredients = [];
+  const stepItems = [];
   let totalTime = 0;
 
-  // Collect ingredients and steps from selected components
   Object.entries(recipe.components).forEach(([componentKey, component]) => {
     const selectedIds = component.multiple ? selections[componentKey] : [selections[componentKey]];
 
     selectedIds.forEach(selectedId => {
       if (!selectedId) return;
-
       const option = component.options.find(opt => opt.id === selectedId);
       if (!option) return;
 
-      // Add section header
-      allSteps.push(`<strong>${component.label}: ${option.name}</strong>`);
+      stepItems.push({ type: 'header', text: `${component.label}: ${option.name}` });
 
-      // Add ingredients with section label
       if (option.ingredients && option.ingredients.length > 0) {
         option.ingredients.forEach(ing => {
-          allIngredients.push({
-            ...ing,
-            section: option.name
-          });
+          allIngredients.push({ ...ing, section: option.name });
         });
       }
 
-      // Add steps
       if (option.steps && option.steps.length > 0) {
-        option.steps.forEach(step => {
-          allSteps.push(step);
-        });
+        option.steps.forEach(step => stepItems.push({ type: 'step', text: step }));
       }
 
-      // Add to total time
       if (option.time_min) {
         totalTime = Math.max(totalTime, option.time_min);
       }
     });
   });
 
-  // Add assembly steps
   if (recipe.assembly) {
-    allSteps.push('<strong>Final Assembly</strong>');
+    stepItems.push({ type: 'header', text: 'Final Assembly' });
 
     if (recipe.assembly.ingredients) {
       recipe.assembly.ingredients.forEach(ing => {
-        allIngredients.push({
-          ...ing,
-          section: 'Assembly'
-        });
+        allIngredients.push({ ...ing, section: 'Assembly' });
       });
     }
 
     if (recipe.assembly.steps) {
-      recipe.assembly.steps.forEach(step => {
-        allSteps.push(step);
-      });
+      recipe.assembly.steps.forEach(step => stepItems.push({ type: 'step', text: step }));
     }
   }
 
+  const ingredientsHtml = allIngredients.map(ing => {
+    const amount = ing.amount_g ? `${ing.amount_g}g${ing.amount_oz ? ` (${ing.amount_oz}oz)` : ''}` : '';
+    return `<li>
+      ${amount ? `<strong>${escapeHtml(amount)}</strong> ` : ''}${escapeHtml(ing.name)}
+      ${ing.section ? `<em class="ingredient-section"> - ${escapeHtml(ing.section)}</em>` : ''}
+    </li>`;
+  }).join('');
+
+  const stepsHtml = stepItems.map(item => {
+    if (item.type === 'header') {
+      return `<li class="step-header">${escapeHtml(item.text)}</li>`;
+    }
+    return `<li>${renderStepText(item.text)}</li>`;
+  }).join('');
+
   return `
-    ${totalTime > 0 ? `<div class="recipe-meta-large"><span><strong>Estimated Time:</strong> ${formatTime(totalTime)} (components can be made in advance)</span></div>` : ''}
+    ${totalTime > 0 ? `<div class="recipe-meta-large"><span><strong>Estimated Time:</strong> ${escapeHtml(formatTime(totalTime))} (components can be made in advance)</span></div>` : ''}
 
     <section>
       <h3>Ingredients</h3>
-      <ul class="ingredients-list">
-        ${allIngredients.map(ing => {
-          let amount = '';
-          if (ing.amount_g) {
-            amount = `${ing.amount_g}g`;
-            if (ing.amount_oz) {
-              amount += ` (${ing.amount_oz}oz)`;
-            }
-          }
-          return `<li>
-            ${amount ? `<strong>${amount}</strong> ` : ''}
-            ${ing.name}
-            ${ing.section ? `<em style="color: #666; font-size: 0.9em;"> - ${ing.section}</em>` : ''}
-          </li>`;
-        }).join('')}
-      </ul>
+      <ul class="ingredients-list">${ingredientsHtml}</ul>
     </section>
 
     <section>
       <h3>Instructions</h3>
-      <ol class="steps-list">
-        ${allSteps.map(step => {
-          if (step.startsWith('<strong>')) {
-            return `<li style="list-style: none; font-weight: bold; margin-top: 1em; margin-left: -1.5em;">${step}</li>`;
-          }
-          return `<li>${step}</li>`;
-        }).join('')}
-      </ol>
+      <ol class="steps-list">${stepsHtml}</ol>
     </section>
   `;
 }
@@ -585,6 +603,111 @@ function toggleStep(li) {
   li.classList.toggle('completed');
 }
 
+// --- Timers ---
+
+function beep() {
+  try {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    const now = audioCtx.currentTime;
+    for (let i = 0; i < 3; i++) {
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.frequency.value = 880;
+      gain.gain.setValueAtTime(0.0001, now + i * 0.3);
+      gain.gain.exponentialRampToValueAtTime(0.25, now + i * 0.3 + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + i * 0.3 + 0.25);
+      osc.start(now + i * 0.3);
+      osc.stop(now + i * 0.3 + 0.27);
+    }
+  } catch (err) {
+    console.warn('Beep failed:', err);
+  }
+}
+
+function startTimer(label, durationMs) {
+  const id = nextTimerId++;
+  activeTimers.push({
+    id,
+    label,
+    endsAt: Date.now() + durationMs,
+    durationMs,
+    expired: false,
+  });
+  renderTimerPanel();
+  ensureTimerTick();
+}
+
+function dismissTimer(id) {
+  activeTimers = activeTimers.filter(t => t.id !== id);
+  renderTimerPanel();
+  if (activeTimers.length === 0 && timerTickId) {
+    clearInterval(timerTickId);
+    timerTickId = null;
+  }
+}
+
+function ensureTimerTick() {
+  if (timerTickId) return;
+  timerTickId = setInterval(() => {
+    const now = Date.now();
+    let anyJustExpired = false;
+    activeTimers.forEach(t => {
+      if (!t.expired && now >= t.endsAt) {
+        t.expired = true;
+        anyJustExpired = true;
+      }
+    });
+    if (anyJustExpired) beep();
+    renderTimerPanel();
+  }, 250);
+}
+
+function formatRemaining(ms) {
+  if (ms <= 0) return '0:00';
+  const totalSec = Math.ceil(ms / 1000);
+  const h = Math.floor(totalSec / 3600);
+  const m = Math.floor((totalSec % 3600) / 60);
+  const s = totalSec % 60;
+  if (h > 0) {
+    return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+  }
+  return `${m}:${String(s).padStart(2, '0')}`;
+}
+
+function renderTimerPanel() {
+  let panel = document.getElementById('timer-panel');
+  if (activeTimers.length === 0) {
+    if (panel) panel.remove();
+    return;
+  }
+  if (!panel) {
+    panel = document.createElement('div');
+    panel.id = 'timer-panel';
+    panel.className = 'no-print';
+    document.body.appendChild(panel);
+  }
+
+  const now = Date.now();
+  panel.innerHTML = `
+    <div class="timer-panel-header">Timers</div>
+    ${activeTimers.map(t => {
+      const remaining = t.endsAt - now;
+      const expired = t.expired || remaining <= 0;
+      return `
+        <div class="timer-row ${expired ? 'expired' : ''}">
+          <span class="timer-label">${escapeHtml(t.label)}</span>
+          <span class="timer-remaining">${expired ? 'Done!' : escapeHtml(formatRemaining(remaining))}</span>
+          <button type="button" class="timer-dismiss" data-timer-id="${t.id}" aria-label="Dismiss timer">&times;</button>
+        </div>
+      `;
+    }).join('')}
+  `;
+}
+
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
   loadRecipes();
@@ -609,6 +732,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Modal close button
   document.querySelector('.close').addEventListener('click', () => {
     document.getElementById('recipe-modal').style.display = 'none';
+    document.body.classList.remove('modal-open');
   });
 
   // Close modal when clicking outside
@@ -616,6 +740,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('recipe-modal');
     if (event.target === modal) {
       modal.style.display = 'none';
+      document.body.classList.remove('modal-open');
     }
   });
+
+  // Delegated handlers for timer triggers and dismiss buttons.
+  document.addEventListener('click', (e) => {
+    const trigger = e.target.closest && e.target.closest('.timer-trigger');
+    if (trigger) {
+      const ms = parseFloat(trigger.dataset.ms);
+      const label = trigger.dataset.label || trigger.textContent.trim();
+      if (isFinite(ms) && ms > 0) startTimer(label, ms);
+      return;
+    }
+    const dismiss = e.target.closest && e.target.closest('.timer-dismiss');
+    if (dismiss) {
+      const id = parseInt(dismiss.dataset.timerId, 10);
+      if (!isNaN(id)) dismissTimer(id);
+    }
+  });
+
+  // Register service worker.
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(err => {
+      console.warn('Service worker registration failed:', err);
+    });
+  }
 });

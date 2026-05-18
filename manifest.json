@@ -1,0 +1,11 @@
+{
+  "name": "Recipe Library",
+  "short_name": "Recipes",
+  "description": "Personal recipe library with cook mode, scaling, and tap-to-start timers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#667eea",
+  "icons": []
+}
